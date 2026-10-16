@@ -1,0 +1,7 @@
+{
+  "at": "2026-10-10T23:47:23.652Z",
+  "group_id": "7484986e-3768-4ed4-af5b-83b100f54a1d",
+  "group_stopped": true,
+  "original_proof": "multiservice-browser.json first run69e25d47: 7 checks passed; cleanup response status assumption was wrong",
+  "reason": "Stop is asynchronously accepted with 202. Earlier helper expected 200; corrected. All three states verified stopped in subsequent read."
+}

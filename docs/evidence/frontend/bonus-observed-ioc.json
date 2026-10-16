@@ -1,0 +1,99 @@
+{
+  "type": "bundle",
+  "id": "bundle--491588dc-fe9e-4a38-a287-460e94b90591",
+  "objects": [
+    {
+      "type": "identity",
+      "spec_version": "2.1",
+      "id": "identity--7b332da0-1574-497f-817f-4a693cf0c9a7",
+      "created": "2026-10-10T19:24:00.720Z",
+      "modified": "2026-10-10T19:24:00.720Z",
+      "name": "HoneyForge observation export",
+      "identity_class": "system"
+    },
+    {
+      "type": "file",
+      "spec_version": "2.1",
+      "id": "file--f6df2a85-da70-58b5-9150-fd68f270c9dc",
+      "hashes": {
+        "SHA-256": "857aa68bbb997d9b5cf51b2b9015f1a14b515b2eeaca6b1a849d9d7af1ca03f0"
+      },
+      "size": 40
+    },
+    {
+      "type": "observed-data",
+      "spec_version": "2.1",
+      "id": "observed-data--10e0f7ae-e22a-4009-90b6-e4f66a3bc475",
+      "created": "2026-10-10T19:24:00.720Z",
+      "modified": "2026-10-10T19:24:00.720Z",
+      "created_by_ref": "identity--7b332da0-1574-497f-817f-4a693cf0c9a7",
+      "first_observed": "2026-10-10T18:44:39.596Z",
+      "last_observed": "2026-10-10T18:44:39.596Z",
+      "number_observed": 1,
+      "object_refs": [
+        "file--f6df2a85-da70-58b5-9150-fd68f270c9dc"
+      ],
+      "x_honeyforge_event_ids": [
+        "51220f9f-56c7-4319-a93f-d60617bcdf96"
+      ],
+      "x_honeyforge_deployment_ids": [
+        "2b5c1cc6-3652-41bb-8b05-bce3b64b9a03"
+      ],
+      "x_honeyforge_generations": [
+        "1f4798cd-4e87-4cc7-b0bb-6fa3093b2539"
+      ],
+      "x_honeyforge_provenance": [
+        "cowrie"
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--6c91afc7-f600-535f-93ba-52bd06e8ce49",
+      "value": "192.168.139.3"
+    },
+    {
+      "type": "observed-data",
+      "spec_version": "2.1",
+      "id": "observed-data--5405e100-bc74-4c87-bb0a-8de821335e52",
+      "created": "2026-10-10T19:24:00.720Z",
+      "modified": "2026-10-10T19:24:00.720Z",
+      "created_by_ref": "identity--7b332da0-1574-497f-817f-4a693cf0c9a7",
+      "first_observed": "2026-10-10T18:44:36.917Z",
+      "last_observed": "2026-10-10T18:44:54.566Z",
+      "number_observed": 18,
+      "object_refs": [
+        "ipv4-addr--6c91afc7-f600-535f-93ba-52bd06e8ce49"
+      ],
+      "x_honeyforge_event_ids": [
+        "04852224-418d-45e0-bf12-6fdb0c25d589",
+        "e6ae5bd8-3230-4ffd-9fb0-3f0538920dc7",
+        "707fd582-dad0-42b9-891b-65f16b3aea2f",
+        "fd6c76b0-01de-424d-954a-8f4c0e399f87",
+        "40dc24c8-fa65-4d94-88f0-e223bf4af121",
+        "55eff599-87e9-43e2-89f2-02a130c7e13d",
+        "895805f2-f9f4-4c7d-87e4-b37b149f832d",
+        "c2fa3c9b-7a2e-4508-9209-07aeec9976ad",
+        "1c454012-e648-47f0-abb8-19d98ad6be56",
+        "30df43c9-aed1-46b2-a3b9-1cb24f72bf87",
+        "6f89527d-0010-42ee-bb30-8927a2c5c983",
+        "8a1a5c24-f92e-4d3e-94aa-91bc8c613b93",
+        "51220f9f-56c7-4319-a93f-d60617bcdf96",
+        "5cd9d489-57e7-4e0a-9b39-bd4064316f0b",
+        "5450c716-fb3e-444a-8bd0-2bf1a73df2d5",
+        "b74bfdf5-6d14-4dd2-a790-29309753b3f5",
+        "53b3ddd1-392d-4daa-bbae-76dbff9e3fd8",
+        "8c980d56-e0b0-4c5f-8553-e609a07068d7"
+      ],
+      "x_honeyforge_deployment_ids": [
+        "2b5c1cc6-3652-41bb-8b05-bce3b64b9a03"
+      ],
+      "x_honeyforge_generations": [
+        "1f4798cd-4e87-4cc7-b0bb-6fa3093b2539"
+      ],
+      "x_honeyforge_provenance": [
+        "cowrie"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "at": "2026-10-10T23:48:23.251Z",
+  "baseURL": "http://localhost:5173",
+  "run": "85c141e3",
+  "checks": [
+    {
+      "name": "actual High publication with separate adapter and blocked download mode",
+      "passed": true
+    },
+    {
+      "name": "actual High deployment picker includes only separately capable available sensors",
+      "passed": true
+    },
+    {
+      "name": "actual v3 High service publication and all-service capability selection",
+      "passed": true
+    }
+  ],
+  "viewports": [
+    {
+      "label": "editor 1280",
+      "width": 1280,
+      "height": 900,
+      "documentWidth": 1280
+    },
+    {
+      "label": "editor 390",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390
+    },
+    {
+      "label": "deploy 1280",
+      "width": 1280,
+      "height": 900,
+      "documentWidth": 1280
+    },
+    {
+      "label": "deploy 390",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390
+    },
+    {
+      "label": "group-deploy 1280",
+      "width": 1280,
+      "height": 900,
+      "documentWidth": 1280
+    },
+    {
+      "label": "group-deploy 390",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390
+    }
+  ],
+  "error": null,
+  "cleanup": [
+    {
+      "profile_id": "ddcb7349-f376-4618-866e-ca177d96afb1",
+      "archived": true
+    },
+    {
+      "profile_id": "70b6bfd1-a9fd-4e06-a0fd-a4f12746d95d",
+      "archived": true
+    }
+  ],
+  "passed": true,
+  "scope": "Actual profile publication and host capability selection only. No High VM deployed or warmed; readiness of guest OS not claimed."
+}

@@ -1,0 +1,107 @@
+{
+  "at": "2026-10-10T20:06:47.345971+00:00",
+  "passed": true,
+  "frontend_url": "http://localhost:5173",
+  "served_mode": "production vite preview, development HMR replaced at canonical Origin",
+  "public_origin": "http://localhost:5173",
+  "dist_sha256": "7ff8311a91c2e40f1acf984e51701a2692d2af3bdfe6370516d92d7d56fde9ee",
+  "tests": {
+    "passed": 124,
+    "files": 27,
+    "proof": "final-live-race-test-results.txt"
+  },
+  "build_passed": true,
+  "routes": {
+    "checks": 52,
+    "widths": [
+      1280,
+      390
+    ],
+    "passed": true,
+    "proof": "all-routes-browser.json"
+  },
+  "demos": {
+    "passed": true,
+    "proof": "demo-video-results.json",
+    "session_ids": [
+      "51386841-afbf-43f4-8a6e-963e88c94dc7",
+      "454a8db2-00e1-4890-b360-add9b0cce493"
+    ],
+    "own_policy_ids": [
+      "76379349-f8ae-4861-a116-d6964c623caa",
+      "f3370281-b07c-4f8a-9fb2-a32123a9769c"
+    ],
+    "agent_termination_each": 1,
+    "actual_client_eof_each": true,
+    "release_ack_each": true
+  },
+  "videos": [
+    {
+      "number": 1,
+      "seconds": 50.28,
+      "width": 1280,
+      "height": 900,
+      "frames_1fps": 50,
+      "distinct_frames_1fps": 46,
+      "decode_ok": true,
+      "black_intervals": [],
+      "file": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/video/honeyforge-demo-1.webm"
+    },
+    {
+      "number": 2,
+      "seconds": 47.04,
+      "width": 1280,
+      "height": 900,
+      "frames_1fps": 47,
+      "distinct_frames_1fps": 47,
+      "decode_ok": true,
+      "black_intervals": [],
+      "file": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/video/honeyforge-demo-2.webm"
+    }
+  ],
+  "own_cleanup": {
+    "at": "2026-10-10T20:05:50.717Z",
+    "passed": true,
+    "own": [
+      {
+        "id": "76379349-f8ae-4861-a116-d6964c623caa",
+        "state": "cancelled",
+        "desired_state": "released",
+        "observed_revision": 2,
+        "revision": 2,
+        "termination_state": "completed",
+        "termination_count": 1
+      },
+      {
+        "id": "f3370281-b07c-4f8a-9fb2-a32123a9769c",
+        "state": "cancelled",
+        "desired_state": "released",
+        "observed_revision": 2,
+        "revision": 2,
+        "termination_state": "completed",
+        "termination_count": 1
+      }
+    ],
+    "scope": "Only own demo policies read; no further runtime mutation"
+  },
+  "latency": {
+    "run_id": "60f741e923a8",
+    "samples": 8078,
+    "p95_ms": 1401,
+    "offscreen_paths": 922,
+    "negative_delays": 0,
+    "api_errors": 0,
+    "parse_errors": 0,
+    "measured_dist_sha256": "816bb3d28a7624e8de2bb1c5fc2959169321bdc7fced1c4d5e7848e16804b812",
+    "scope": "conditional viewport DOM/layout sample, not paint or every-event rendering",
+    "after_measurement_change": "only SessionPlayer missing finding evidence guard; no Events/reporter changes"
+  },
+  "diagnostics_preserved": [
+    "all-routes-first-harness-errors.json",
+    "demo-video-results-final-diagnostic.json",
+    "demo-video-results-policy-diagnostic.json"
+  ],
+  "source_changes_complete": true,
+  "no_further_frontend_work_pending": true,
+  "no_commit_by_frontend": true
+}

@@ -1,0 +1,35 @@
+{
+  "at": "2026-10-10T18:14:20.407483+00:00",
+  "browser_acceptance": false,
+  "scope": "own disposable undeployed profile and dedicated acceptance case only; no trap/user/key changes",
+  "profile": {
+    "id": "d9a5c9a7-d84b-48a0-bfd2-fa70c25043e2",
+    "create_status": 201,
+    "schema_version": 2,
+    "adapter": "tcp-banner",
+    "archive": {
+      "status": 200,
+      "archived": true
+    },
+    "restore": {
+      "status": 200,
+      "archived": false
+    },
+    "delete": {
+      "status": 200,
+      "okay": true
+    }
+  },
+  "case": {
+    "id": "afcc2a61-29b5-4ba3-8f5e-5f57c3765c18",
+    "create_status": 201,
+    "pin_status": 200,
+    "pin_revision": 2,
+    "stale_revision_status": 409,
+    "unpin_status": 200,
+    "unpin_revision": 3,
+    "close_status": 200,
+    "final_pinned": false
+  },
+  "logout_status": 200
+}

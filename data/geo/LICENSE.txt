@@ -1,0 +1,1 @@
+DB-IP City and ASN Lite. Copyright DB-IP. CC BY 4.0. Attribution: https://db-ip.com . License: https://creativecommons.org/licenses/by/4.0/ . Original data, no modifications. Release metadata and SHA256 are provided next to each database.

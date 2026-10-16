@@ -1,0 +1,56 @@
+[
+  {
+    "number": 1,
+    "file": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/video/pre-bonus/honeyforge-demo-1.webm",
+    "size_bytes": 5378849,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vp9",
+          "width": 1280,
+          "height": 900,
+          "avg_frame_rate": "25/1"
+        }
+      ],
+      "format": {
+        "duration": "45.800000"
+      }
+    },
+    "decode_ok": true,
+    "decode_errors": "",
+    "black_intervals": [],
+    "motion_sample_fps": 1,
+    "motion_sample_frames": 46,
+    "motion_distinct_frames": 46,
+    "moving_content_verified": true
+  },
+  {
+    "number": 2,
+    "file": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/video/pre-bonus/honeyforge-demo-2.webm",
+    "size_bytes": 5415000,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vp9",
+          "width": 1280,
+          "height": 900,
+          "avg_frame_rate": "25/1"
+        }
+      ],
+      "format": {
+        "duration": "44.920000"
+      }
+    },
+    "decode_ok": true,
+    "decode_errors": "",
+    "black_intervals": [],
+    "motion_sample_fps": 1,
+    "motion_sample_frames": 45,
+    "motion_distinct_frames": 45,
+    "moving_content_verified": true
+  }
+]

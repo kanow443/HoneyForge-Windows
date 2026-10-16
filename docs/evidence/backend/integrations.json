@@ -1,0 +1,18 @@
+{
+  "at": "2026-10-10T19:29:25.732648+00:00",
+  "checks": {
+    "ecs_event_received_and_persisted": true,
+    "event_id": "ed1e75bc-d6f8-4eca-a282-9557f3dfba9e",
+    "receipt_sha256": "906c982022030801e61e552f82292bbee09d4b1761e6cd03147048fb4e14d914",
+    "duplicate_replay_count": 1,
+    "agent_control_access_denied": true,
+    "deployment_scoped_response": true,
+    "policy_id": "663c41f9-7fc9-4045-b6a6-c1cbe379b431",
+    "agent_ack": "applied",
+    "new_http_connection_denied": true,
+    "management_available": true,
+    "credential_revocation_released_policy": true,
+    "revoked_credential_denied": true,
+    "receiver": "HoneyForge reference receiver; no external vendor SIEM tested"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "run_id": "17bb2a93f02c",
+  "at": "2026-10-10T19:03:57.444Z",
+  "measurement": "viewport-intersecting rendered row DOM/layout, not paint",
+  "dom_paths": 8557,
+  "api_paths": 9000,
+  "samples_after_start": 8557,
+  "p95_ms": 1382,
+  "apiErrors": 0,
+  "parseErrors": 0
+}

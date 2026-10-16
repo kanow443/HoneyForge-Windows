@@ -1,0 +1,8 @@
+{
+  "at": "2026-10-10T20:01:31.256982+00:00",
+  "scope": "Local HTTP routing and Caddy configuration; public ACME issuance not claimed",
+  "checks": {
+    "management_http_paths_not_exposed": true,
+    "standard_http01_path_routed_to_management_http": true
+  }
+}

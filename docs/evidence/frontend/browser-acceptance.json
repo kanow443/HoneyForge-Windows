@@ -1,0 +1,123 @@
+{
+  "run_id": "mv2qf11a",
+  "at": "2026-10-10T18:33:06.424Z",
+  "real_browser": true,
+  "checks": [
+    {
+      "name": "real Low profile publication, metadata, archive and restore",
+      "passed": true,
+      "at": "2026-10-10T18:32:50.489Z"
+    },
+    {
+      "name": "SSH file editor, preview linkage, undo and expanded workspace",
+      "passed": true,
+      "at": "2026-10-10T18:32:52.340Z"
+    },
+    {
+      "name": "private capture confirmation and cleanup http.login",
+      "passed": true,
+      "at": "2026-10-10T18:32:53.733Z"
+    },
+    {
+      "name": "private capture confirmation and cleanup ssh.login.failed",
+      "passed": true,
+      "at": "2026-10-10T18:32:55.066Z"
+    },
+    {
+      "name": "actual case pin revision and unpin review preserve unsaved notes",
+      "passed": true,
+      "at": "2026-10-10T18:32:56.768Z"
+    },
+    {
+      "name": "storage actual capacity at 1280 and 390",
+      "passed": true,
+      "at": "2026-10-10T18:32:58.408Z"
+    },
+    {
+      "name": "one-time read-only integration key and real revocation",
+      "passed": true,
+      "at": "2026-10-10T18:33:00.542Z"
+    },
+    {
+      "name": "real viewer analyst operator permissions",
+      "passed": true,
+      "at": "2026-10-10T18:33:06.372Z"
+    }
+  ],
+  "viewports": [
+    {
+      "label": "Low desktop",
+      "width": 1280,
+      "height": 900,
+      "documentWidth": 1280
+    },
+    {
+      "label": "45-profile-mobile",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390
+    },
+    {
+      "label": "SSH editor mobile",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390
+    },
+    {
+      "label": "50-case-mobile",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390
+    },
+    {
+      "label": "storage desktop",
+      "width": 1280,
+      "height": 900,
+      "documentWidth": 1280
+    },
+    {
+      "label": "51-storage-mobile",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390
+    },
+    {
+      "label": "52-integrations-mobile",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390
+    },
+    {
+      "label": "viewer events mobile",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390
+    },
+    {
+      "label": "analyst events mobile",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390
+    },
+    {
+      "label": "operator events mobile",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390
+    }
+  ],
+  "private_values_recorded": false,
+  "cleanup": {
+    "profile_ids": [
+      "917db5da-878b-4d52-9b6e-dec0a7cb1968"
+    ],
+    "key_ids": [
+      "7ba80ba8-9bab-4277-895d-0856f5d19d13"
+    ],
+    "case_id": "142de0b4-868a-465b-85ca-207fb457bb0d",
+    "user_id": "63f6140f-a0a3-4f2d-8e3c-3b997603f613",
+    "user_final_role": "viewer",
+    "temporary_user_password": "random in-memory only, discarded; all own logins logged out"
+  },
+  "passed": true
+}

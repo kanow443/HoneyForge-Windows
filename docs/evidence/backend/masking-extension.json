@@ -1,0 +1,1236 @@
+{
+  "group_id": "484da1d4-259e-4a66-9284-05cdb5208fa7",
+  "http_probes": [
+    {
+      "method": "GET",
+      "path": "/unrecognized-probe",
+      "status": 404,
+      "server": "nginx",
+      "seconds": 0.099,
+      "python_fingerprint": false
+    },
+    {
+      "method": "GET",
+      "path": "/admin",
+      "status": 404,
+      "server": "nginx",
+      "seconds": 0.285,
+      "python_fingerprint": false
+    },
+    {
+      "method": "GET",
+      "path": "/unrecognized-probe",
+      "status": 404,
+      "server": "nginx",
+      "seconds": 0.061,
+      "python_fingerprint": false
+    },
+    {
+      "method": "GET",
+      "path": "/admin",
+      "status": 404,
+      "server": "nginx",
+      "seconds": 0.064,
+      "python_fingerprint": false
+    },
+    {
+      "method": "GET",
+      "path": "/unrecognized-probe",
+      "status": 404,
+      "server": "nginx",
+      "seconds": 0.315,
+      "python_fingerprint": false
+    },
+    {
+      "method": "GET",
+      "path": "/admin",
+      "status": 404,
+      "server": "nginx",
+      "seconds": 0.038,
+      "python_fingerprint": false
+    },
+    {
+      "method": "POST",
+      "path": "/login",
+      "status": 401,
+      "seconds": 0.422
+    },
+    {
+      "method": "POST",
+      "path": "/login",
+      "status": 401,
+      "seconds": 0.35
+    },
+    {
+      "method": "POST",
+      "path": "/login",
+      "status": 401,
+      "seconds": 0.228
+    },
+    {
+      "method": "POST",
+      "path": "/login",
+      "status": 401,
+      "seconds": 0.353
+    }
+  ],
+  "low_banner": "SSH-2.0-OpenSSH_8.9p1\r\n",
+  "low_response": "Protocol mismatch.\r\n",
+  "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3\r\n",
+  "ssh_invalid_version_response": "Invalid SSH identification string.\n",
+  "delivered_heartbeat_intervals_seconds": [
+    4.970465,
+    4.599812,
+    5.03875,
+    5.388854,
+    6.37794,
+    4.622898,
+    5.278032,
+    4.787859,
+    3.743597,
+    4.729428
+  ],
+  "wire_capture": {
+    "interface": "asmgmt0",
+    "duration_seconds": 50,
+    "payload_saved": false,
+    "records": [
+      {
+        "at": 1791677017.2075644,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677017.4720466,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677017.7396982,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677018.00174,
+        "tls_application_record_bytes": 258,
+        "tcp_payload_bytes": 263
+      },
+      {
+        "at": 1791677018.2863247,
+        "tls_application_record_bytes": 314,
+        "tcp_payload_bytes": 319
+      },
+      {
+        "at": 1791677018.2863722,
+        "tls_application_record_bytes": 4077,
+        "tcp_payload_bytes": 4082
+      },
+      {
+        "at": 1791677018.3218415,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677018.6162274,
+        "tls_application_record_bytes": 313,
+        "tcp_payload_bytes": 318
+      },
+      {
+        "at": 1791677018.6162353,
+        "tls_application_record_bytes": 623,
+        "tcp_payload_bytes": 628
+      },
+      {
+        "at": 1791677018.6405404,
+        "tls_application_record_bytes": 358,
+        "tcp_payload_bytes": 363
+      },
+      {
+        "at": 1791677018.6405947,
+        "tls_application_record_bytes": 1274,
+        "tcp_payload_bytes": 1279
+      },
+      {
+        "at": 1791677018.6539397,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677018.913524,
+        "tls_application_record_bytes": 265,
+        "tcp_payload_bytes": 270
+      },
+      {
+        "at": 1791677019.0310287,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677019.2971375,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677019.5616682,
+        "tls_application_record_bytes": 313,
+        "tcp_payload_bytes": 318
+      },
+      {
+        "at": 1791677019.561742,
+        "tls_application_record_bytes": 624,
+        "tcp_payload_bytes": 629
+      },
+      {
+        "at": 1791677019.5831745,
+        "tls_application_record_bytes": 358,
+        "tcp_payload_bytes": 363
+      },
+      {
+        "at": 1791677019.5831816,
+        "tls_application_record_bytes": 7566,
+        "tcp_payload_bytes": 7240
+      },
+      {
+        "at": 1791677019.6019628,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677019.8643398,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677020.1483626,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677020.4132738,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677020.6780326,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677020.945655,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677021.2060819,
+        "tls_application_record_bytes": 265,
+        "tcp_payload_bytes": 270
+      },
+      {
+        "at": 1791677021.3197122,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677021.5918522,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677021.8585365,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677022.1249044,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677022.3925374,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677022.658619,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677022.9327075,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677023.2004368,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677023.4645288,
+        "tls_application_record_bytes": 265,
+        "tcp_payload_bytes": 270
+      },
+      {
+        "at": 1791677023.5799437,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677023.889852,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677024.1549203,
+        "tls_application_record_bytes": 258,
+        "tcp_payload_bytes": 263
+      },
+      {
+        "at": 1791677024.4611099,
+        "tls_application_record_bytes": 314,
+        "tcp_payload_bytes": 319
+      },
+      {
+        "at": 1791677024.4611313,
+        "tls_application_record_bytes": 4015,
+        "tcp_payload_bytes": 4020
+      },
+      {
+        "at": 1791677024.5090945,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677024.7709527,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677025.0307002,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677025.2959445,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677025.5598722,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677025.8223395,
+        "tls_application_record_bytes": 265,
+        "tcp_payload_bytes": 270
+      },
+      {
+        "at": 1791677025.9455838,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677026.2075303,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677026.4731395,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677026.7383735,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677027.0018177,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677027.2620316,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677027.5273411,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677027.790486,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677028.0543976,
+        "tls_application_record_bytes": 265,
+        "tcp_payload_bytes": 270
+      },
+      {
+        "at": 1791677028.1661918,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677028.4303188,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677028.6974144,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677028.9907942,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677029.2546012,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677029.519545,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677029.783546,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677030.0479033,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677030.3106434,
+        "tls_application_record_bytes": 265,
+        "tcp_payload_bytes": 270
+      },
+      {
+        "at": 1791677030.4262035,
+        "tls_application_record_bytes": 258,
+        "tcp_payload_bytes": 263
+      },
+      {
+        "at": 1791677030.685337,
+        "tls_application_record_bytes": 314,
+        "tcp_payload_bytes": 319
+      },
+      {
+        "at": 1791677030.6853864,
+        "tls_application_record_bytes": 4267,
+        "tcp_payload_bytes": 4272
+      },
+      {
+        "at": 1791677030.7268796,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677030.9868217,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677031.251668,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677031.5158498,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677031.7794352,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677032.048453,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677032.3123624,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677032.5742278,
+        "tls_application_record_bytes": 265,
+        "tcp_payload_bytes": 270
+      },
+      {
+        "at": 1791677032.676594,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677032.9443338,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677033.2091475,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677033.4733388,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677033.736597,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677034.0340164,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677034.2987087,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677034.5648654,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677034.831116,
+        "tls_application_record_bytes": 265,
+        "tcp_payload_bytes": 270
+      },
+      {
+        "at": 1791677034.9478087,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677035.2099824,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677035.4736965,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677035.7366366,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677036.0004609,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677036.2682142,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677036.5306067,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677036.793,
+        "tls_application_record_bytes": 258,
+        "tcp_payload_bytes": 263
+      },
+      {
+        "at": 1791677037.086983,
+        "tls_application_record_bytes": 314,
+        "tcp_payload_bytes": 319
+      },
+      {
+        "at": 1791677037.0870457,
+        "tls_application_record_bytes": 5187,
+        "tcp_payload_bytes": 5192
+      },
+      {
+        "at": 1791677037.127147,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677037.387277,
+        "tls_application_record_bytes": 265,
+        "tcp_payload_bytes": 270
+      },
+      {
+        "at": 1791677037.4989023,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677037.7587104,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677038.0212948,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677038.2866929,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677038.5509672,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677038.8231928,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677039.1946902,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677039.4572256,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677039.7194893,
+        "tls_application_record_bytes": 265,
+        "tcp_payload_bytes": 270
+      },
+      {
+        "at": 1791677039.868413,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677040.1567852,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677040.441003,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677040.7342248,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677041.012443,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677041.2742002,
+        "tls_application_record_bytes": 258,
+        "tcp_payload_bytes": 263
+      },
+      {
+        "at": 1791677041.6769247,
+        "tls_application_record_bytes": 314,
+        "tcp_payload_bytes": 319
+      },
+      {
+        "at": 1791677041.6770637,
+        "tls_application_record_bytes": 3891,
+        "tcp_payload_bytes": 3896
+      },
+      {
+        "at": 1791677041.722429,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677041.983402,
+        "tls_application_record_bytes": 265,
+        "tcp_payload_bytes": 270
+      },
+      {
+        "at": 1791677042.1151674,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677042.3807647,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677042.6481078,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677042.9123511,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677043.1798704,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677043.4480507,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677043.7128887,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677043.9783757,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677044.2524247,
+        "tls_application_record_bytes": 265,
+        "tcp_payload_bytes": 270
+      },
+      {
+        "at": 1791677044.4421217,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677044.7046878,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677044.9728062,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677045.2376566,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677045.4983509,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677045.7628052,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677046.0275528,
+        "tls_application_record_bytes": 258,
+        "tcp_payload_bytes": 263
+      },
+      {
+        "at": 1791677046.319935,
+        "tls_application_record_bytes": 314,
+        "tcp_payload_bytes": 319
+      },
+      {
+        "at": 1791677046.3200023,
+        "tls_application_record_bytes": 4867,
+        "tcp_payload_bytes": 4872
+      },
+      {
+        "at": 1791677046.371912,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677046.63251,
+        "tls_application_record_bytes": 265,
+        "tcp_payload_bytes": 270
+      },
+      {
+        "at": 1791677046.7499864,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677047.0147102,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677047.2752163,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677047.5535433,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677047.8153875,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677048.079565,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677048.344334,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677048.6048412,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677048.8678875,
+        "tls_application_record_bytes": 265,
+        "tcp_payload_bytes": 270
+      },
+      {
+        "at": 1791677048.9811995,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677049.2430573,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677049.539521,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677049.7994862,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677050.066272,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677050.3306015,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677050.599515,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677050.864431,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677051.129669,
+        "tls_application_record_bytes": 265,
+        "tcp_payload_bytes": 270
+      },
+      {
+        "at": 1791677051.2555885,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677051.5243392,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677051.7871857,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677052.0515835,
+        "tls_application_record_bytes": 258,
+        "tcp_payload_bytes": 263
+      },
+      {
+        "at": 1791677052.3313062,
+        "tls_application_record_bytes": 314,
+        "tcp_payload_bytes": 319
+      },
+      {
+        "at": 1791677052.3313155,
+        "tls_application_record_bytes": 4763,
+        "tcp_payload_bytes": 4768
+      },
+      {
+        "at": 1791677052.372198,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677052.630283,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677052.8936243,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677053.1535532,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677053.4132712,
+        "tls_application_record_bytes": 265,
+        "tcp_payload_bytes": 270
+      },
+      {
+        "at": 1791677053.522176,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677053.7825038,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677054.0443408,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677054.30971,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677054.5963626,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677054.8560967,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677055.1151161,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677055.376692,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677055.64231,
+        "tls_application_record_bytes": 265,
+        "tcp_payload_bytes": 270
+      },
+      {
+        "at": 1791677055.7573652,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677056.0195534,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677056.2822704,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677056.5463111,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677056.806968,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677057.0708299,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677057.334367,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677057.595729,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677057.859562,
+        "tls_application_record_bytes": 265,
+        "tcp_payload_bytes": 270
+      },
+      {
+        "at": 1791677057.9762728,
+        "tls_application_record_bytes": 258,
+        "tcp_payload_bytes": 263
+      },
+      {
+        "at": 1791677058.230579,
+        "tls_application_record_bytes": 314,
+        "tcp_payload_bytes": 319
+      },
+      {
+        "at": 1791677058.2305887,
+        "tls_application_record_bytes": 3897,
+        "tcp_payload_bytes": 3902
+      },
+      {
+        "at": 1791677058.2686317,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677058.527713,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677058.7925982,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677059.0559487,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677059.3193173,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677059.5837433,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677059.8700652,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677060.136151,
+        "tls_application_record_bytes": 265,
+        "tcp_payload_bytes": 270
+      },
+      {
+        "at": 1791677060.2493143,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677060.5094686,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677060.771341,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677061.0324368,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677061.2956088,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677061.5597374,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677061.8250542,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677062.0893347,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677062.3545957,
+        "tls_application_record_bytes": 265,
+        "tcp_payload_bytes": 270
+      },
+      {
+        "at": 1791677062.4682364,
+        "tls_application_record_bytes": 258,
+        "tcp_payload_bytes": 263
+      },
+      {
+        "at": 1791677062.7245018,
+        "tls_application_record_bytes": 314,
+        "tcp_payload_bytes": 319
+      },
+      {
+        "at": 1791677062.724604,
+        "tls_application_record_bytes": 4869,
+        "tcp_payload_bytes": 4874
+      },
+      {
+        "at": 1791677062.7707071,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677063.0325885,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677063.2921612,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677063.557462,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677063.8201978,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677064.0897257,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677064.3554738,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677064.6192596,
+        "tls_application_record_bytes": 265,
+        "tcp_payload_bytes": 270
+      },
+      {
+        "at": 1791677064.7201781,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677065.0134852,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677065.2755537,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677065.5365405,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677065.8001409,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677066.0641053,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677066.3253336,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677066.584488,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677066.8474708,
+        "tls_application_record_bytes": 265,
+        "tcp_payload_bytes": 270
+      },
+      {
+        "at": 1791677066.967305,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      },
+      {
+        "at": 1791677067.2326016,
+        "tls_application_record_bytes": 280,
+        "tcp_payload_bytes": 285
+      }
+    ]
+  },
+  "distinct_large_outbound_tls_record_sizes": [
+    623,
+    624,
+    1274,
+    3891,
+    3897,
+    4015,
+    4077,
+    4267,
+    4763,
+    4867,
+    4869,
+    5187,
+    7566
+  ],
+  "scope": "Bounded protocol probes; variation of encrypted outbound application record sizes. TLS segmentation may affect sizes; no universal detector evasion claim."
+}

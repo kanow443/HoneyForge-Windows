@@ -1,0 +1,40 @@
+{
+  "environment": "Real Linux containers and PowerShell 7 on macOS, Windows platform calls substituted; native Windows acceptance remains separate",
+  "backup_format": "honeyforge-windows-backup-v2",
+  "geo_databases": {
+    "city_database": {
+      "age_days": 9,
+      "stale": false,
+      "provider": "DB-IP",
+      "attribution_url": "https://db-ip.com",
+      "status": "available",
+      "reason": null,
+      "built_at": "2026-10-01T01:41:21+00:00",
+      "database_type": "DBIP-City-Lite",
+      "size_bytes": 126998165
+    },
+    "asn_database": {
+      "age_days": 9,
+      "stale": false,
+      "provider": "DB-IP",
+      "attribution_url": "https://db-ip.com",
+      "status": "available",
+      "reason": null,
+      "built_at": "2026-10-01T01:41:36+00:00",
+      "database_type": "DBIP-ASN-Lite (compat=GeoLite2-ASN)",
+      "size_bytes": 9566363
+    }
+  },
+  "checks": {
+    "city": {
+      "sha256": "9e250f02722d1ad1780f88192f0e908af285478a33e76b88b349c9181ae9d0f5",
+      "restored_independently": true
+    },
+    "asn": {
+      "sha256": "4384bfcfb594391bc4e0ab37751f44661eaf7cadbeee28a90a6b82dc935fec4c",
+      "restored_independently": true
+    }
+  },
+  "verified_https": true,
+  "scope": "New v2 backup includes Geo; independently restored into fresh Docker volumes and separate Geo directory"
+}

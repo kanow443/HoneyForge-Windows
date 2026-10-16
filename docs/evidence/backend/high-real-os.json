@@ -1,0 +1,20 @@
+{
+  "deployment_id": "bb7cff87-c766-4075-a5d4-3633eb2a7a7d",
+  "accelerator": "tcg",
+  "checks": [
+    {
+      "session": 1,
+      "login_seconds": 98.98,
+      "stdout": "PRETTY_NAME=\"Ubuntu 24.04.5 LTS\"\nNAME=\"Ubuntu\"\nVERSION_ID=\"24.04\"\nVERSION=\"24.04.5 LTS (Noble Numbat)\"\nVERSION_CODENAME=noble\nID=ubuntu\nID_LIKE=debian\nHOME_URL=\"https://www.ubuntu.com/\"\nSUPPORT_URL=\"https://help.ubuntu.com/\"\nBUG_REPORT_URL=\"https://bugs.launchpad.net/ubuntu/\"\nPRIVACY_POLICY_URL=\"https://www.ubuntu.com/legal/terms-and-policies/privacy-policy\"\nUBUNTU_CODENAME=noble\nLOGO=ubuntu-logo\nLinux files-stage-02 6.8.0-146-generic #146-Ubuntu SMP PREEMPT_DYNAMIC Thu Sep  3 16:20:48 UTC 2026 aarch64 aarch64 aarch64 GNU/Linux\nPRISTINE\nuid=0(root) gid=0(root) groups=0(root)\n    PID COMMAND\n      1 systemd\n      2 kthreadd\n      3 pool_workqueue_release\n      4 kworker/R-rcu_g\n      5 kworker/R-rcu_p\n      6 kworker/R-slub_\nEGRESS_RC:1\nNEIGHBOR_RC:1\n",
+      "stderr": "bash: connect: Connection refused\nbash: line 1: /dev/tcp/1.1.1.1/80: Connection refused\nbash: connect: Connection refused\nbash: line 1: /dev/tcp/192.168.139.142/22: Connection refused\n",
+      "exit_code": 0
+    },
+    {
+      "session": 2,
+      "login_seconds": 88.79,
+      "stdout": "PRETTY_NAME=\"Ubuntu 24.04.5 LTS\"\nNAME=\"Ubuntu\"\nVERSION_ID=\"24.04\"\nVERSION=\"24.04.5 LTS (Noble Numbat)\"\nVERSION_CODENAME=noble\nID=ubuntu\nID_LIKE=debian\nHOME_URL=\"https://www.ubuntu.com/\"\nSUPPORT_URL=\"https://help.ubuntu.com/\"\nBUG_REPORT_URL=\"https://bugs.launchpad.net/ubuntu/\"\nPRIVACY_POLICY_URL=\"https://www.ubuntu.com/legal/terms-and-policies/privacy-policy\"\nUBUNTU_CODENAME=noble\nLOGO=ubuntu-logo\nLinux files-stage-02 6.8.0-146-generic #146-Ubuntu SMP PREEMPT_DYNAMIC Thu Sep  3 16:20:48 UTC 2026 aarch64 aarch64 aarch64 GNU/Linux\nPRISTINE\nuid=0(root) gid=0(root) groups=0(root)\n    PID COMMAND\n      1 systemd\n      2 kthreadd\n      3 pool_workqueue_release\n      4 kworker/R-rcu_g\n      5 kworker/R-rcu_p\n      6 kworker/R-slub_\nEGRESS_RC:1\nNEIGHBOR_RC:1\n",
+      "stderr": "bash: connect: Connection refused\nbash: line 1: /dev/tcp/1.1.1.1/80: Connection refused\nbash: connect: Connection refused\nbash: line 1: /dev/tcp/192.168.139.142/22: Connection refused\n",
+      "exit_code": 0
+    }
+  ]
+}

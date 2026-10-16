@@ -1,0 +1,14 @@
+{
+  "at": "2026-10-10T19:24:38.305544+00:00",
+  "checks": [
+    {
+      "sensor": "honeyforge-sensor",
+      "untrusted_client_certificate_tls_rejected": true
+    },
+    {
+      "sensor": "honeyforge-sensor-2",
+      "untrusted_client_certificate_tls_rejected": true
+    }
+  ],
+  "scope": "Actual TLS connection with a fresh self-signed client certificate; no agent identities revoked"
+}

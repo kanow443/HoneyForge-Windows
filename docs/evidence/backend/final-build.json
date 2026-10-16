@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-10T20:00:43.450874+00:00",
+  "project": "hf-prod-acceptance-a",
+  "scope": "All static gateway files and real trusted HTTPS deep link; auth/UI behavior checked separately",
+  "frontend_dist_sha256": "7ff8311a91c2e40f1acf984e51701a2692d2af3bdfe6370516d92d7d56fde9ee",
+  "file_count": 38,
+  "exact_gateway_files_match": true,
+  "exact_https_index_match": true,
+  "passed": true
+}

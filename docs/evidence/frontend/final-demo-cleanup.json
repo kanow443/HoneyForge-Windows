@@ -1,0 +1,25 @@
+{
+  "at": "2026-10-10T20:05:50.717Z",
+  "passed": true,
+  "own": [
+    {
+      "id": "76379349-f8ae-4861-a116-d6964c623caa",
+      "state": "cancelled",
+      "desired_state": "released",
+      "observed_revision": 2,
+      "revision": 2,
+      "termination_state": "completed",
+      "termination_count": 1
+    },
+    {
+      "id": "f3370281-b07c-4f8a-9fb2-a32123a9769c",
+      "state": "cancelled",
+      "desired_state": "released",
+      "observed_revision": 2,
+      "revision": 2,
+      "termination_state": "completed",
+      "termination_count": 1
+    }
+  ],
+  "scope": "Only own demo policies read; no further runtime mutation"
+}

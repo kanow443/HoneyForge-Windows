@@ -1,0 +1,18 @@
+{
+  "repository": "https://github.com/maxmind/MaxMind-DB",
+  "revision": "6a690a705bc6962c0025a32e94a8f0dc8f86418c",
+  "fixtures": [
+    {
+      "filename": "GeoIP2-City-Test.mmdb",
+      "sha256": "ed972738e4e03a3e56e12041a6af4d91592249d110f7e4a647e5f2fa0e639c09",
+      "source": "https://raw.githubusercontent.com/maxmind/MaxMind-DB/6a690a705bc6962c0025a32e94a8f0dc8f86418c/test-data/GeoIP2-City-Test.mmdb",
+      "purpose": "Public upstream test fixture; never use as production geolocation database"
+    },
+    {
+      "filename": "GeoLite2-ASN-Test.mmdb",
+      "sha256": "75901b98ed6e58d3bd41af9985044b747a7ec0be1369f930c24f5e044427181a",
+      "source": "https://raw.githubusercontent.com/maxmind/MaxMind-DB/6a690a705bc6962c0025a32e94a8f0dc8f86418c/test-data/GeoLite2-ASN-Test.mmdb",
+      "purpose": "Public upstream test fixture; never use as production geolocation database"
+    }
+  ]
+}

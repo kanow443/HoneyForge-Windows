@@ -1,0 +1,115 @@
+{
+  "at": "2026-10-10T23:41:29.811Z",
+  "baseURL": "http://localhost:5173",
+  "run": "69e25d47",
+  "api_ready": true,
+  "checks": [
+    {
+      "name": "built bundle editor local add/remove/undo/reorder and per-service file content",
+      "passed": true,
+      "at": "2026-10-10T23:41:01.977Z"
+    },
+    {
+      "name": "real schema-v3 publication and immutable selected version",
+      "passed": true,
+      "at": "2026-10-10T23:41:03.192Z"
+    },
+    {
+      "name": "actual group UI review/create and three agent-confirmed services with overridden ports",
+      "passed": true,
+      "at": "2026-10-10T23:41:10.560Z"
+    },
+    {
+      "name": "actual own HTTP response and SSH/TCP listener banners",
+      "passed": true,
+      "at": "2026-10-10T23:41:10.572Z"
+    },
+    {
+      "name": "actual whole-group stop with all individual confirmations",
+      "passed": true,
+      "at": "2026-10-10T23:41:23.148Z"
+    },
+    {
+      "name": "actual v3 edit/publish preserves old version and compatible group redeploy keeps ports",
+      "passed": true,
+      "at": "2026-10-10T23:41:28.349Z"
+    },
+    {
+      "name": "actual Geo panel provides DB-IP CC BY attribution at both widths",
+      "passed": true,
+      "at": "2026-10-10T23:41:29.745Z"
+    }
+  ],
+  "viewports": [
+    {
+      "label": "editor 1280",
+      "width": 1280,
+      "height": 900,
+      "documentWidth": 1280
+    },
+    {
+      "label": "editor 390",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390
+    },
+    {
+      "label": "profile 1280",
+      "width": 1280,
+      "height": 900,
+      "documentWidth": 1280
+    },
+    {
+      "label": "profile 390",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390
+    },
+    {
+      "label": "deploy 1280",
+      "width": 1280,
+      "height": 900,
+      "documentWidth": 1280
+    },
+    {
+      "label": "deploy 390",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390
+    },
+    {
+      "label": "group 1280",
+      "width": 1280,
+      "height": 900,
+      "documentWidth": 1280
+    },
+    {
+      "label": "group 390",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390
+    },
+    {
+      "label": "geo 1280",
+      "width": 1280,
+      "height": 900,
+      "documentWidth": 1280
+    },
+    {
+      "label": "geo 390",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390
+    }
+  ],
+  "profile_id": "f31e2985-afe5-4480-be08-7da9946cf263",
+  "group_id": "7484986e-3768-4ed4-af5b-83b100f54a1d",
+  "cleanup": {
+    "group_stopped": false,
+    "profile_archived": true
+  },
+  "error": null,
+  "passed": false,
+  "runtime_verified": true,
+  "scope": "own UI bundle/group only; three own unused ports; no Ops/Scale/Acceptance modifications; no private capture opened"
+}

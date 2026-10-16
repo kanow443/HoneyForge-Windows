@@ -1,0 +1,60 @@
+[
+  {
+    "number": 1,
+    "file": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/video/honeyforge-demo-1.webm",
+    "size_bytes": 5252408,
+    "sha256": "c18914814e1dc90e41881748fe5ca645c46097a5fe9c1ad29e8bee5f203c8632",
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vp9",
+          "width": 1280,
+          "height": 900,
+          "avg_frame_rate": "25/1"
+        }
+      ],
+      "format": {
+        "duration": "50.280000"
+      }
+    },
+    "decode_ok": true,
+    "decode_errors": "",
+    "black_intervals": [],
+    "motion_sample_fps": 1,
+    "motion_sample_frames": 50,
+    "motion_distinct_frames": 46,
+    "moving_content_verified": true,
+    "passed": true
+  },
+  {
+    "number": 2,
+    "file": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/video/honeyforge-demo-2.webm",
+    "size_bytes": 5437394,
+    "sha256": "e58abe317f1564b408c2edc1fc88e3b2ce1e009d22f2339e79661f6571e88730",
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vp9",
+          "width": 1280,
+          "height": 900,
+          "avg_frame_rate": "25/1"
+        }
+      ],
+      "format": {
+        "duration": "47.040000"
+      }
+    },
+    "decode_ok": true,
+    "decode_errors": "",
+    "black_intervals": [],
+    "motion_sample_fps": 1,
+    "motion_sample_frames": 47,
+    "motion_distinct_frames": 47,
+    "moving_content_verified": true,
+    "passed": true
+  }
+]

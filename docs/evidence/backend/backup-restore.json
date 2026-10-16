@@ -1,0 +1,19 @@
+{
+  "at": "2026-10-10T19:52:53.012891+00:00",
+  "fixture": "controlled API fixture; no simulated attack claimed",
+  "checks": {
+    "independent_database_restore": true,
+    "independent_binary_volume_restore": true,
+    "centre_private_key_restore_and_actual_decryption": true,
+    "no_plaintext_in_general_api": true,
+    "source_agent_identity_revoked_before_copy": true,
+    "original_agent_ca_restored": true,
+    "restored_gateway_actual_mtls_and_new_issuance": true
+  },
+  "event_id": "8f68c223-57fd-49c2-8352-6108d3a73312",
+  "artifact_id": "b6dad993-86eb-4d60-9fbc-d1f931410979",
+  "sha256": "9aba305ec47a1fe7679582b56d593b82eff9a02d8a263f8dfd400d263890b792",
+  "target_project": "hf-restore-35ea5be6",
+  "backup_format": "honeyforge-backup-v1",
+  "schema": "012"
+}

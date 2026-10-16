@@ -1,0 +1,21 @@
+{
+  "at": "2026-10-11T00:07:04.043335+00:00",
+  "geo_connected_browser_passed": true,
+  "widths": [
+    390,
+    1280
+  ],
+  "viewport_checks": 4,
+  "private_source_unavailable": true,
+  "screenshots_visually_inspected": true,
+  "user_guide_updated": "docs/USER_GUIDE_RU.md sections6.3,9.7,9.8,10.4 and route/API tables",
+  "high_tcg_first_connection_timeout_seconds": 600,
+  "high_kvm_default_timeout_seconds": 240,
+  "ui_had_no_240_second_claim": true,
+  "ui_sources_changed": false,
+  "build_performed_this_turn": false,
+  "previous_dist_unchanged": true,
+  "previous_manifest_sha256": "9b5bc202a0116c82f4f54351436af7de3145860103fbdb1ea7e1ff40e6f92492",
+  "sensor_mutations": false,
+  "own_auth_session_logged_out": true
+}

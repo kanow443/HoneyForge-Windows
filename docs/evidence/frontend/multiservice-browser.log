@@ -1,0 +1,7 @@
+{"check":"built bundle editor local add/remove/undo/reorder and per-service file content","passed":true}
+{"check":"real schema-v3 publication and immutable selected version","passed":true}
+{"check":"actual group UI review/create and three agent-confirmed services with overridden ports","passed":true}
+{"check":"actual own HTTP response and SSH/TCP listener banners","passed":true}
+{"check":"actual whole-group stop with all individual confirmations","passed":true}
+{"check":"actual v3 edit/publish preserves old version and compatible group redeploy keeps ports","passed":true}
+{"check":"actual Geo panel provides DB-IP CC BY attribution at both widths","passed":true}

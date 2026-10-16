@@ -1,0 +1,55 @@
+{
+  "at": "2026-10-10T20:01:04.802Z",
+  "real_browser": true,
+  "raw_private_values_recorded": false,
+  "scope": "separate Acceptance tcp-banner18223 / Cowrie18222 only; no Operations/Scale trap change",
+  "runs": [
+    {
+      "number": 1,
+      "started_at": "2026-10-10T19:59:35.759Z",
+      "stages": [
+        {
+          "name": "real network overview",
+          "at": "2026-10-10T19:59:36.038Z"
+        },
+        {
+          "name": "Low running trap and real TCP banner contact",
+          "at": "2026-10-10T19:59:39.454Z"
+        },
+        {
+          "name": "published Low profile in constructor",
+          "at": "2026-10-10T19:59:42.072Z"
+        },
+        {
+          "name": "real SSH commands and real SFTP upload",
+          "at": "2026-10-10T19:59:48.290Z"
+        },
+        {
+          "name": "LIVE session player and received terminal output",
+          "at": "2026-10-10T19:59:55.989Z"
+        },
+        {
+          "name": "actual artifact UI download and independent hash",
+          "at": "2026-10-10T19:59:58.732Z"
+        },
+        {
+          "name": "explicit scoped response request",
+          "at": "2026-10-10T20:00:01.305Z"
+        }
+      ],
+      "passed": false,
+      "low_probe": {
+        "received_bytes": 23
+      },
+      "session_id": "3b52ef2a-2577-450a-992c-9378e9618706",
+      "artifact_id": "4db47b27-15b6-58d4-9297-06fd3f2efc74",
+      "artifact_sha256": "f2e8febaf4e9d7f3c3b31b279513fb18d4cd8fec05a3ab494dc1be3d17b99a49",
+      "artifact_size_bytes": 40,
+      "error": "Error: Real evidence did not reach the required state",
+      "source": "at async file:///Users/admin/Documents/GitHub/hack/apps/web/scripts/browser/demo.mjs:262:16",
+      "ended_at": "2026-10-10T20:01:03.725Z",
+      "video": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/video/final-diagnostic/demo-policy-submit.webm"
+    }
+  ],
+  "passed": false
+}

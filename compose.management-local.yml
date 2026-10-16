@@ -1,0 +1,18 @@
+services:
+  management:
+    image: caddy:2.10.2-alpine
+    environment:
+      HF_MANAGEMENT_DOMAIN: host.orb.internal
+      HF_MANAGEMENT_TLS: internal
+      HF_SYNC_UPSTREAM: host.docker.internal:8100
+      HF_SYNC_PROXY_SECRET: ${HF_SYNC_PROXY_SECRET:?Set a private proxy credential}
+    ports: ["18443:443"]
+    volumes:
+      - ./infra/Caddyfile.management:/etc/caddy/Caddyfile:ro
+      - ./.runtime/keys/agent-authority/public:/etc/asset-ca:ro
+      - management-data:/data
+      - management-config:/config
+    restart: unless-stopped
+volumes:
+  management-data: {}
+  management-config: {}

@@ -1,0 +1,8 @@
+{
+  "at": "2026-10-10T20:02:36.079Z",
+  "browser_origin": "http://127.0.0.1:5174",
+  "csrf_cookie_present": true,
+  "status": 403,
+  "error_code": "csrf_origin",
+  "scope": "own logout only; normal browser Origin, no header tampering; helper cleanup follows"
+}

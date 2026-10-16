@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-10T19:22:25.902409+00:00",
+  "handler_registered_before_ready": true,
+  "portable_SIGUSR2_finish_verified": true,
+  "checkpoint_written_before_progress": true,
+  "checkpoint_and_final_json_parsed": true,
+  "own_process_exit_code": 0,
+  "ready_false_after_finish": true,
+  "samples": 0,
+  "p95_measurement_claimed": false,
+  "reason": "No traffic was generated in reporter smoke; zero samples expected. This verifies lifecycle/durable serialization/cleanup, not latency."
+}

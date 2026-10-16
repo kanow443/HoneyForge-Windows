@@ -1,0 +1,13 @@
+[Unit]
+Description=HoneyForge sensor egress isolation
+After=docker.service
+Requires=docker.service
+Before=asset-sync.service
+
+[Service]
+Type=oneshot
+ExecStart=/opt/asset-sync/scripts/sensor-firewall.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target

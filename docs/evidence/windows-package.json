@@ -1,0 +1,38 @@
+{
+  "format": "honeyforge-windows-package-check-v1",
+  "at": "2026-10-10T22:19:18.536450+00:00",
+  "environment": "macOS ARM64 + Linux containers + PowerShell 7.6.6 parser/runtime; not Windows execution",
+  "checks": {
+    "docker_compose_build": "pass",
+    "https_routes_and_csrf": {
+      "/": 200,
+      "/health/ready": 200,
+      "/docs": 404,
+      "/openapi.json": 404,
+      "/agent/v1/heartbeat": 404,
+      "/traps/new": 200,
+      "authenticated-csrf-post": "pass",
+      "wrong-origin-denied": 403,
+      "management/": 200,
+      "management/docs": 404,
+      "management/agent/v1/heartbeat": 404,
+      "management-hidden-route-unauthed": 401,
+      "wrong-server-ca-rejected": "pass",
+      "windows-canonical-redirect": "pass"
+    },
+    "powershell_parser_files": 6,
+    "bash_syntax": "pass",
+    "windows_demo_contract_tests": 5,
+    "sensor_container_installation_rejected": "pass",
+    "backup_restore": "PowerShell backup/restore executed against real Docker/PostgreSQL in a QA harness; Windows ACL/IP/trust-store calls substituted",
+    "restore_table_counts_match": true,
+    "restore_private_evidence_and_both_server_ca_file_hashes_match": true
+  },
+  "not_executed": [
+    "Windows 11 / PowerShell 5.1 native execution",
+    "Windows ACLs, firewall, certificate store, WSL/Docker Desktop installer",
+    "Ubuntu VM installation with the new wrapper and a Windows-hosted centre",
+    "Live Windows-to-sensor SSH/PCAP/response demo"
+  ],
+  "no_existing_lab_data_modified": true
+}

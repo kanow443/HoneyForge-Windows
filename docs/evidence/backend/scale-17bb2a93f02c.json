@@ -1,0 +1,80 @@
+{
+  "at": "2026-10-10T18:48:14.861631+00:00",
+  "run_id": "17bb2a93f02c",
+  "duration_seconds": 900,
+  "target_requests_per_second": 10,
+  "running_traps": 10,
+  "host_addresses": [
+    "192.168.139.142",
+    "192.168.139.223"
+  ],
+  "http_deployment_id": "d79dcb0e-47de-4040-a952-7b17b7ed8b42",
+  "http_endpoint": "192.168.139.142:18080",
+  "path_prefix": "/acceptance-latency/17bb2a93f02c",
+  "measurement": "Sensor observed_at to centre Event.created_at timestamp; excludes SQL commit and browser rendering",
+  "state": "passed",
+  "checks": {
+    "ten_running_decoys": true,
+    "two_real_sensors": true,
+    "all_marked_events_recovered_once": true,
+    "sustained_parallel_ssh": true
+  },
+  "parallel_authenticated_ssh_sessions": 8,
+  "load_started_at": "2026-10-10T18:48:15.278630+00:00",
+  "actual_requests": 9000,
+  "http_errors": [],
+  "ssh_errors": [],
+  "eight_sessions_active_at_end": true,
+  "unique_marked_events": 9000,
+  "duplicates": 0,
+  "ingest_p95_seconds": 0.8271,
+  "ingest_median_seconds": 0.4896,
+  "host_metrics_after": [
+    {
+      "address": "192.168.139.223",
+      "status": "online",
+      "metrics": {
+        "cpu_percent": 4.0,
+        "capabilities": [
+          "http",
+          "cowrie",
+          "tcp-banner"
+        ],
+        "parser_errors": 0,
+        "queued_events": 0,
+        "dropped_events": 0,
+        "memory_percent": 15.2,
+        "network_policy": "external-firewall",
+        "artifact_errors": 0,
+        "runtime_version": "asset-sync/0.2.0",
+        "queued_artifacts": 0,
+        "network_capture_state": "active",
+        "network_dropped_packets": 0,
+        "artifact_dropped_packets": 0
+      }
+    },
+    {
+      "address": "192.168.139.142",
+      "status": "degraded",
+      "metrics": {
+        "cpu_percent": 4.0,
+        "capabilities": [
+          "http",
+          "cowrie",
+          "tcp-banner"
+        ],
+        "parser_errors": 0,
+        "queued_events": 0,
+        "dropped_events": 0,
+        "memory_percent": 15.4,
+        "network_policy": "external-firewall",
+        "artifact_errors": 1,
+        "runtime_version": "asset-sync/0.2.0",
+        "queued_artifacts": 0,
+        "network_capture_state": "active",
+        "network_dropped_packets": 0,
+        "artifact_dropped_packets": 0
+      }
+    }
+  ]
+}

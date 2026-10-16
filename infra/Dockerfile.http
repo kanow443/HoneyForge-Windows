@@ -1,0 +1,8 @@
+FROM python:3.12.14-alpine@sha256:4c47124a8391cb7a9f571164147d154777cf012a4ece5f86097130d7a4478111
+WORKDIR /app
+RUN pip install --no-cache-dir cryptography==50.0.2
+COPY src/honeyforge/sensors/http_sensor.py /app/sensor.py
+COPY src/honeyforge/sensors/sealed_capture.py /app/sealed_capture.py
+USER 10001:10001
+EXPOSE 8080
+ENTRYPOINT ["python", "-u", "/app/sensor.py"]

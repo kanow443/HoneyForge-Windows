@@ -1,0 +1,1 @@
+{"sensor": "192.168.139.223", "server_pin": "sha256/LhJy6/pCkSkhecemUrEZBnQZdcc7kz2Pwn2g/tqOlC8=", "checks": {"correct": {"accepted": true, "status": 200}, "overlap": {"accepted": true, "status": 200}, "mismatch": {"accepted": false, "pin_mismatch": true}}, "credentials_used": false}

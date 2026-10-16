@@ -1,0 +1,15 @@
+{
+  "run_id": "60f741e923a8",
+  "at": "2026-10-10T19:46:21.771Z",
+  "measurement": "viewport-intersecting rendered row DOM/layout, not paint",
+  "dom_paths": 8078,
+  "api_paths": 9000,
+  "samples_after_start": 8078,
+  "p95_ms": 1401,
+  "min_ms": 218,
+  "max_ms": 3392,
+  "negative_delays": 0,
+  "excluded_preexisting_api_paths": 0,
+  "apiErrors": 0,
+  "parseErrors": 0
+}

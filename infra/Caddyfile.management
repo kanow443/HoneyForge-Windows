@@ -1,0 +1,35 @@
+{$HF_MANAGEMENT_DOMAIN} {
+    tls {$HF_MANAGEMENT_TLS:internal} {
+        client_auth {
+            # One-use registration/initial CSR need server TLS before a client certificate exists.
+            # The API requires a bound active/pending certificate for every other agent route.
+            mode verify_if_given
+            trust_pool file /etc/asset-ca/ca.pem
+        }
+    }
+    header {
+        -Server
+        X-Content-Type-Options nosniff
+        Cache-Control no-store
+    }
+    @sync path /assets/sync/v1/*
+    handle @sync {
+        route {
+            uri strip_prefix /assets/sync/v1
+            rewrite * /agent/v1{uri}
+            reverse_proxy {$HF_SYNC_UPSTREAM:api:8100} {
+                header_up X-Asset-Gateway {$HF_SYNC_PROXY_SECRET}
+                header_up X-Asset-Scheme {scheme}
+                header_up X-Asset-Client-Fingerprint {tls_client_fingerprint}
+            }
+        }
+    }
+    @root path /
+    handle @root {
+        header Content-Type "text/html; charset=utf-8"
+        respond "<!doctype html><html lang=en><meta charset=utf-8><title>Asset services</title><h1>Asset services</h1><p>Static resources are available.</p></html>" 200
+    }
+    handle {
+        respond "Not found" 404
+    }
+}

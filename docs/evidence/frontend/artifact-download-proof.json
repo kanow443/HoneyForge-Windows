@@ -1,0 +1,13 @@
+[
+  {
+    "path": "/Users/admin/Downloads/file-92ebd781-dc81-5daa-989e-2a4d46a5dc54.bin",
+    "size_bytes": 56,
+    "sha256": "2a8227a3f0075704f2a18cfb5851185d44fb4901054644877025e55894decfb2"
+  },
+  {
+    "path": "/Users/admin/Downloads/pcap-8b0f06d3-cc8f-4210-a851-493757c3e137.pcap",
+    "size_bytes": 16114,
+    "sha256": "027cff2134d5a49d2e8c4d64400e9e2b92b8e8497b87ebfb55088903383a6538",
+    "pcap_packets": 25
+  }
+]

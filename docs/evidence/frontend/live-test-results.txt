@@ -1,0 +1,13 @@
+
+> honeyforge-web@0.1.0 test
+> vitest run
+
+
+ RUN  v5.0.3 /Users/admin/Documents/GitHub/hack/apps/web
+
+
+ Test Files  9 passed (9)
+      Tests  38 passed (38)
+   Start at  19:16:01
+   Duration  2.96s (environment 55%, tests 31%, import 8%, transform 6%, worker 1%)
+

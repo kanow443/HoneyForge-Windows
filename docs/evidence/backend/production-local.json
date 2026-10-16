@@ -1,0 +1,21 @@
+{
+  "at": "2026-10-10T19:52:01.869265+00:00",
+  "topology": "Two local Docker Compose stacks; HTTPS with separate trusted local CAs. No external cloud SLA.",
+  "checks": {
+    "tls_certificate_verified": true,
+    "secure_same_site_cookies": true,
+    "spa_deep_link_and_headers": true,
+    "cross_stack_profile_denied": true,
+    "cross_stack_cookie_denied": true,
+    "cross_stack_agent_key_denied": true,
+    "cross_stack_integration_key_denied": true,
+    "api_restart_preserved_profile_and_session": true,
+    "api_restart_recovery_seconds": 3.642,
+    "database_restore_in_separate_database": true,
+    "restored_schema": "012",
+    "restore_seconds": 0.449,
+    "backup_sha256": "f242e7439bb29d7c7cede7aca6840efde4bddcba3042bf8aee40e480e02d1bab",
+    "backup_bytes": 91699,
+    "binary_volume_restore": "not part of this database-only check"
+  }
+}

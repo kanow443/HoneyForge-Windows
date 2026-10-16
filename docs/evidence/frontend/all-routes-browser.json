@@ -1,0 +1,1862 @@
+{
+  "at": "2026-10-10T19:59:17.000Z",
+  "baseURL": "http://127.0.0.1:5174",
+  "fixtures": {
+    "profile_id": "ba36df13-4257-46c2-b842-00e5dc9b95e2",
+    "deployment_id": "9baa82d0-87fc-4e3b-bc5b-b5be5ca62d94",
+    "session_id": "897e62d1-3f76-4bc2-b536-2912c48c1574",
+    "host_id": "6392f0eb-2a86-4731-9dec-be8315cb5ada",
+    "case_id": "142de0b4-868a-465b-85ca-207fb457bb0d"
+  },
+  "checks": [
+    {
+      "name": "overview",
+      "width": 1280,
+      "route": "/",
+      "started_at": "2026-10-10T19:58:17.174Z",
+      "passed": true,
+      "viewport": {
+        "label": "overview-1280",
+        "width": 1280,
+        "height": 900,
+        "documentWidth": 1280
+      },
+      "screenshot": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/routes/overview-1280.png",
+      "responses": [
+        {
+          "path": "/auth/me",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        },
+        {
+          "path": "/findings",
+          "status": 200
+        },
+        {
+          "path": "/overview",
+          "status": 200
+        },
+        {
+          "path": "/topology",
+          "status": 200
+        }
+      ],
+      "page_errors": [],
+      "ended_at": "2026-10-10T19:58:18.270Z"
+    },
+    {
+      "name": "overview-geo",
+      "width": 1280,
+      "route": "/",
+      "started_at": "2026-10-10T19:58:18.309Z",
+      "passed": true,
+      "viewport": {
+        "label": "overview-geo-1280",
+        "width": 1280,
+        "height": 900,
+        "documentWidth": 1280
+      },
+      "screenshot": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/routes/overview-geo-1280.png",
+      "responses": [
+        {
+          "path": "/auth/me",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        },
+        {
+          "path": "/findings",
+          "status": 200
+        },
+        {
+          "path": "/overview",
+          "status": 200
+        },
+        {
+          "path": "/geo-sources",
+          "status": 200
+        },
+        {
+          "path": "/topology",
+          "status": 200
+        }
+      ],
+      "page_errors": [],
+      "ended_at": "2026-10-10T19:58:19.297Z"
+    },
+    {
+      "name": "profiles",
+      "width": 1280,
+      "route": "/profiles",
+      "started_at": "2026-10-10T19:58:19.333Z",
+      "passed": true,
+      "viewport": {
+        "label": "profiles-1280",
+        "width": 1280,
+        "height": 900,
+        "documentWidth": 1280
+      },
+      "screenshot": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/routes/profiles-1280.png",
+      "responses": [
+        {
+          "path": "/auth/me",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        },
+        {
+          "path": "/profiles",
+          "status": 200
+        },
+        {
+          "path": "/stream",
+          "status": 200
+        }
+      ],
+      "page_errors": [],
+      "ended_at": "2026-10-10T19:58:20.582Z"
+    },
+    {
+      "name": "profile-markers",
+      "width": 1280,
+      "route": "/profiles/ba36df13-4257-46c2-b842-00e5dc9b95e2",
+      "started_at": "2026-10-10T19:58:20.617Z",
+      "passed": true,
+      "viewport": {
+        "label": "profile-markers-1280",
+        "width": 1280,
+        "height": 900,
+        "documentWidth": 1280
+      },
+      "screenshot": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/routes/profile-markers-1280.png",
+      "responses": [
+        {
+          "path": "/auth/me",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        },
+        {
+          "path": "/profiles/ba36df13-4257-46c2-b842-00e5dc9b95e2",
+          "status": 200
+        },
+        {
+          "path": "/stream",
+          "status": 200
+        },
+        {
+          "path": "/honeytokens",
+          "status": 200
+        }
+      ],
+      "page_errors": [],
+      "ended_at": "2026-10-10T19:58:22.024Z"
+    },
+    {
+      "name": "builder-tcp-banner",
+      "width": 1280,
+      "route": "/profiles/new?adapter=tcp-banner",
+      "started_at": "2026-10-10T19:58:22.057Z",
+      "passed": true,
+      "viewport": {
+        "label": "builder-tcp-banner-1280",
+        "width": 1280,
+        "height": 900,
+        "documentWidth": 1280
+      },
+      "screenshot": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/routes/builder-tcp-banner-1280.png",
+      "responses": [
+        {
+          "path": "/auth/me",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        }
+      ],
+      "page_errors": [],
+      "ended_at": "2026-10-10T19:58:23.311Z"
+    },
+    {
+      "name": "builder-http",
+      "width": 1280,
+      "route": "/profiles/new?adapter=http",
+      "started_at": "2026-10-10T19:58:23.344Z",
+      "passed": true,
+      "viewport": {
+        "label": "builder-http-1280",
+        "width": 1280,
+        "height": 900,
+        "documentWidth": 1280
+      },
+      "screenshot": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/routes/builder-http-1280.png",
+      "responses": [
+        {
+          "path": "/auth/me",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        }
+      ],
+      "page_errors": [],
+      "ended_at": "2026-10-10T19:58:24.596Z"
+    },
+    {
+      "name": "builder-cowrie",
+      "width": 1280,
+      "route": "/profiles/new?adapter=cowrie",
+      "started_at": "2026-10-10T19:58:24.640Z",
+      "passed": true,
+      "viewport": {
+        "label": "builder-cowrie-1280",
+        "width": 1280,
+        "height": 900,
+        "documentWidth": 1280
+      },
+      "screenshot": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/routes/builder-cowrie-1280.png",
+      "responses": [
+        {
+          "path": "/auth/me",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        },
+        {
+          "path": "/stream",
+          "status": 200
+        }
+      ],
+      "page_errors": [],
+      "ended_at": "2026-10-10T19:58:25.895Z"
+    },
+    {
+      "name": "builder-files",
+      "width": 1280,
+      "route": "/profiles/new?adapter=cowrie",
+      "started_at": "2026-10-10T19:58:25.929Z",
+      "passed": true,
+      "viewport": {
+        "label": "builder-files-1280",
+        "width": 1280,
+        "height": 900,
+        "documentWidth": 1280
+      },
+      "screenshot": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/routes/builder-files-1280.png",
+      "responses": [
+        {
+          "path": "/auth/me",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        }
+      ],
+      "page_errors": [],
+      "ended_at": "2026-10-10T19:58:27.532Z"
+    },
+    {
+      "name": "existing-editor",
+      "width": 1280,
+      "route": "/profiles/ba36df13-4257-46c2-b842-00e5dc9b95e2/edit",
+      "started_at": "2026-10-10T19:58:27.565Z",
+      "passed": true,
+      "viewport": {
+        "label": "existing-editor-1280",
+        "width": 1280,
+        "height": 900,
+        "documentWidth": 1280
+      },
+      "screenshot": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/routes/existing-editor-1280.png",
+      "responses": [
+        {
+          "path": "/auth/me",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        },
+        {
+          "path": "/profiles/ba36df13-4257-46c2-b842-00e5dc9b95e2",
+          "status": 200
+        }
+      ],
+      "page_errors": [],
+      "ended_at": "2026-10-10T19:58:28.819Z"
+    },
+    {
+      "name": "hosts",
+      "width": 1280,
+      "route": "/hosts",
+      "started_at": "2026-10-10T19:58:28.853Z",
+      "passed": true,
+      "viewport": {
+        "label": "hosts-1280",
+        "width": 1280,
+        "height": 900,
+        "documentWidth": 1280
+      },
+      "screenshot": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/routes/hosts-1280.png",
+      "responses": [
+        {
+          "path": "/auth/me",
+          "status": 200
+        },
+        {
+          "path": "/hosts",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        }
+      ],
+      "page_errors": [],
+      "ended_at": "2026-10-10T19:58:29.440Z"
+    },
+    {
+      "name": "host-certificates",
+      "width": 1280,
+      "route": "/hosts?host=6392f0eb-2a86-4731-9dec-be8315cb5ada",
+      "started_at": "2026-10-10T19:58:29.474Z",
+      "passed": true,
+      "viewport": {
+        "label": "host-certificates-1280",
+        "width": 1280,
+        "height": 900,
+        "documentWidth": 1280
+      },
+      "screenshot": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/routes/host-certificates-1280.png",
+      "responses": [
+        {
+          "path": "/auth/me",
+          "status": 200
+        },
+        {
+          "path": "/hosts",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        },
+        {
+          "path": "/hosts/6392f0eb-2a86-4731-9dec-be8315cb5ada/certificates",
+          "status": 200
+        }
+      ],
+      "page_errors": [],
+      "ended_at": "2026-10-10T19:58:30.163Z"
+    },
+    {
+      "name": "traps",
+      "width": 1280,
+      "route": "/traps",
+      "started_at": "2026-10-10T19:58:30.208Z",
+      "passed": true,
+      "viewport": {
+        "label": "traps-1280",
+        "width": 1280,
+        "height": 900,
+        "documentWidth": 1280
+      },
+      "screenshot": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/routes/traps-1280.png",
+      "responses": [
+        {
+          "path": "/auth/me",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        },
+        {
+          "path": "/deployments",
+          "status": 200
+        }
+      ],
+      "page_errors": [],
+      "ended_at": "2026-10-10T19:58:30.826Z"
+    },
+    {
+      "name": "trap-detail",
+      "width": 1280,
+      "route": "/traps/9baa82d0-87fc-4e3b-bc5b-b5be5ca62d94",
+      "started_at": "2026-10-10T19:58:30.862Z",
+      "passed": true,
+      "viewport": {
+        "label": "trap-detail-1280",
+        "width": 1280,
+        "height": 900,
+        "documentWidth": 1280
+      },
+      "screenshot": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/routes/trap-detail-1280.png",
+      "responses": [
+        {
+          "path": "/auth/me",
+          "status": 200
+        },
+        {
+          "path": "/deployments/9baa82d0-87fc-4e3b-bc5b-b5be5ca62d94",
+          "status": 200
+        },
+        {
+          "path": "/sessions",
+          "status": 200
+        },
+        {
+          "path": "/profiles",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        },
+        {
+          "path": "/source-blocks",
+          "status": 200
+        },
+        {
+          "path": "/artifacts",
+          "status": 200
+        }
+      ],
+      "page_errors": [],
+      "ended_at": "2026-10-10T19:58:31.753Z"
+    },
+    {
+      "name": "deploy-form",
+      "width": 1280,
+      "route": "/traps/new",
+      "started_at": "2026-10-10T19:58:31.789Z",
+      "passed": true,
+      "viewport": {
+        "label": "deploy-form-1280",
+        "width": 1280,
+        "height": 900,
+        "documentWidth": 1280
+      },
+      "screenshot": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/routes/deploy-form-1280.png",
+      "responses": [
+        {
+          "path": "/auth/me",
+          "status": 200
+        },
+        {
+          "path": "/hosts",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        },
+        {
+          "path": "/profiles",
+          "status": 200
+        },
+        {
+          "path": "/stream",
+          "status": 200
+        }
+      ],
+      "page_errors": [],
+      "ended_at": "2026-10-10T19:58:32.376Z"
+    },
+    {
+      "name": "events",
+      "width": 1280,
+      "route": "/events",
+      "started_at": "2026-10-10T19:58:32.408Z",
+      "passed": true,
+      "viewport": {
+        "label": "events-1280",
+        "width": 1280,
+        "height": 900,
+        "documentWidth": 1280
+      },
+      "screenshot": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/routes/events-1280.png",
+      "responses": [
+        {
+          "path": "/auth/me",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        },
+        {
+          "path": "/hosts",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        },
+        {
+          "path": "/deployments",
+          "status": 200
+        }
+      ],
+      "page_errors": [],
+      "ended_at": "2026-10-10T19:58:33.669Z"
+    },
+    {
+      "name": "event-inspector",
+      "width": 1280,
+      "route": "/events?deployment_id=9baa82d0-87fc-4e3b-bc5b-b5be5ca62d94",
+      "started_at": "2026-10-10T19:58:33.704Z",
+      "passed": true,
+      "viewport": {
+        "label": "event-inspector-1280",
+        "width": 1280,
+        "height": 900,
+        "documentWidth": 1280
+      },
+      "screenshot": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/routes/event-inspector-1280.png",
+      "responses": [
+        {
+          "path": "/auth/me",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        },
+        {
+          "path": "/hosts",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        },
+        {
+          "path": "/deployments",
+          "status": 200
+        }
+      ],
+      "page_errors": [],
+      "ended_at": "2026-10-10T19:58:35.395Z"
+    },
+    {
+      "name": "detection-policy",
+      "width": 1280,
+      "route": "/events",
+      "started_at": "2026-10-10T19:58:35.431Z",
+      "passed": true,
+      "viewport": {
+        "label": "detection-policy-1280",
+        "width": 1280,
+        "height": 900,
+        "documentWidth": 1280
+      },
+      "screenshot": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/routes/detection-policy-1280.png",
+      "responses": [
+        {
+          "path": "/auth/me",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        },
+        {
+          "path": "/hosts",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        },
+        {
+          "path": "/deployments",
+          "status": 200
+        },
+        {
+          "path": "/detection-policy",
+          "status": 200
+        },
+        {
+          "path": "/stream",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        },
+        {
+          "path": "/hosts",
+          "status": 200
+        },
+        {
+          "path": "/deployments",
+          "status": 200
+        }
+      ],
+      "page_errors": [],
+      "ended_at": "2026-10-10T19:58:37.057Z"
+    },
+    {
+      "name": "session-player",
+      "width": 1280,
+      "route": "/sessions/897e62d1-3f76-4bc2-b536-2912c48c1574",
+      "started_at": "2026-10-10T19:58:37.102Z",
+      "passed": true,
+      "viewport": {
+        "label": "session-player-1280",
+        "width": 1280,
+        "height": 900,
+        "documentWidth": 1280
+      },
+      "screenshot": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/routes/session-player-1280.png",
+      "responses": [
+        {
+          "path": "/auth/me",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        },
+        {
+          "path": "/hosts",
+          "status": 200
+        },
+        {
+          "path": "/sessions/897e62d1-3f76-4bc2-b536-2912c48c1574",
+          "status": 200
+        },
+        {
+          "path": "/sessions/897e62d1-3f76-4bc2-b536-2912c48c1574/playback",
+          "status": 200
+        },
+        {
+          "path": "/source-blocks",
+          "status": 200
+        },
+        {
+          "path": "/deployments/2b5c1cc6-3652-41bb-8b05-bce3b64b9a03",
+          "status": 200
+        }
+      ],
+      "page_errors": [],
+      "ended_at": "2026-10-10T19:58:38.381Z"
+    },
+    {
+      "name": "expanded-player",
+      "width": 1280,
+      "route": "/sessions/897e62d1-3f76-4bc2-b536-2912c48c1574",
+      "started_at": "2026-10-10T19:58:38.416Z",
+      "passed": true,
+      "viewport": {
+        "label": "expanded-player-1280",
+        "width": 1280,
+        "height": 900,
+        "documentWidth": 1280
+      },
+      "screenshot": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/routes/expanded-player-1280.png",
+      "responses": [
+        {
+          "path": "/auth/me",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        },
+        {
+          "path": "/hosts",
+          "status": 200
+        },
+        {
+          "path": "/sessions/897e62d1-3f76-4bc2-b536-2912c48c1574",
+          "status": 200
+        },
+        {
+          "path": "/sessions/897e62d1-3f76-4bc2-b536-2912c48c1574/playback",
+          "status": 200
+        },
+        {
+          "path": "/deployments/2b5c1cc6-3652-41bb-8b05-bce3b64b9a03",
+          "status": 200
+        },
+        {
+          "path": "/source-blocks",
+          "status": 200
+        }
+      ],
+      "page_errors": [],
+      "ended_at": "2026-10-10T19:58:39.710Z"
+    },
+    {
+      "name": "report",
+      "width": 1280,
+      "route": "/sessions/897e62d1-3f76-4bc2-b536-2912c48c1574/report",
+      "started_at": "2026-10-10T19:58:39.747Z",
+      "passed": true,
+      "viewport": {
+        "label": "report-1280",
+        "width": 1280,
+        "height": 900,
+        "documentWidth": 1280
+      },
+      "screenshot": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/routes/report-1280.png",
+      "responses": [
+        {
+          "path": "/auth/me",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        },
+        {
+          "path": "/sessions/897e62d1-3f76-4bc2-b536-2912c48c1574/report",
+          "status": 200
+        }
+      ],
+      "page_errors": [],
+      "ended_at": "2026-10-10T19:58:40.993Z"
+    },
+    {
+      "name": "cases",
+      "width": 1280,
+      "route": "/cases?case=142de0b4-868a-465b-85ca-207fb457bb0d",
+      "started_at": "2026-10-10T19:58:41.028Z",
+      "passed": true,
+      "viewport": {
+        "label": "cases-1280",
+        "width": 1280,
+        "height": 900,
+        "documentWidth": 1280
+      },
+      "screenshot": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/routes/cases-1280.png",
+      "responses": [
+        {
+          "path": "/auth/me",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        },
+        {
+          "path": "/cases",
+          "status": 200
+        },
+        {
+          "path": "/sessions",
+          "status": 200
+        },
+        {
+          "path": "/stream",
+          "status": 200
+        },
+        {
+          "path": "/cases",
+          "status": 200
+        },
+        {
+          "path": "/sessions",
+          "status": 200
+        },
+        {
+          "path": "/cases",
+          "status": 200
+        }
+      ],
+      "page_errors": [],
+      "ended_at": "2026-10-10T19:58:42.285Z"
+    },
+    {
+      "name": "integrations",
+      "width": 1280,
+      "route": "/integrations",
+      "started_at": "2026-10-10T19:58:42.320Z",
+      "passed": true,
+      "viewport": {
+        "label": "integrations-1280",
+        "width": 1280,
+        "height": 900,
+        "documentWidth": 1280
+      },
+      "screenshot": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/routes/integrations-1280.png",
+      "responses": [
+        {
+          "path": "/auth/me",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        },
+        {
+          "path": "/integration-tokens",
+          "status": 200
+        },
+        {
+          "path": "/deployments",
+          "status": 200
+        },
+        {
+          "path": "/stream",
+          "status": 200
+        },
+        {
+          "path": "/deployments",
+          "status": 200
+        }
+      ],
+      "page_errors": [],
+      "ended_at": "2026-10-10T19:58:43.563Z"
+    },
+    {
+      "name": "users",
+      "width": 1280,
+      "route": "/users",
+      "started_at": "2026-10-10T19:58:43.609Z",
+      "passed": true,
+      "viewport": {
+        "label": "users-1280",
+        "width": 1280,
+        "height": 900,
+        "documentWidth": 1280
+      },
+      "screenshot": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/routes/users-1280.png",
+      "responses": [
+        {
+          "path": "/auth/me",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        },
+        {
+          "path": "/users",
+          "status": 200
+        }
+      ],
+      "page_errors": [],
+      "ended_at": "2026-10-10T19:58:44.847Z"
+    },
+    {
+      "name": "storage",
+      "width": 1280,
+      "route": "/storage",
+      "started_at": "2026-10-10T19:58:44.882Z",
+      "passed": true,
+      "viewport": {
+        "label": "storage-1280",
+        "width": 1280,
+        "height": 900,
+        "documentWidth": 1280
+      },
+      "screenshot": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/routes/storage-1280.png",
+      "responses": [
+        {
+          "path": "/auth/me",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        },
+        {
+          "path": "/storage",
+          "status": 200
+        }
+      ],
+      "page_errors": [],
+      "ended_at": "2026-10-10T19:58:46.119Z"
+    },
+    {
+      "name": "audit",
+      "width": 1280,
+      "route": "/audit",
+      "started_at": "2026-10-10T19:58:46.152Z",
+      "passed": true,
+      "viewport": {
+        "label": "audit-1280",
+        "width": 1280,
+        "height": 900,
+        "documentWidth": 1280
+      },
+      "screenshot": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/routes/audit-1280.png",
+      "responses": [
+        {
+          "path": "/auth/me",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        },
+        {
+          "path": "/audit",
+          "status": 200
+        },
+        {
+          "path": "/stream",
+          "status": 200
+        }
+      ],
+      "page_errors": [],
+      "ended_at": "2026-10-10T19:58:47.431Z"
+    },
+    {
+      "name": "anonymous-login-and-protected-redirect",
+      "width": 1280,
+      "passed": true,
+      "viewport": {
+        "label": "login-1280",
+        "width": 1280,
+        "height": 900,
+        "documentWidth": 1280
+      },
+      "empty_password": true
+    },
+    {
+      "name": "overview",
+      "width": 390,
+      "route": "/",
+      "started_at": "2026-10-10T19:58:47.616Z",
+      "passed": true,
+      "viewport": {
+        "label": "overview-390",
+        "width": 390,
+        "height": 844,
+        "documentWidth": 390
+      },
+      "screenshot": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/routes/overview-390.png",
+      "responses": [
+        {
+          "path": "/auth/me",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        },
+        {
+          "path": "/findings",
+          "status": 200
+        },
+        {
+          "path": "/overview",
+          "status": 200
+        },
+        {
+          "path": "/topology",
+          "status": 200
+        }
+      ],
+      "page_errors": [],
+      "ended_at": "2026-10-10T19:58:48.347Z"
+    },
+    {
+      "name": "overview-geo",
+      "width": 390,
+      "route": "/",
+      "started_at": "2026-10-10T19:58:48.385Z",
+      "passed": true,
+      "viewport": {
+        "label": "overview-geo-390",
+        "width": 390,
+        "height": 844,
+        "documentWidth": 390
+      },
+      "screenshot": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/routes/overview-geo-390.png",
+      "responses": [
+        {
+          "path": "/auth/me",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        },
+        {
+          "path": "/findings",
+          "status": 200
+        },
+        {
+          "path": "/overview",
+          "status": 200
+        },
+        {
+          "path": "/geo-sources",
+          "status": 200
+        },
+        {
+          "path": "/topology",
+          "status": 200
+        },
+        {
+          "path": "/stream",
+          "status": 200
+        },
+        {
+          "path": "/topology",
+          "status": 200
+        }
+      ],
+      "page_errors": [],
+      "ended_at": "2026-10-10T19:58:49.325Z"
+    },
+    {
+      "name": "profiles",
+      "width": 390,
+      "route": "/profiles",
+      "started_at": "2026-10-10T19:58:49.370Z",
+      "passed": true,
+      "viewport": {
+        "label": "profiles-390",
+        "width": 390,
+        "height": 844,
+        "documentWidth": 390
+      },
+      "screenshot": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/routes/profiles-390.png",
+      "responses": [
+        {
+          "path": "/auth/me",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        },
+        {
+          "path": "/profiles",
+          "status": 200
+        }
+      ],
+      "page_errors": [],
+      "ended_at": "2026-10-10T19:58:50.604Z"
+    },
+    {
+      "name": "profile-markers",
+      "width": 390,
+      "route": "/profiles/ba36df13-4257-46c2-b842-00e5dc9b95e2",
+      "started_at": "2026-10-10T19:58:50.640Z",
+      "passed": true,
+      "viewport": {
+        "label": "profile-markers-390",
+        "width": 390,
+        "height": 844,
+        "documentWidth": 390
+      },
+      "screenshot": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/routes/profile-markers-390.png",
+      "responses": [
+        {
+          "path": "/auth/me",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        },
+        {
+          "path": "/stream",
+          "status": 200
+        },
+        {
+          "path": "/profiles/ba36df13-4257-46c2-b842-00e5dc9b95e2",
+          "status": 200
+        },
+        {
+          "path": "/honeytokens",
+          "status": 200
+        }
+      ],
+      "page_errors": [],
+      "ended_at": "2026-10-10T19:58:52.035Z"
+    },
+    {
+      "name": "builder-tcp-banner",
+      "width": 390,
+      "route": "/profiles/new?adapter=tcp-banner",
+      "started_at": "2026-10-10T19:58:52.069Z",
+      "passed": true,
+      "viewport": {
+        "label": "builder-tcp-banner-390",
+        "width": 390,
+        "height": 844,
+        "documentWidth": 390
+      },
+      "screenshot": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/routes/builder-tcp-banner-390.png",
+      "responses": [
+        {
+          "path": "/auth/me",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        }
+      ],
+      "page_errors": [],
+      "ended_at": "2026-10-10T19:58:53.318Z"
+    },
+    {
+      "name": "builder-http",
+      "width": 390,
+      "route": "/profiles/new?adapter=http",
+      "started_at": "2026-10-10T19:58:53.356Z",
+      "passed": true,
+      "viewport": {
+        "label": "builder-http-390",
+        "width": 390,
+        "height": 844,
+        "documentWidth": 390
+      },
+      "screenshot": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/routes/builder-http-390.png",
+      "responses": [
+        {
+          "path": "/auth/me",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        }
+      ],
+      "page_errors": [],
+      "ended_at": "2026-10-10T19:58:54.604Z"
+    },
+    {
+      "name": "builder-cowrie",
+      "width": 390,
+      "route": "/profiles/new?adapter=cowrie",
+      "started_at": "2026-10-10T19:58:54.651Z",
+      "passed": true,
+      "viewport": {
+        "label": "builder-cowrie-390",
+        "width": 390,
+        "height": 844,
+        "documentWidth": 390
+      },
+      "screenshot": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/routes/builder-cowrie-390.png",
+      "responses": [
+        {
+          "path": "/auth/me",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        },
+        {
+          "path": "/stream",
+          "status": 200
+        }
+      ],
+      "page_errors": [],
+      "ended_at": "2026-10-10T19:58:55.897Z"
+    },
+    {
+      "name": "builder-files",
+      "width": 390,
+      "route": "/profiles/new?adapter=cowrie",
+      "started_at": "2026-10-10T19:58:55.931Z",
+      "passed": true,
+      "viewport": {
+        "label": "builder-files-390",
+        "width": 390,
+        "height": 844,
+        "documentWidth": 390
+      },
+      "screenshot": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/routes/builder-files-390.png",
+      "responses": [
+        {
+          "path": "/auth/me",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        }
+      ],
+      "page_errors": [],
+      "ended_at": "2026-10-10T19:58:58.026Z"
+    },
+    {
+      "name": "existing-editor",
+      "width": 390,
+      "route": "/profiles/ba36df13-4257-46c2-b842-00e5dc9b95e2/edit",
+      "started_at": "2026-10-10T19:58:58.062Z",
+      "passed": true,
+      "viewport": {
+        "label": "existing-editor-390",
+        "width": 390,
+        "height": 844,
+        "documentWidth": 390
+      },
+      "screenshot": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/routes/existing-editor-390.png",
+      "responses": [
+        {
+          "path": "/auth/me",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        },
+        {
+          "path": "/profiles/ba36df13-4257-46c2-b842-00e5dc9b95e2",
+          "status": 200
+        }
+      ],
+      "page_errors": [],
+      "ended_at": "2026-10-10T19:58:59.289Z"
+    },
+    {
+      "name": "hosts",
+      "width": 390,
+      "route": "/hosts",
+      "started_at": "2026-10-10T19:58:59.324Z",
+      "passed": true,
+      "viewport": {
+        "label": "hosts-390",
+        "width": 390,
+        "height": 844,
+        "documentWidth": 390
+      },
+      "screenshot": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/routes/hosts-390.png",
+      "responses": [
+        {
+          "path": "/auth/me",
+          "status": 200
+        },
+        {
+          "path": "/hosts",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        }
+      ],
+      "page_errors": [],
+      "ended_at": "2026-10-10T19:58:59.901Z"
+    },
+    {
+      "name": "host-certificates",
+      "width": 390,
+      "route": "/hosts?host=6392f0eb-2a86-4731-9dec-be8315cb5ada",
+      "started_at": "2026-10-10T19:58:59.934Z",
+      "passed": true,
+      "viewport": {
+        "label": "host-certificates-390",
+        "width": 390,
+        "height": 844,
+        "documentWidth": 390
+      },
+      "screenshot": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/routes/host-certificates-390.png",
+      "responses": [
+        {
+          "path": "/auth/me",
+          "status": 200
+        },
+        {
+          "path": "/hosts",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        },
+        {
+          "path": "/hosts/6392f0eb-2a86-4731-9dec-be8315cb5ada/certificates",
+          "status": 200
+        }
+      ],
+      "page_errors": [],
+      "ended_at": "2026-10-10T19:59:00.822Z"
+    },
+    {
+      "name": "traps",
+      "width": 390,
+      "route": "/traps",
+      "started_at": "2026-10-10T19:59:00.868Z",
+      "passed": true,
+      "viewport": {
+        "label": "traps-390",
+        "width": 390,
+        "height": 844,
+        "documentWidth": 390
+      },
+      "screenshot": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/routes/traps-390.png",
+      "responses": [
+        {
+          "path": "/auth/me",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        },
+        {
+          "path": "/deployments",
+          "status": 200
+        }
+      ],
+      "page_errors": [],
+      "ended_at": "2026-10-10T19:59:01.466Z"
+    },
+    {
+      "name": "trap-detail",
+      "width": 390,
+      "route": "/traps/9baa82d0-87fc-4e3b-bc5b-b5be5ca62d94",
+      "started_at": "2026-10-10T19:59:01.503Z",
+      "passed": true,
+      "viewport": {
+        "label": "trap-detail-390",
+        "width": 390,
+        "height": 844,
+        "documentWidth": 390
+      },
+      "screenshot": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/routes/trap-detail-390.png",
+      "responses": [
+        {
+          "path": "/auth/me",
+          "status": 200
+        },
+        {
+          "path": "/deployments/9baa82d0-87fc-4e3b-bc5b-b5be5ca62d94",
+          "status": 200
+        },
+        {
+          "path": "/sessions",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        },
+        {
+          "path": "/profiles",
+          "status": 200
+        },
+        {
+          "path": "/source-blocks",
+          "status": 200
+        },
+        {
+          "path": "/artifacts",
+          "status": 200
+        }
+      ],
+      "page_errors": [],
+      "ended_at": "2026-10-10T19:59:02.034Z"
+    },
+    {
+      "name": "deploy-form",
+      "width": 390,
+      "route": "/traps/new",
+      "started_at": "2026-10-10T19:59:02.066Z",
+      "passed": true,
+      "viewport": {
+        "label": "deploy-form-390",
+        "width": 390,
+        "height": 844,
+        "documentWidth": 390
+      },
+      "screenshot": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/routes/deploy-form-390.png",
+      "responses": [
+        {
+          "path": "/auth/me",
+          "status": 200
+        },
+        {
+          "path": "/hosts",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        },
+        {
+          "path": "/profiles",
+          "status": 200
+        },
+        {
+          "path": "/stream",
+          "status": 200
+        }
+      ],
+      "page_errors": [],
+      "ended_at": "2026-10-10T19:59:02.644Z"
+    },
+    {
+      "name": "events",
+      "width": 390,
+      "route": "/events",
+      "started_at": "2026-10-10T19:59:02.688Z",
+      "passed": true,
+      "viewport": {
+        "label": "events-390",
+        "width": 390,
+        "height": 844,
+        "documentWidth": 390
+      },
+      "screenshot": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/routes/events-390.png",
+      "responses": [
+        {
+          "path": "/auth/me",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        },
+        {
+          "path": "/hosts",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        },
+        {
+          "path": "/deployments",
+          "status": 200
+        }
+      ],
+      "page_errors": [],
+      "ended_at": "2026-10-10T19:59:03.933Z"
+    },
+    {
+      "name": "event-inspector",
+      "width": 390,
+      "route": "/events?deployment_id=9baa82d0-87fc-4e3b-bc5b-b5be5ca62d94",
+      "started_at": "2026-10-10T19:59:03.967Z",
+      "passed": true,
+      "viewport": {
+        "label": "event-inspector-390",
+        "width": 390,
+        "height": 844,
+        "documentWidth": 390
+      },
+      "screenshot": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/routes/event-inspector-390.png",
+      "responses": [
+        {
+          "path": "/auth/me",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        },
+        {
+          "path": "/hosts",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        },
+        {
+          "path": "/deployments",
+          "status": 200
+        }
+      ],
+      "page_errors": [],
+      "ended_at": "2026-10-10T19:59:05.644Z"
+    },
+    {
+      "name": "detection-policy",
+      "width": 390,
+      "route": "/events",
+      "started_at": "2026-10-10T19:59:05.693Z",
+      "passed": true,
+      "viewport": {
+        "label": "detection-policy-390",
+        "width": 390,
+        "height": 844,
+        "documentWidth": 390
+      },
+      "screenshot": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/routes/detection-policy-390.png",
+      "responses": [
+        {
+          "path": "/auth/me",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        },
+        {
+          "path": "/hosts",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        },
+        {
+          "path": "/deployments",
+          "status": 200
+        },
+        {
+          "path": "/detection-policy",
+          "status": 200
+        },
+        {
+          "path": "/stream",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        },
+        {
+          "path": "/hosts",
+          "status": 200
+        },
+        {
+          "path": "/deployments",
+          "status": 200
+        }
+      ],
+      "page_errors": [],
+      "ended_at": "2026-10-10T19:59:07.289Z"
+    },
+    {
+      "name": "session-player",
+      "width": 390,
+      "route": "/sessions/897e62d1-3f76-4bc2-b536-2912c48c1574",
+      "started_at": "2026-10-10T19:59:07.324Z",
+      "passed": true,
+      "viewport": {
+        "label": "session-player-390",
+        "width": 390,
+        "height": 844,
+        "documentWidth": 390
+      },
+      "screenshot": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/routes/session-player-390.png",
+      "responses": [
+        {
+          "path": "/auth/me",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        },
+        {
+          "path": "/stream",
+          "status": 200
+        },
+        {
+          "path": "/hosts",
+          "status": 200
+        },
+        {
+          "path": "/sessions/897e62d1-3f76-4bc2-b536-2912c48c1574",
+          "status": 200
+        },
+        {
+          "path": "/sessions/897e62d1-3f76-4bc2-b536-2912c48c1574/playback",
+          "status": 200
+        },
+        {
+          "path": "/source-blocks",
+          "status": 200
+        },
+        {
+          "path": "/deployments/2b5c1cc6-3652-41bb-8b05-bce3b64b9a03",
+          "status": 200
+        },
+        {
+          "path": "/hosts",
+          "status": 200
+        },
+        {
+          "path": "/deployments/2b5c1cc6-3652-41bb-8b05-bce3b64b9a03",
+          "status": 200
+        },
+        {
+          "path": "/source-blocks",
+          "status": 200
+        }
+      ],
+      "page_errors": [],
+      "ended_at": "2026-10-10T19:59:07.857Z"
+    },
+    {
+      "name": "expanded-player",
+      "width": 390,
+      "route": "/sessions/897e62d1-3f76-4bc2-b536-2912c48c1574",
+      "started_at": "2026-10-10T19:59:07.891Z",
+      "passed": true,
+      "viewport": {
+        "label": "expanded-player-390",
+        "width": 390,
+        "height": 844,
+        "documentWidth": 390
+      },
+      "screenshot": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/routes/expanded-player-390.png",
+      "responses": [
+        {
+          "path": "/auth/me",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        },
+        {
+          "path": "/hosts",
+          "status": 200
+        },
+        {
+          "path": "/sessions/897e62d1-3f76-4bc2-b536-2912c48c1574",
+          "status": 200
+        },
+        {
+          "path": "/sessions/897e62d1-3f76-4bc2-b536-2912c48c1574/playback",
+          "status": 200
+        },
+        {
+          "path": "/source-blocks",
+          "status": 200
+        },
+        {
+          "path": "/deployments/2b5c1cc6-3652-41bb-8b05-bce3b64b9a03",
+          "status": 200
+        }
+      ],
+      "page_errors": [],
+      "ended_at": "2026-10-10T19:59:09.169Z"
+    },
+    {
+      "name": "report",
+      "width": 390,
+      "route": "/sessions/897e62d1-3f76-4bc2-b536-2912c48c1574/report",
+      "started_at": "2026-10-10T19:59:09.206Z",
+      "passed": true,
+      "viewport": {
+        "label": "report-390",
+        "width": 390,
+        "height": 844,
+        "documentWidth": 390
+      },
+      "screenshot": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/routes/report-390.png",
+      "responses": [
+        {
+          "path": "/auth/me",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        },
+        {
+          "path": "/sessions/897e62d1-3f76-4bc2-b536-2912c48c1574/report",
+          "status": 200
+        }
+      ],
+      "page_errors": [],
+      "ended_at": "2026-10-10T19:59:10.436Z"
+    },
+    {
+      "name": "cases",
+      "width": 390,
+      "route": "/cases?case=142de0b4-868a-465b-85ca-207fb457bb0d",
+      "started_at": "2026-10-10T19:59:10.470Z",
+      "passed": true,
+      "viewport": {
+        "label": "cases-390",
+        "width": 390,
+        "height": 844,
+        "documentWidth": 390
+      },
+      "screenshot": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/routes/cases-390.png",
+      "responses": [
+        {
+          "path": "/auth/me",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        },
+        {
+          "path": "/cases",
+          "status": 200
+        },
+        {
+          "path": "/sessions",
+          "status": 200
+        }
+      ],
+      "page_errors": [],
+      "ended_at": "2026-10-10T19:59:11.714Z"
+    },
+    {
+      "name": "integrations",
+      "width": 390,
+      "route": "/integrations",
+      "started_at": "2026-10-10T19:59:11.749Z",
+      "passed": true,
+      "viewport": {
+        "label": "integrations-390",
+        "width": 390,
+        "height": 844,
+        "documentWidth": 390
+      },
+      "screenshot": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/routes/integrations-390.png",
+      "responses": [
+        {
+          "path": "/auth/me",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        },
+        {
+          "path": "/integration-tokens",
+          "status": 200
+        },
+        {
+          "path": "/deployments",
+          "status": 200
+        },
+        {
+          "path": "/stream",
+          "status": 200
+        }
+      ],
+      "page_errors": [],
+      "ended_at": "2026-10-10T19:59:12.995Z"
+    },
+    {
+      "name": "users",
+      "width": 390,
+      "route": "/users",
+      "started_at": "2026-10-10T19:59:13.040Z",
+      "passed": true,
+      "viewport": {
+        "label": "users-390",
+        "width": 390,
+        "height": 844,
+        "documentWidth": 390
+      },
+      "screenshot": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/routes/users-390.png",
+      "responses": [
+        {
+          "path": "/auth/me",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        },
+        {
+          "path": "/users",
+          "status": 200
+        }
+      ],
+      "page_errors": [],
+      "ended_at": "2026-10-10T19:59:14.268Z"
+    },
+    {
+      "name": "storage",
+      "width": 390,
+      "route": "/storage",
+      "started_at": "2026-10-10T19:59:14.310Z",
+      "passed": true,
+      "viewport": {
+        "label": "storage-390",
+        "width": 390,
+        "height": 844,
+        "documentWidth": 390
+      },
+      "screenshot": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/routes/storage-390.png",
+      "responses": [
+        {
+          "path": "/auth/me",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        },
+        {
+          "path": "/storage",
+          "status": 200
+        }
+      ],
+      "page_errors": [],
+      "ended_at": "2026-10-10T19:59:15.549Z"
+    },
+    {
+      "name": "audit",
+      "width": 390,
+      "route": "/audit",
+      "started_at": "2026-10-10T19:59:15.589Z",
+      "passed": true,
+      "viewport": {
+        "label": "audit-390",
+        "width": 390,
+        "height": 844,
+        "documentWidth": 390
+      },
+      "screenshot": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/routes/audit-390.png",
+      "responses": [
+        {
+          "path": "/auth/me",
+          "status": 200
+        },
+        {
+          "path": "/events",
+          "status": 200
+        },
+        {
+          "path": "/audit",
+          "status": 200
+        }
+      ],
+      "page_errors": [],
+      "ended_at": "2026-10-10T19:59:16.824Z"
+    },
+    {
+      "name": "anonymous-login-and-protected-redirect",
+      "width": 390,
+      "passed": true,
+      "viewport": {
+        "label": "login-390",
+        "width": 390,
+        "height": 844,
+        "documentWidth": 390
+      },
+      "empty_password": true
+    }
+  ],
+  "completed": true,
+  "passed": true,
+  "fatal": null,
+  "expected_checks": 52,
+  "mutations": "none except own auth login/logout; drafts isolated in own pages",
+  "role_matrix": "independent actual viewer/analyst/operator coverage in bonus-browser-acceptance.json",
+  "dist_sha256": "7ff8311a91c2e40f1acf984e51701a2692d2af3bdfe6370516d92d7d56fde9ee",
+  "served_index_exact_match_checked_at": "2026-10-10T19:59:53.649037+00:00",
+  "served_index_exact_match": true
+}

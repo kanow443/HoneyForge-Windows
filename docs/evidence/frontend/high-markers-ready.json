@@ -1,0 +1,22 @@
+{
+  "at": "2026-10-11T00:14:56.843898+00:00",
+  "frontend_sources_ready": true,
+  "targeted_test_files": 5,
+  "targeted_tests_passed": 34,
+  "typescript": true,
+  "build": true,
+  "browser_passed": true,
+  "browser_run": "8fee4ef7",
+  "viewports": 8,
+  "widths": [
+    390,
+    1280
+  ],
+  "all_viewports_fit": true,
+  "own_tokens_revoked": true,
+  "own_profiles_archived": true,
+  "manifest_sha256": "9fb5c4d49372b6b70a982d8cfb39e1b1dade7cbd9785ceee6cc366a3d9f85654",
+  "sensor_mutations": false,
+  "guest_runtime_verification_by_this_frontend_run": false,
+  "gateway_or_windows_package_verification_by_this_run": false
+}

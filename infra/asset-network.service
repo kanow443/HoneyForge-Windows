@@ -1,0 +1,15 @@
+[Unit]
+Description=Asset management network
+After=network-online.target docker.service honeyforge-firewall.service
+Requires=docker.service honeyforge-firewall.service
+Wants=network-online.target
+Before=asset-sync.service
+
+[Service]
+Type=oneshot
+WorkingDirectory=/opt/asset-sync
+ExecStart=/opt/asset-sync/.venv/bin/python scripts/asset-network.py
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target

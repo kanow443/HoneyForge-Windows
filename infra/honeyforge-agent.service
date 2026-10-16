@@ -1,0 +1,19 @@
+[Unit]
+Description=HoneyForge durable sensor agent
+After=network-online.target docker.service honeyforge-firewall.service
+Requires=docker.service honeyforge-firewall.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/honeyforge
+EnvironmentFile=/etc/honeyforge/agent.env
+ExecStart=/opt/honeyforge/.venv/bin/hf-agent run
+Restart=on-failure
+RestartSec=3
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

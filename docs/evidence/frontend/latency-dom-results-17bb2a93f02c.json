@@ -1,0 +1,25 @@
+{
+  "run_id": "17bb2a93f02c",
+  "state": "aggregate_progress_preserved_finalization_interrupted",
+  "browser": "isolated real Playwright Chromium",
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "measurement": "viewport-intersecting rendered row DOM/layout, not paint",
+  "last_progress_at": "2026-10-10T19:03:57.444Z",
+  "samples": 8557,
+  "p95_ms": 1382,
+  "api_paths": 9000,
+  "api_paths_not_rendered": 443,
+  "api_errors": 0,
+  "parse_errors": 0,
+  "raw_per_event_samples_saved": false,
+  "negative_delays_final_check": null,
+  "whole_backend_run": "passed",
+  "formal_final_observer_pass": null,
+  "reason": "On macOS numeric signal12 is not SIGUSR2. Wrong signal terminated own Node observer before final raw-sample serialization/logout. Latest real progress after completed900s load was already persisted; no timings are reconstructed or fabricated.",
+  "source": "latency-progress-17bb2a93f02c.json",
+  "observer_source_sha256": "3da2fd8f954df57ba5acc97f80de76849003d5407c3abdff93a09df0ccf183d4",
+  "session_cleanup": "Own observer logout could not execute; session expires normally. No shared administrator sessions revoked."
+}

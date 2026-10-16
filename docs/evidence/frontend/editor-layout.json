@@ -1,0 +1,19 @@
+{
+  "at": "2026-10-10T18:35:31.577Z",
+  "real_browser": true,
+  "desktop": {
+    "label": "editor 1280",
+    "width": 1280,
+    "height": 900,
+    "documentWidth": 1280
+  },
+  "mobile": {
+    "label": "editor 390",
+    "width": 390,
+    "height": 844,
+    "documentWidth": 390
+  },
+  "editor_width": 735.125,
+  "preview_width": 462.875,
+  "passed": true
+}

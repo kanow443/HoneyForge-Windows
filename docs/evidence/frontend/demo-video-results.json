@@ -1,0 +1,133 @@
+{
+  "at": "2026-10-10T20:05:22.337Z",
+  "real_browser": true,
+  "raw_private_values_recorded": false,
+  "scope": "separate Acceptance tcp-banner18223 / Cowrie18222 only; no Operations/Scale trap change",
+  "runs": [
+    {
+      "number": 1,
+      "started_at": "2026-10-10T20:03:46.598Z",
+      "stages": [
+        {
+          "name": "real network overview",
+          "at": "2026-10-10T20:03:51.928Z"
+        },
+        {
+          "name": "Low running trap and real TCP banner contact",
+          "at": "2026-10-10T20:03:55.305Z"
+        },
+        {
+          "name": "published Low profile in constructor",
+          "at": "2026-10-10T20:03:57.924Z"
+        },
+        {
+          "name": "real SSH commands and real SFTP upload",
+          "at": "2026-10-10T20:04:04.133Z"
+        },
+        {
+          "name": "LIVE session player and received terminal output",
+          "at": "2026-10-10T20:04:11.855Z"
+        },
+        {
+          "name": "actual artifact UI download and independent hash",
+          "at": "2026-10-10T20:04:14.529Z"
+        },
+        {
+          "name": "explicit scoped response request",
+          "at": "2026-10-10T20:04:17.098Z"
+        },
+        {
+          "name": "real firewall ACK and real SSH transport EOF",
+          "at": "2026-10-10T20:04:18.946Z"
+        },
+        {
+          "name": "cancel request and actual agent release ACK",
+          "at": "2026-10-10T20:04:23.227Z"
+        },
+        {
+          "name": "session report with actual evidence and response record",
+          "at": "2026-10-10T20:04:33.836Z"
+        }
+      ],
+      "passed": true,
+      "low_probe": {
+        "received_bytes": 23
+      },
+      "session_id": "51386841-afbf-43f4-8a6e-963e88c94dc7",
+      "artifact_id": "d244c0f9-35d1-584f-a47e-8f6ddab2d882",
+      "artifact_sha256": "2721ab99a0da9a7522232fc162b61566e851506fee9efdebcc9561cc0b4436e5",
+      "artifact_size_bytes": 40,
+      "policy_id": "76379349-f8ae-4861-a116-d6964c623caa",
+      "termination_count": 1,
+      "client_closed": true,
+      "release_ack": true,
+      "ended_at": "2026-10-10T20:04:35.637Z",
+      "video": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/video/honeyforge-demo-1.webm"
+    },
+    {
+      "number": 2,
+      "started_at": "2026-10-10T20:04:36.425Z",
+      "stages": [
+        {
+          "name": "real network overview",
+          "at": "2026-10-10T20:04:36.704Z"
+        },
+        {
+          "name": "Low running trap and real TCP banner contact",
+          "at": "2026-10-10T20:04:40.113Z"
+        },
+        {
+          "name": "published Low profile in constructor",
+          "at": "2026-10-10T20:04:42.729Z"
+        },
+        {
+          "name": "real SSH commands and real SFTP upload",
+          "at": "2026-10-10T20:04:48.938Z"
+        },
+        {
+          "name": "LIVE session player and received terminal output",
+          "at": "2026-10-10T20:04:56.621Z"
+        },
+        {
+          "name": "actual artifact UI download and independent hash",
+          "at": "2026-10-10T20:04:59.289Z"
+        },
+        {
+          "name": "explicit scoped response request",
+          "at": "2026-10-10T20:05:01.864Z"
+        },
+        {
+          "name": "real firewall ACK and real SSH transport EOF",
+          "at": "2026-10-10T20:05:04.927Z"
+        },
+        {
+          "name": "cancel request and actual agent release ACK",
+          "at": "2026-10-10T20:05:09.477Z"
+        },
+        {
+          "name": "session report with actual evidence and response record",
+          "at": "2026-10-10T20:05:20.087Z"
+        }
+      ],
+      "passed": true,
+      "low_probe": {
+        "received_bytes": 23
+      },
+      "session_id": "454a8db2-00e1-4890-b360-add9b0cce493",
+      "artifact_id": "07e8cdcd-d251-59a5-9d3b-ed7f109d33c5",
+      "artifact_sha256": "97d7f825b0dc23cbbb745f22ea6d046b8d3d11fc329552fb22f18a6d3bb25e86",
+      "artifact_size_bytes": 40,
+      "policy_id": "f3370281-b07c-4f8a-9fb2-a32123a9769c",
+      "termination_count": 1,
+      "client_closed": true,
+      "release_ack": true,
+      "ended_at": "2026-10-10T20:05:21.887Z",
+      "video": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/video/honeyforge-demo-2.webm"
+    }
+  ],
+  "passed": true,
+  "baseURL": "http://localhost:5173",
+  "dist_sha256": "7ff8311a91c2e40f1acf984e51701a2692d2af3bdfe6370516d92d7d56fde9ee",
+  "canonical_browser_origin_matches_config": true,
+  "csrf_origin_bypassed": false
+}

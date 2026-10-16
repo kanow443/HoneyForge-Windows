@@ -1,0 +1,32 @@
+{
+  "at": "2026-10-10T17:32:00.670596+00:00",
+  "scope": "Local Docker Desktop/OrbStack on Apple Silicon; HTTPS read-only profiles API on a small acceptance database. No ingestion, UI render or external SLA measurement.",
+  "method": "nearest-rank quantiles of individual HTTP requests; pool queue wait excluded",
+  "stages": [
+    {
+      "concurrency": 2,
+      "requests": 100,
+      "duration_seconds": 0.342,
+      "requests_per_second": 292.12,
+      "failures": 0,
+      "p50_ms": 5.78,
+      "p95_ms": 11.69,
+      "p99_ms": 20.4
+    },
+    {
+      "concurrency": 8,
+      "requests": 300,
+      "duration_seconds": 0.94,
+      "requests_per_second": 319.1,
+      "failures": 0,
+      "p50_ms": 22.22,
+      "p95_ms": 46.2,
+      "p99_ms": 66.36
+    }
+  ],
+  "soak": {
+    "duration_seconds": 30.106,
+    "requests": 115,
+    "failures": 0
+  }
+}

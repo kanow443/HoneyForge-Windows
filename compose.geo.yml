@@ -1,0 +1,13 @@
+# Optional production MMDB databases. These licensed data files are supplied separately.
+services:
+  api:
+    environment:
+      HF_GEO_CITY_DB: /var/lib/geo/${HF_GEO_CITY_FILENAME:-dbip-city-lite.mmdb}
+      HF_GEO_ASN_DB: /var/lib/geo/${HF_GEO_ASN_FILENAME:-dbip-asn-lite.mmdb}
+    volumes:
+      - type: bind
+        source: ${HF_GEO_DIRECTORY:?Set an existing directory containing licensed MMDB databases}
+        target: /var/lib/geo
+        read_only: true
+        bind:
+          create_host_path: false

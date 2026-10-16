@@ -1,0 +1,27 @@
+{
+  "run_id": "reporter-smoke-20261010",
+  "browser": "isolated real Chromium",
+  "viewport": {
+    "label": "live event journal",
+    "width": 1280,
+    "height": 900,
+    "documentWidth": 1280
+  },
+  "started_at": "2026-10-10T19:20:15.978Z",
+  "ended_at": "2026-10-10T19:20:45.994Z",
+  "duration_seconds": 30.016,
+  "measurement": "first rendered table-row intersection with browser viewport DOM/layout Date.now minus corresponding real API observed_at; paint may add a frame; no API/SSE substitute",
+  "excluded_preexisting_api_paths": 0,
+  "samples": 0,
+  "p95_ms": null,
+  "min_ms": null,
+  "max_ms": null,
+  "negative_delays": 0,
+  "api_errors": 0,
+  "parse_errors": 0,
+  "api_paths_not_rendered": 0,
+  "dom_paths_without_api_pair": 0,
+  "unseen_paths": [],
+  "unpaired_paths": [],
+  "passed": false
+}

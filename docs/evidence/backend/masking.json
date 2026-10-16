@@ -1,0 +1,86 @@
+{
+  "at": "2026-10-10T19:25:36.279100+00:00",
+  "checks": {
+    "two_management_interfaces_and_subnets": true,
+    "gateway_only_management_egress": true,
+    "decoys_cannot_reach_management_host_neighbours_or_internet": true,
+    "trap_ports_only_on_explicit_decoy_address": true,
+    "agent_private_paths_and_docker_socket_not_mounted": true,
+    "sftp_bytes_survived_agent_restart_and_runtime_redeploy": true
+  },
+  "sensors": [
+    {
+      "management_source": "10.88.0.1",
+      "management_interface": "asmgmt0",
+      "verified_https": true,
+      "non_gateway_egress_denied": true,
+      "private_state_permissions": true,
+      "host_id": "dad7e9c1-5eaf-45e2-a7b8-11be5c2420c0",
+      "address": "192.168.139.142",
+      "decoy_boundary": {
+        "management_host_neighbour_internet_denied": [
+          [
+            "0.250.250.254",
+            18443
+          ],
+          [
+            "10.88.0.1",
+            18443
+          ],
+          [
+            "192.168.139.223",
+            18422
+          ],
+          [
+            "172.23.0.2",
+            2222
+          ],
+          [
+            "1.1.1.1",
+            443
+          ]
+        ],
+        "agent_paths_and_socket_absent": true
+      },
+      "explicit_trap_bindings": 7,
+      "management_forward_counters": "Chain FORWARD (policy DROP 1 packets, 60 bytes)\n pkts bytes target     prot opt in     out     source               destination         \n10281 5495K ACCEPT     0    --  *      *       0.0.0.0/0            0.0.0.0/0            ctstate RELATED,ESTABLISHED\n   10   600 ACCEPT     6    --  mgmt0  *       10.88.0.1            0.250.250.254        tcp dpt:18443\n"
+    },
+    {
+      "management_source": "10.88.0.1",
+      "management_interface": "asmgmt0",
+      "verified_https": true,
+      "non_gateway_egress_denied": true,
+      "private_state_permissions": true,
+      "host_id": "6392f0eb-2a86-4731-9dec-be8315cb5ada",
+      "address": "192.168.139.223",
+      "decoy_boundary": {
+        "management_host_neighbour_internet_denied": [
+          [
+            "0.250.250.254",
+            18443
+          ],
+          [
+            "10.88.0.1",
+            18443
+          ],
+          [
+            "192.168.139.223",
+            18422
+          ],
+          [
+            "172.20.0.2",
+            2222
+          ],
+          [
+            "1.1.1.1",
+            443
+          ]
+        ],
+        "agent_paths_and_socket_absent": true
+      },
+      "explicit_trap_bindings": 3,
+      "management_forward_counters": "Chain FORWARD (policy DROP 1 packets, 60 bytes)\n pkts bytes target     prot opt in     out     source               destination         \n10201 2855K ACCEPT     0    --  *      *       0.0.0.0/0            0.0.0.0/0            ctstate RELATED,ESTABLISHED\n   11   660 ACCEPT     6    --  mgmt0  *       10.88.0.1            0.250.250.254        tcp dpt:18443\n"
+    }
+  ],
+  "boundary": "Logical network isolation on each dedicated VM; shared outer virtual NIC, no claim of a physically separate management fabric. Trusted host/hypervisor compromise excluded."
+}

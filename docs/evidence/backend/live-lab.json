@@ -1,0 +1,31 @@
+{
+  "at": "2026-10-10T19:26:38.768134+00:00",
+  "checks": {
+    "sse_command_delivery": {
+      "events": 10,
+      "p95_seconds": 0.868,
+      "median_seconds": 0.614,
+      "rate": "10 commands/s",
+      "measurement": "command send to SSE-triggered API read; excludes browser rendering"
+    },
+    "sensor_restart_preserved_policy": true,
+    "source_scope": {
+      "blocked_source": "192.168.139.3",
+      "blocked_port": 12222,
+      "same_source_http_allowed": true,
+      "different_sensor_source_ssh_allowed": true,
+      "management_available": true
+    },
+    "offline_recovery": {
+      "outage_seconds": 60,
+      "queued_during_outage": 32,
+      "unique_marked_requests_recovered": 12,
+      "autonomous_ttl_verified": true,
+      "duplicate_requests": 0
+    }
+  },
+  "deployments": [
+    "7b5f78ca-de34-4124-8e15-7e0924cbe702",
+    "3e3ef2ad-c3e3-49b1-b7f9-efe1cedcc2e2"
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "at": "2026-10-10T19:24:09.832Z",
+  "run": "1d98d9f0",
+  "checks": [
+    {
+      "name": "actual UI URL marker issue/revoke and explicit redeploy review",
+      "passed": true,
+      "at": "2026-10-10T19:23:59.460Z"
+    },
+    {
+      "name": "actual CSV/STIX UI downloads with independent parsing and observed-data semantics",
+      "passed": true,
+      "at": "2026-10-10T19:24:01.044Z"
+    },
+    {
+      "name": "actual detection review uses server policy without modifying live settings",
+      "passed": true,
+      "at": "2026-10-10T19:24:02.058Z"
+    },
+    {
+      "name": "actual Geo/ASN unavailable states and source counts at390",
+      "passed": true,
+      "at": "2026-10-10T19:24:02.870Z"
+    },
+    {
+      "name": "actual admin certificate list/review only; no live certificate revoked",
+      "passed": true,
+      "at": "2026-10-10T19:24:03.647Z"
+    },
+    {
+      "name": "real viewer analyst operator API and UI permission boundaries",
+      "passed": true,
+      "at": "2026-10-10T19:24:09.789Z"
+    }
+  ],
+  "viewports": [
+    {
+      "label": "bonus markers1280",
+      "width": 1280,
+      "height": 900,
+      "documentWidth": 1280
+    },
+    {
+      "label": "IOC modal390",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390
+    },
+    {
+      "label": "policy modal390",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390
+    },
+    {
+      "label": "geo390",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390
+    },
+    {
+      "label": "certificates390",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390
+    },
+    {
+      "label": "viewer bonus390",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390
+    },
+    {
+      "label": "analyst bonus390",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390
+    },
+    {
+      "label": "operator bonus390",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390
+    }
+  ],
+  "exports": [
+    {
+      "format": "stix",
+      "filename": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/bonus-observed-ioc.json",
+      "bytes": 3351,
+      "sha256": "a9e4b6f3503133cda8809b21b283d1389ebbab288036cc6f1b59d4292fdff113",
+      "parse_valid": true
+    },
+    {
+      "format": "csv",
+      "filename": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/bonus-observed-ioc.csv",
+      "bytes": 1171,
+      "sha256": "d18bb8d30027f03b207e44c11cad149004eb88e2b979ed89541ac66a855e2ce0",
+      "parse_valid": true
+    }
+  ],
+  "passed": true,
+  "error": null,
+  "scope": "own undeployed profile only; no Foundation runtime or live certificate change; policy review only",
+  "cleanup": {
+    "profile_id": "73c1693d-d7f3-41c9-8310-45becd78398a",
+    "profile_deleted": true,
+    "own_marker_ids_revoked": [
+      "c9dd8594-88b0-4e9a-8819-bf68815b86ae",
+      "04b799b8-0add-4294-8cc1-37fc8bb3c183"
+    ],
+    "user_id": "8821a1ce-7401-48a9-a37b-25f931593d02",
+    "user_final_role": "viewer"
+  },
+  "private_values_recorded": false
+}

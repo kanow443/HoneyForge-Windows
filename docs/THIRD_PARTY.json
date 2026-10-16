@@ -1,0 +1,536 @@
+{
+  "python": [
+    {
+      "name": "fastapi",
+      "version": "0.143.0",
+      "license_expression": "MIT",
+      "license": null,
+      "homepage": null,
+      "project_urls": [
+        "Homepage, https://github.com/fastapi/fastapi",
+        "Documentation, https://fastapi.tiangolo.com/",
+        "Repository, https://github.com/fastapi/fastapi",
+        "Issues, https://github.com/fastapi/fastapi/issues",
+        "Changelog, https://fastapi.tiangolo.com/release-notes/"
+      ]
+    },
+    {
+      "name": "uvicorn",
+      "version": "0.54.0",
+      "license_expression": "BSD-3-Clause",
+      "license": null,
+      "homepage": null,
+      "project_urls": [
+        "Changelog, https://uvicorn.dev/release-notes",
+        "Funding, https://github.com/sponsors/Kludex",
+        "Homepage, https://uvicorn.dev/",
+        "Source, https://github.com/Kludex/uvicorn"
+      ]
+    },
+    {
+      "name": "sqlalchemy",
+      "version": "2.0.54",
+      "license_expression": null,
+      "license": "MIT",
+      "homepage": "https://www.sqlalchemy.org",
+      "project_urls": [
+        "Documentation, https://docs.sqlalchemy.org",
+        "Issue Tracker, https://github.com/sqlalchemy/sqlalchemy/"
+      ]
+    },
+    {
+      "name": "psycopg",
+      "version": "3.3.6",
+      "license_expression": "LGPL-3.0-only",
+      "license": null,
+      "homepage": null,
+      "project_urls": [
+        "Homepage, https://psycopg.org/",
+        "Documentation, https://psycopg.org/psycopg3/docs/",
+        "Changes, https://psycopg.org/psycopg3/docs/news.html",
+        "Code, https://github.com/psycopg/psycopg",
+        "Issue Tracker, https://github.com/psycopg/psycopg/issues",
+        "Funding, https://github.com/sponsors/dvarrazzo"
+      ]
+    },
+    {
+      "name": "alembic",
+      "version": "1.20.0",
+      "license_expression": "MIT",
+      "license": null,
+      "homepage": null,
+      "project_urls": [
+        "Homepage, https://alembic.sqlalchemy.org",
+        "Documentation, https://alembic.sqlalchemy.org/en/latest/",
+        "Changelog, https://alembic.sqlalchemy.org/en/latest/changelog.html",
+        "Source, https://github.com/sqlalchemy/alembic/",
+        "Issue Tracker, https://github.com/sqlalchemy/alembic/issues/"
+      ]
+    },
+    {
+      "name": "pydantic",
+      "version": "2.14.0",
+      "license_expression": "MIT",
+      "license": null,
+      "homepage": null,
+      "project_urls": [
+        "Homepage, https://github.com/pydantic/pydantic",
+        "Documentation, https://pydantic.dev/docs/validation/latest/get-started/",
+        "Funding, https://github.com/sponsors/samuelcolvin",
+        "Source, https://github.com/pydantic/pydantic",
+        "Changelog, https://pydantic.dev/docs/validation/latest/get-started/changelog/"
+      ]
+    },
+    {
+      "name": "pydantic-settings",
+      "version": "2.15.0",
+      "license_expression": "MIT",
+      "license": null,
+      "homepage": null,
+      "project_urls": [
+        "Homepage, https://github.com/pydantic/pydantic-settings",
+        "Funding, https://github.com/sponsors/samuelcolvin",
+        "Source, https://github.com/pydantic/pydantic-settings",
+        "Changelog, https://github.com/pydantic/pydantic-settings/releases",
+        "Documentation, https://docs.pydantic.dev/dev-v2/concepts/pydantic_settings/"
+      ]
+    },
+    {
+      "name": "httpx",
+      "version": "0.28.1",
+      "license_expression": null,
+      "license": "BSD-3-Clause",
+      "homepage": null,
+      "project_urls": [
+        "Changelog, https://github.com/encode/httpx/blob/master/CHANGELOG.md",
+        "Documentation, https://www.python-httpx.org",
+        "Homepage, https://github.com/encode/httpx",
+        "Source, https://github.com/encode/httpx"
+      ]
+    },
+    {
+      "name": "argon2-cffi",
+      "version": "25.1.0",
+      "license_expression": "MIT",
+      "license": null,
+      "homepage": null,
+      "project_urls": [
+        "Documentation, https://argon2-cffi.readthedocs.io/",
+        "Changelog, https://github.com/hynek/argon2-cffi/blob/main/CHANGELOG.md",
+        "GitHub, https://github.com/hynek/argon2-cffi",
+        "Funding, https://github.com/sponsors/hynek",
+        "Tidelift, https://tidelift.com/?utm_source=lifter&utm_medium=referral&utm_campaign=hynek"
+      ]
+    },
+    {
+      "name": "docker",
+      "version": "7.2.0",
+      "license_expression": "Apache-2.0",
+      "license": null,
+      "homepage": null,
+      "project_urls": [
+        "Changelog, https://docker-py.readthedocs.io/en/stable/change-log.html",
+        "Documentation, https://docker-py.readthedocs.io",
+        "Homepage, https://github.com/docker/docker-py",
+        "Source, https://github.com/docker/docker-py",
+        "Tracker, https://github.com/docker/docker-py/issues"
+      ]
+    },
+    {
+      "name": "psutil",
+      "version": "7.2.2",
+      "license_expression": null,
+      "license": "BSD-3-Clause",
+      "homepage": "https://github.com/giampaolo/psutil",
+      "project_urls": []
+    },
+    {
+      "name": "cryptography",
+      "version": "50.0.2",
+      "license_expression": "Apache-2.0 OR BSD-3-Clause",
+      "license": null,
+      "homepage": null,
+      "project_urls": [
+        "changelog, https://cryptography.io/en/latest/changelog/",
+        "documentation, https://cryptography.io/",
+        "homepage, https://github.com/pyca/cryptography",
+        "issues, https://github.com/pyca/cryptography/issues",
+        "source, https://github.com/pyca/cryptography/"
+      ]
+    },
+    {
+      "name": "paramiko",
+      "version": "4.0.0",
+      "license_expression": "LGPL-2.1",
+      "license": null,
+      "homepage": null,
+      "project_urls": [
+        "Docs, https://docs.paramiko.org",
+        "Source, https://github.com/paramiko/paramiko",
+        "Changelog, https://www.paramiko.org/changelog.html",
+        "CI, https://app.circleci.com/pipelines/github/paramiko/paramiko",
+        "Issues, https://github.com/paramiko/paramiko/issues"
+      ]
+    },
+    {
+      "name": "pytest",
+      "version": "9.1.1",
+      "license_expression": "MIT",
+      "license": null,
+      "homepage": null,
+      "project_urls": [
+        "Changelog, https://docs.pytest.org/en/stable/changelog.html",
+        "Contact, https://docs.pytest.org/en/stable/contact.html",
+        "Funding, https://docs.pytest.org/en/stable/sponsor.html",
+        "Homepage, https://docs.pytest.org/en/latest/",
+        "Source, https://github.com/pytest-dev/pytest",
+        "Tracker, https://github.com/pytest-dev/pytest/issues"
+      ]
+    },
+    {
+      "name": "ruff",
+      "version": "0.17.0",
+      "license_expression": "MIT",
+      "license": null,
+      "homepage": "https://docs.astral.sh/ruff",
+      "project_urls": [
+        "Changelog, https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md",
+        "Documentation, https://docs.astral.sh/ruff/",
+        "Repository, https://github.com/astral-sh/ruff"
+      ]
+    },
+    {
+      "name": "maxminddb",
+      "version": "3.2.0",
+      "license_expression": "Apache-2.0",
+      "license": null,
+      "homepage": null,
+      "project_urls": [
+        "Homepage, https://www.maxmind.com/en/home",
+        "Documentation, https://maxminddb.readthedocs.io/en/latest/",
+        "Source Code, https://github.com/maxmind/MaxMind-DB-Reader-python",
+        "Issue Tracker, https://github.com/maxmind/MaxMind-DB-Reader-python/issues"
+      ],
+      "usage": "runtime"
+    },
+    {
+      "name": "stix2",
+      "version": "3.0.2",
+      "license_expression": null,
+      "license": "BSD",
+      "homepage": "https://oasis-open.github.io/cti-documentation/",
+      "project_urls": [
+        "Documentation, https://stix2.readthedocs.io/",
+        "Source Code, https://github.com/oasis-open/cti-python-stix2/",
+        "Bug Tracker, https://github.com/oasis-open/cti-python-stix2/issues/"
+      ],
+      "usage": "independent acceptance parser, development only"
+    }
+  ],
+  "web": [
+    {
+      "name": "@codemirror/commands",
+      "version": "6.11.1",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://code.haverbeke.berlin/codemirror/commands.git"
+      },
+      "development_only": false
+    },
+    {
+      "name": "@codemirror/lang-json",
+      "version": "6.0.2",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/codemirror/lang-json.git"
+      },
+      "development_only": false
+    },
+    {
+      "name": "@codemirror/search",
+      "version": "6.7.2",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://code.haverbeke.berlin/codemirror/search.git"
+      },
+      "development_only": false
+    },
+    {
+      "name": "@fontsource/inter",
+      "version": "5.3.0",
+      "license": "OFL-1.1",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/fontsource/font-files.git",
+        "directory": "fonts/google/inter"
+      },
+      "development_only": false
+    },
+    {
+      "name": "@radix-ui/react-dialog",
+      "version": "1.2.0",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/radix-ui/primitives.git",
+        "directory": "packages/react/dialog"
+      },
+      "development_only": false
+    },
+    {
+      "name": "@tanstack/react-query",
+      "version": "5.104.1",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/TanStack/query.git",
+        "directory": "packages/react-query"
+      },
+      "development_only": false
+    },
+    {
+      "name": "@uiw/react-codemirror",
+      "version": "4.25.12",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/uiwjs/react-codemirror.git"
+      },
+      "development_only": false
+    },
+    {
+      "name": "lucide-react",
+      "version": "0.468.0",
+      "license": "ISC",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/lucide-icons/lucide.git",
+        "directory": "packages/lucide-react"
+      },
+      "development_only": false
+    },
+    {
+      "name": "react",
+      "version": "19.3.0",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/react/react.git",
+        "directory": "packages/react"
+      },
+      "development_only": false
+    },
+    {
+      "name": "react-dom",
+      "version": "19.3.0",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/react/react.git",
+        "directory": "packages/react-dom"
+      },
+      "development_only": false
+    },
+    {
+      "name": "react-router-dom",
+      "version": "7.18.4",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/remix-run/react-router",
+        "directory": "packages/react-router-dom"
+      },
+      "development_only": false
+    },
+    {
+      "name": "@playwright/test",
+      "version": "1.64.0",
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/microsoft/playwright.git"
+      },
+      "development_only": true
+    },
+    {
+      "name": "@tailwindcss/vite",
+      "version": "4.3.3",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/tailwindlabs/tailwindcss.git",
+        "directory": "packages/@tailwindcss-vite"
+      },
+      "development_only": true
+    },
+    {
+      "name": "@testing-library/react",
+      "version": "16.3.3",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/testing-library/react-testing-library"
+      },
+      "development_only": true
+    },
+    {
+      "name": "@testing-library/user-event",
+      "version": "14.6.7",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/testing-library/user-event"
+      },
+      "development_only": true
+    },
+    {
+      "name": "@types/node",
+      "version": "24.19.2",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/node"
+      },
+      "development_only": true
+    },
+    {
+      "name": "@types/react",
+      "version": "19.3.0",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/react"
+      },
+      "development_only": true
+    },
+    {
+      "name": "@types/react-dom",
+      "version": "19.3.0",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/react-dom"
+      },
+      "development_only": true
+    },
+    {
+      "name": "@vitejs/plugin-react",
+      "version": "5.2.0",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vitejs/vite-plugin-react.git",
+        "directory": "packages/plugin-react"
+      },
+      "development_only": true
+    },
+    {
+      "name": "jsdom",
+      "version": "27.4.0",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jsdom/jsdom.git"
+      },
+      "development_only": true
+    },
+    {
+      "name": "openapi-typescript",
+      "version": "7.13.0",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/openapi-ts/openapi-typescript",
+        "directory": "packages/openapi-typescript"
+      },
+      "development_only": true
+    },
+    {
+      "name": "prettier",
+      "version": "3.9.9",
+      "license": "MIT",
+      "repository": "prettier/prettier",
+      "development_only": true
+    },
+    {
+      "name": "tailwindcss",
+      "version": "4.3.3",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/tailwindlabs/tailwindcss.git",
+        "directory": "packages/tailwindcss"
+      },
+      "development_only": true
+    },
+    {
+      "name": "typescript",
+      "version": "5.9.3",
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/microsoft/TypeScript.git"
+      },
+      "development_only": true
+    },
+    {
+      "name": "vite",
+      "version": "7.3.7",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vitejs/vite.git",
+        "directory": "packages/vite"
+      },
+      "development_only": true
+    },
+    {
+      "name": "vitest",
+      "version": "5.0.3",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vitest-dev/vitest.git",
+        "directory": "packages/vitest"
+      },
+      "development_only": true
+    }
+  ],
+  "container_components": [
+    {
+      "name": "Cowrie",
+      "license": "BSD-3-Clause",
+      "digest": "sha256:710f1e4601a663ac8591f58a42b44e4cd3b7ea170c7e6cdb9e54c430a30cd459",
+      "source": "https://github.com/cowrie/cowrie"
+    },
+    {
+      "name": "PostgreSQL",
+      "license": "PostgreSQL License",
+      "source": "https://www.postgresql.org/about/licence/"
+    },
+    {
+      "name": "Caddy",
+      "license": "Apache-2.0",
+      "source": "https://github.com/caddyserver/caddy"
+    },
+    {
+      "name": "Docker/Moby",
+      "license": "Apache-2.0",
+      "source": "https://github.com/moby/moby"
+    }
+  ],
+  "test_fixtures": [
+    {
+      "name": "MaxMind MMDB upstream tests",
+      "license": "Apache-2.0 option",
+      "manifest": "tests/fixtures/mmdb/PROVENANCE.json",
+      "warning": "test fixtures only; never production geo data"
+    }
+  ]
+}

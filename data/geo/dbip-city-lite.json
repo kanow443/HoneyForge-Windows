@@ -1,0 +1,16 @@
+{
+  "provider": "DB-IP",
+  "url": "https://db-ip.com",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "release": "2026-10",
+  "download_url": "https://download.db-ip.com/free/dbip-city-lite-2026-10.mmdb.gz",
+  "downloaded_at": "2026-10-10T23:59:15.718160+00:00",
+  "built_at": "2026-10-01T01:41:21+00:00",
+  "database_type": "DBIP-City-Lite",
+  "sha256": "9e250f02722d1ad1780f88192f0e908af285478a33e76b88b349c9181ae9d0f5",
+  "publisher_sha1": "df17bd24390108ed1d24dcb7718dc60f6b9abd4f",
+  "source_url": "https://cdn.jsdelivr.net/npm/dbip-city-lite/dbip-city-lite.mmdb.gz",
+  "size_bytes": 126998165,
+  "compressed_bytes": 60193321
+}

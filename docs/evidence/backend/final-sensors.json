@@ -1,0 +1,29 @@
+{
+  "at": "2026-10-10T20:06:38.145144+00:00",
+  "change": "Private atomic enrollment credential write; runtime contracts and identities preserved",
+  "sensors": [
+    {
+      "vm": "honeyforge-sensor",
+      "host_id": "dad7e9c1-5eaf-45e2-a7b8-11be5c2420c0",
+      "status": "degraded",
+      "fresh_authenticated_heartbeat": true,
+      "queued_events": 0,
+      "dropped_events": 0,
+      "queued_artifacts": 0,
+      "historical_artifact_errors": 1,
+      "source_sha256": "3703f30ce7d163177a9f1cd661bcca14ac2ee2bfb30c404bc73f81ca38d2ab71"
+    },
+    {
+      "vm": "honeyforge-sensor-2",
+      "host_id": "6392f0eb-2a86-4731-9dec-be8315cb5ada",
+      "status": "online",
+      "fresh_authenticated_heartbeat": true,
+      "queued_events": 0,
+      "dropped_events": 0,
+      "queued_artifacts": 0,
+      "historical_artifact_errors": 0,
+      "source_sha256": "3703f30ce7d163177a9f1cd661bcca14ac2ee2bfb30c404bc73f81ca38d2ab71"
+    }
+  ],
+  "running_traps_after_restart": 10
+}

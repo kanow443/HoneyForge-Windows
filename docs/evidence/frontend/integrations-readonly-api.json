@@ -1,0 +1,23 @@
+{
+  "at": "2026-10-10T17:52:09.934317+00:00",
+  "browser_acceptance": false,
+  "mutations": "authentication only; no users, integration keys or trap changes",
+  "login_status": 200,
+  "integration_tokens": {
+    "status": 200,
+    "count": 1,
+    "secret_absent": true
+  },
+  "deployments": {
+    "status": 200,
+    "count": 9
+  },
+  "users": {
+    "status": 200,
+    "count": 1,
+    "roles_present": [
+      "admin"
+    ]
+  },
+  "logout_status": 200
+}

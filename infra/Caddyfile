@@ -1,0 +1,35 @@
+{$HF_SITE_DOMAIN} {
+    encode zstd gzip
+    @backend path /api/* /integration/* /health/*
+    handle @backend {
+        reverse_proxy api:8100 {
+            flush_interval -1
+        }
+    }
+    @hidden path /agent/* /docs /redoc /openapi.json
+    handle @hidden {
+        respond "Not found" 404
+    }
+    handle {
+        root * /srv
+        try_files {path} /index.html
+        file_server
+        header {
+            X-Content-Type-Options nosniff
+            Referrer-Policy same-origin
+            Content-Security-Policy "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data:; connect-src 'self'; frame-ancestors 'none'"
+        }
+    }
+}
+
+# HTTP-01 reaches the public port 80 even though management HTTPS uses a separate port.
+# Only the standard challenge path is forwarded; management APIs stay on their own gateway.
+http://{$HF_MANAGEMENT_DOMAIN} {
+    @challenge path /.well-known/acme-challenge/*
+    handle @challenge {
+        reverse_proxy management:80
+    }
+    handle {
+        respond "Not found" 404
+    }
+}

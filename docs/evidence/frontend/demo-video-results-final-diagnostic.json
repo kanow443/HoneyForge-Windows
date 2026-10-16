@@ -1,0 +1,41 @@
+{
+  "at": "2026-10-10T19:56:17.444Z",
+  "real_browser": true,
+  "raw_private_values_recorded": false,
+  "scope": "separate Acceptance tcp-banner18223 / Cowrie18222 only; no Operations/Scale trap change",
+  "runs": [
+    {
+      "number": 1,
+      "started_at": "2026-10-10T19:55:23.447Z",
+      "stages": [
+        {
+          "name": "real network overview",
+          "at": "2026-10-10T19:55:23.760Z"
+        },
+        {
+          "name": "Low running trap and real TCP banner contact",
+          "at": "2026-10-10T19:55:27.162Z"
+        },
+        {
+          "name": "published Low profile in constructor",
+          "at": "2026-10-10T19:55:29.786Z"
+        },
+        {
+          "name": "real SSH commands and real SFTP upload",
+          "at": "2026-10-10T19:55:35.991Z"
+        }
+      ],
+      "passed": false,
+      "low_probe": {
+        "received_bytes": 23
+      },
+      "session_id": "1cf9e2f3-ecf2-4bd2-bea2-a9ab690fb5b7",
+      "error": "TimeoutError: locator.click: Timeout 30000ms exceeded.",
+      "source": "at async file:///Users/admin/Documents/GitHub/hack/apps/web/scripts/browser/demo.mjs:171:7",
+      "ended_at": "2026-10-10T19:56:13.647Z",
+      "video": "/Users/admin/Documents/GitHub/hack/docs/evidence/frontend/video/final-diagnostic/demo-player-click.webm"
+    }
+  ],
+  "passed": false,
+  "diagnostic": "Actual pre-fix LIVE finding-before-evidence render crash; failed run preserved unchanged except archived file reference. No source-block created."
+}

@@ -1,0 +1,59 @@
+{
+  "databases": {
+    "city_database": {
+      "age_days": 9,
+      "stale": false,
+      "provider": "DB-IP",
+      "attribution_url": "https://db-ip.com",
+      "status": "available",
+      "reason": null,
+      "built_at": "2026-10-01T01:41:21+00:00",
+      "database_type": "DBIP-City-Lite",
+      "size_bytes": 126998165
+    },
+    "asn_database": {
+      "age_days": 9,
+      "stale": false,
+      "provider": "DB-IP",
+      "attribution_url": "https://db-ip.com",
+      "status": "available",
+      "reason": null,
+      "built_at": "2026-10-01T01:41:36+00:00",
+      "database_type": "DBIP-ASN-Lite (compat=GeoLite2-ASN)",
+      "size_bytes": 9566363
+    }
+  },
+  "lookups": [
+    {
+      "source_ip": "8.8.8.8",
+      "status": "available",
+      "reason": null,
+      "country": "США",
+      "city": "Mountain View",
+      "latitude": 37.422,
+      "longitude": -122.085,
+      "asn": 15169,
+      "organization": "Google LLC",
+      "accuracy_radius_km": null
+    },
+    {
+      "source_ip": "1.1.1.1",
+      "status": "available",
+      "reason": null,
+      "country": "Австралия",
+      "city": "Sydney",
+      "latitude": -33.8688,
+      "longitude": 151.209,
+      "asn": 13335,
+      "organization": "Cloudflare, Inc.",
+      "accuracy_radius_km": null
+    },
+    {
+      "source_ip": "192.168.139.3",
+      "status": "unavailable",
+      "reason": "private_or_reserved_address"
+    }
+  ],
+  "release": "2026-10",
+  "source": "https://db-ip.com/db/lite.php"
+}

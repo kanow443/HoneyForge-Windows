@@ -1,0 +1,17 @@
+
+> honeyforge-web@0.1.0 test
+> vitest run
+
+
+ RUN  v5.0.3 /Users/admin/Documents/GitHub/hack/apps/web
+
+
+ Test Files  30 passed (30)
+      Tests  139 passed (139)
+   Start at  03:17:36
+   Duration  4.41s (tests 42%, environment 34%, import 15%, transform 8%)
+
+Environment  jsdom was created 30 times · 12.74s total, 34% of tracked time
+             create it once per worker with pool: 'vmThreads' (keeps per-file isolation) or isolate: false (shares it across files)
+             learn more: https://vitest.dev/guide/improving-performance#test-environments
+

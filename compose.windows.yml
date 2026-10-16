@@ -1,0 +1,28 @@
+# Local Windows centre. Apply AFTER compose.production.yml with the generated private env.
+services:
+  gateway:
+    healthcheck:
+      test: [CMD-SHELL, "test -s /data/caddy/pki/authorities/local/root.crt && wget -q -O /dev/null http://127.0.0.1:2019/config/"]
+      interval: 2s
+      timeout: 3s
+      retries: 30
+    volumes:
+      - ./infra/Caddyfile.windows:/etc/caddy/Caddyfile:ro
+  management:
+    healthcheck:
+      test: [CMD-SHELL, "test -s /data/caddy/pki/authorities/local/root.crt && wget -q -O /dev/null http://127.0.0.1:2019/config/"]
+      interval: 2s
+      timeout: 3s
+      retries: 30
+
+  api:
+    environment:
+      HF_GEO_CITY_DB: /var/lib/geo/dbip-city-lite.mmdb
+      HF_GEO_ASN_DB: /var/lib/geo/dbip-asn-lite.mmdb
+    volumes:
+      - type: bind
+        source: ${HF_GEO_DIRECTORY:-./.runtime/windows/geo}
+        target: /var/lib/geo
+        read_only: true
+        bind:
+          create_host_path: false

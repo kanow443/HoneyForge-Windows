@@ -1,0 +1,601 @@
+/* One motion vocabulary: a quick response, a soft settle, no delayed actions. */
+:root {
+  --motion-quick: 140ms;
+  --motion-settle: 240ms;
+  --motion-ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* Defaults reach every screen and every native control, including plain links. */
+:root body :is(button, a[href], summary, [role="button"], [role="tab"]) {
+  transition:
+    transform var(--motion-quick) var(--motion-ease),
+    color var(--motion-quick),
+    background-color var(--motion-quick),
+    border-color var(--motion-quick),
+    box-shadow var(--motion-settle),
+    opacity var(--motion-quick);
+}
+:is(button, a[href], summary, [role="button"]):active:not(:disabled):not(
+    [aria-disabled="true"]
+  ) {
+  opacity: 0.78;
+}
+:is(button, a[href], summary, [role="button"]):focus-visible {
+  outline: 2px solid #7c98b1;
+  outline-offset: 3px;
+}
+:is(button, [role="button"]):is(:disabled, [aria-disabled="true"]) {
+  transform: none;
+  box-shadow: none;
+}
+:is(
+  .entity-link,
+  .template-card,
+  .version-list button,
+  .case-register > button,
+  .studio-terminal-shortcuts button,
+  .new-events,
+  .player-markers button
+) {
+  transition:
+    color var(--motion-quick),
+    background-color var(--motion-quick),
+    border-color var(--motion-settle),
+    box-shadow var(--motion-settle),
+    opacity var(--motion-quick);
+}
+@media (hover: hover) and (pointer: fine) {
+  :is(
+    .entity-link,
+    .resource-strip a,
+    .case-session-links a,
+    td a,
+    .player-session-meta a
+  ):hover {
+    color: var(--accent);
+  }
+  .template-card:hover {
+    border-color: #a7b9c9;
+    box-shadow: 0 5px 18px #243e5710;
+  }
+  .template-card:hover > svg:last-child,
+  .deployment-register-row:hover > svg:last-child {
+    transform: translateX(3px);
+  }
+  :is(.version-list button, .case-register > button):hover:not(.active):not(
+      .selected
+    ) {
+    background: #f4f7fa;
+  }
+}
+:is(.template-card, .deployment-register-row) > svg:last-child {
+  transition: transform var(--motion-settle) var(--motion-ease);
+}
+tbody tr {
+  transition: background-color var(--motion-quick);
+}
+tbody tr:has(:is(button, a, summary)):hover {
+  background-color: #f5f8fb;
+}
+tbody tr {
+  animation: motion-surface-in 180ms ease-out;
+}
+:is(input[type="checkbox"], input[type="radio"]) {
+  accent-color: var(--accent);
+  transition:
+    box-shadow var(--motion-quick),
+    opacity var(--motion-quick);
+}
+:is(input[type="checkbox"], input[type="radio"]):checked {
+  animation: motion-icon-in 180ms var(--motion-ease);
+}
+input[type="range"]::-webkit-slider-thumb {
+  transition:
+    box-shadow var(--motion-quick),
+    transform var(--motion-quick);
+}
+input[type="range"]:is(:hover, :focus-visible)::-webkit-slider-thumb {
+  box-shadow: 0 0 0 5px #63799916;
+}
+input[type="range"]:active::-webkit-slider-thumb {
+  transform: scale(1.12);
+}
+input[type="range"]::-moz-range-thumb {
+  transition:
+    box-shadow var(--motion-quick),
+    transform var(--motion-quick);
+}
+input[type="range"]:is(:hover, :focus-visible)::-moz-range-thumb {
+  box-shadow: 0 0 0 5px #63799916;
+}
+input[type="range"]:active::-moz-range-thumb {
+  transform: scale(1.12);
+}
+
+.motion-collapse {
+  display: grid;
+  grid-template-rows: 0fr;
+  opacity: 0;
+  transition:
+    grid-template-rows var(--motion-settle) var(--motion-ease),
+    opacity var(--motion-quick);
+}
+.motion-collapse[data-open="true"] {
+  grid-template-rows: 1fr;
+  opacity: 1;
+}
+.motion-collapse-inner {
+  min-height: 0;
+  overflow: hidden;
+}
+.motion-collapse .advanced-filter-grid {
+  animation: none;
+}
+.motion-leave.motion-leave {
+  animation: motion-fade-out 160ms ease-in forwards;
+  pointer-events: none;
+}
+
+:is(.page-header, .studio-page-heading) {
+  animation: motion-content-in var(--motion-settle) var(--motion-ease);
+}
+:is(
+  .login-form-wrap,
+  .login-brand,
+  .auth-recovery,
+  .network-summary,
+  .topology-panel,
+  .resource-strip,
+  .fleet-readout,
+  .report-document,
+  .source-blocks,
+  .cases-workspace,
+  .profile-start-options,
+  .infrastructure-section,
+  .rule-section,
+  .toolbar,
+  .event-query-bar,
+  .player-session-meta
+) {
+  animation: motion-surface-in var(--motion-settle) var(--motion-ease);
+}
+:is(.network-summary > div, .profile-start-options > a) {
+  animation: motion-content-in 280ms var(--motion-ease) backwards;
+}
+:is(.network-summary > div, .profile-start-options > a):nth-child(2) {
+  animation-delay: 35ms;
+}
+.network-summary > div:nth-child(3) {
+  animation-delay: 70ms;
+}
+.network-summary > div:nth-child(4) {
+  animation-delay: 105ms;
+}
+:is(
+  .jobs details,
+  .block-list > article,
+  .report-finding,
+  .case-session-links > div,
+  .token-box,
+  .new-events,
+  .quiet-empty,
+  .motion-feedback
+) {
+  animation: motion-surface-in 180ms var(--motion-ease);
+}
+.network-summary .summary-period {
+  animation: motion-surface-in 180ms ease-out;
+}
+.bars > div {
+  transform-origin: bottom;
+  animation: motion-chart-in 380ms var(--motion-ease);
+  transition:
+    height 300ms var(--motion-ease),
+    background-color var(--motion-quick);
+}
+.bars > div:hover {
+  background-color: #8197ad;
+}
+@keyframes motion-surface-in {
+  from {
+    opacity: 0.82;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes motion-chart-in {
+  from {
+    opacity: 0.5;
+    transform: scaleY(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scaleY(1);
+  }
+}
+
+:is(
+  .button,
+  .icon-button,
+  .command-trigger,
+  .studio-back,
+  .player-button,
+  .player-live-button,
+  .player-follow,
+  .player-expand
+) {
+  transition:
+    transform var(--motion-quick) var(--motion-ease),
+    background-color var(--motion-quick),
+    border-color var(--motion-quick),
+    color var(--motion-quick),
+    box-shadow var(--motion-quick),
+    opacity var(--motion-quick);
+}
+:is(
+    .button,
+    .icon-button,
+    .command-trigger,
+    .studio-back,
+    .player-button,
+    .player-live-button,
+    .player-follow,
+    .player-expand
+  ):active:not(:disabled):not([aria-disabled="true"]) {
+  transform: translateY(1px) scale(0.98);
+}
+:is(.button, .icon-button, .command-trigger):focus-visible {
+  outline: 2px solid #7c98b1;
+  outline-offset: 3px;
+}
+@media (hover: hover) and (pointer: fine) {
+  :is(.button, .command-trigger):hover:not(:disabled):not(
+      [aria-disabled="true"]
+    ) {
+    transform: translateY(-1px);
+    box-shadow: 0 3px 8px #243e5710;
+  }
+  .button:active:not(:disabled) {
+    transform: translateY(1px) scale(0.98);
+  }
+  .button.primary:hover:not(:disabled) > svg:last-child {
+    transform: translateX(2px);
+  }
+  :is(.text-link, .back-link):hover > svg {
+    transform: translateX(2px);
+  }
+  .back-link:hover > svg {
+    transform: translateX(-2px);
+  }
+}
+:is(.button, .text-link, .back-link) > svg {
+  transition: transform var(--motion-settle) var(--motion-ease);
+}
+:is(input, select, textarea):not([type="range"]):not([type="checkbox"]) {
+  transition:
+    border-color var(--motion-quick),
+    background-color var(--motion-quick),
+    box-shadow var(--motion-settle) var(--motion-ease);
+}
+
+/* An actual sliding underline, shared across navigation and workspace tabs. */
+:is(
+  .console-nav,
+  .studio-sections,
+  .studio-preview-toolbar [role="tablist"],
+  .investigation-tabs,
+  .topology-table-tabs
+) {
+  position: relative;
+}
+.motion-tab-indicator {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 2px;
+  width: 0;
+  border-radius: 2px;
+  background: currentColor;
+  opacity: 0;
+  pointer-events: none;
+  transition:
+    transform 300ms var(--motion-ease),
+    width 300ms var(--motion-ease),
+    top var(--motion-settle) var(--motion-ease),
+    opacity var(--motion-quick);
+}
+.console-nav > .motion-tab-indicator {
+  color: #e6edf4;
+}
+:is(
+    .console-nav,
+    .studio-sections,
+    .studio-preview-toolbar [role="tablist"],
+    .investigation-tabs,
+    .topology-table-tabs
+  ):has(> .motion-tab-indicator)
+  > :is(a.active, button.active, button[aria-selected="true"]) {
+  border-bottom-color: transparent;
+}
+:is(
+  .console-nav a,
+  .studio-sections > button,
+  .studio-preview-toolbar button,
+  .investigation-tabs > button,
+  .topology-table-tabs > button
+) {
+  transition:
+    color var(--motion-quick),
+    background-color var(--motion-quick);
+}
+
+/* Opening and closing both keep Radix's focus and dismissal lifecycle intact. */
+.modal-overlay[data-state="open"] {
+  animation: motion-fade-in 180ms ease-out;
+}
+.modal-overlay[data-state="closed"] {
+  animation: motion-fade-out 140ms ease-in;
+}
+.modal[data-state="open"] {
+  animation: motion-dialog-in 280ms var(--motion-ease);
+}
+.modal[data-state="closed"] {
+  animation: motion-dialog-out 160ms ease-in;
+}
+.command-results > button {
+  transition:
+    background-color var(--motion-quick),
+    color var(--motion-quick);
+}
+.command-results > button > svg:last-child {
+  transition: transform var(--motion-settle) var(--motion-ease);
+}
+.command-results > button.current > svg:last-child {
+  transform: translate(2px, -2px);
+}
+
+:is(
+  .studio-legend-form,
+  .studio-limits-form,
+  .studio-files-workspace,
+  .case-editor,
+  .empty,
+  .error-notice,
+  .info-note,
+  .studio-file-error,
+  .studio-portal-error,
+  .player-finding-detail,
+  .player-follow
+) {
+  animation: motion-content-in var(--motion-settle) var(--motion-ease);
+}
+.session-workspace > div[hidden] {
+  display: none;
+}
+.session-workspace > div:not([hidden]):has(> .session-player, > .source-blocks),
+.session-workspace > .investigation-context:not([hidden]) {
+  animation: motion-content-in var(--motion-settle) var(--motion-ease);
+}
+.event-detail {
+  animation: motion-inspector-in 280ms var(--motion-ease);
+}
+:is(.advanced-filter-grid, .builder-advanced-grid) {
+  animation: motion-content-in var(--motion-settle) var(--motion-ease);
+}
+details[open] > :not(summary) {
+  animation: motion-content-in 200ms var(--motion-ease);
+}
+summary {
+  transition: color var(--motion-quick);
+}
+@supports (interpolate-size: allow-keywords) {
+  details {
+    interpolate-size: allow-keywords;
+  }
+  details::details-content {
+    block-size: 0;
+    opacity: 0;
+    overflow: clip;
+    transition:
+      block-size var(--motion-settle) var(--motion-ease),
+      opacity var(--motion-quick),
+      content-visibility var(--motion-settle) allow-discrete;
+  }
+  details[open]::details-content {
+    block-size: auto;
+    opacity: 1;
+  }
+  details[open] > :not(summary) {
+    animation: none;
+  }
+}
+
+/* Selection changes stay still; color and emphasis move instead of data. */
+:is(
+  .topology-node,
+  .player-finding,
+  .case-register > button,
+  .studio-file-tree button,
+  .studio-preview-file-list button,
+  .template-option,
+  .event-table tbody tr,
+  .event-open,
+  .deployment-row,
+  .infrastructure-host,
+  .rule-feed > a
+) {
+  transition:
+    background-color var(--motion-quick),
+    border-color var(--motion-settle),
+    color var(--motion-quick),
+    box-shadow var(--motion-settle),
+    opacity var(--motion-settle);
+}
+.topology-edge {
+  transition: opacity var(--motion-settle);
+}
+.topology-edge .edge-line {
+  transition:
+    stroke-width var(--motion-quick),
+    stroke var(--motion-quick);
+}
+.studio-folder-toggle > svg:first-child {
+  transition: transform var(--motion-settle) var(--motion-ease);
+}
+.studio-folder-toggle[aria-expanded="true"] > svg:first-child {
+  transform: rotate(90deg);
+}
+.studio-tree-folder > button:not(.studio-folder-toggle) {
+  animation: motion-fade-in 180ms ease-out;
+}
+.studio-terminal-entry {
+  animation: motion-content-in 180ms var(--motion-ease);
+}
+.player-event {
+  animation: motion-fade-in 180ms ease-out;
+}
+.studio-workspace.focus-editor .studio-file-document {
+  animation: motion-content-in var(--motion-settle) var(--motion-ease);
+}
+
+.copy-icon {
+  display: inline-flex;
+  animation: motion-icon-in 220ms var(--motion-ease);
+}
+.button.is-copied {
+  color: var(--good);
+  border-color: #bbd9ca;
+  background: #f2f8f5;
+}
+.status > svg {
+  animation: motion-icon-in 220ms var(--motion-ease);
+}
+.loading-skeleton span {
+  background: linear-gradient(100deg, #edf1f5 30%, #f8fafc 48%, #edf1f5 66%);
+  background-size: 220% 100%;
+  animation: motion-skeleton 1800ms ease-in-out infinite;
+}
+.loading-skeleton span:nth-child(2) {
+  animation-delay: 100ms;
+}
+.loading-skeleton span:nth-child(3) {
+  animation-delay: 200ms;
+}
+
+@keyframes motion-content-in {
+  from {
+    opacity: 0.65;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes motion-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes motion-fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes motion-icon-in {
+  from {
+    opacity: 0.4;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@keyframes motion-inspector-in {
+  from {
+    opacity: 0.5;
+    transform: translateX(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes motion-dialog-in {
+  from {
+    opacity: 0;
+    transform: translate(-50%, calc(-50% + 10px)) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+@keyframes motion-dialog-out {
+  from {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: translate(-50%, calc(-50% + 6px)) scale(0.985);
+  }
+}
+@keyframes motion-skeleton {
+  from {
+    background-position: 100% 0;
+  }
+  to {
+    background-position: -120% 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after,
+  details::details-content {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+  :is(
+    .button,
+    .icon-button,
+    .command-trigger,
+    .studio-back,
+    .player-button,
+    .player-live-button,
+    .player-follow,
+    .player-expand
+  ):is(:hover, :active),
+  :is(.button, .text-link, .back-link, .command-results > button) > svg {
+    transform: none !important;
+  }
+  :is(.template-card, .deployment-register-row) > svg:last-child,
+  input[type="range"]::-webkit-slider-thumb {
+    transform: none !important;
+  }
+  input[type="range"]::-moz-range-thumb {
+    transform: none !important;
+  }
+}
+@media print {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+  .motion-tab-indicator {
+    display: none;
+  }
+}

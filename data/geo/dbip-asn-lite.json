@@ -1,0 +1,16 @@
+{
+  "provider": "DB-IP",
+  "url": "https://db-ip.com",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "release": "2026-10",
+  "download_url": "https://download.db-ip.com/free/dbip-asn-lite-2026-10.mmdb.gz",
+  "downloaded_at": "2026-10-10T23:59:29.325085+00:00",
+  "built_at": "2026-10-01T01:41:36+00:00",
+  "database_type": "DBIP-ASN-Lite (compat=GeoLite2-ASN)",
+  "sha256": "4384bfcfb594391bc4e0ab37751f44661eaf7cadbeee28a90a6b82dc935fec4c",
+  "publisher_sha1": "bc76615cd8f99b7b3a878803b1c84cbeda65769a",
+  "source_url": "https://download.db-ip.com/free/dbip-asn-lite-2026-10.mmdb.gz",
+  "size_bytes": 9566363,
+  "compressed_bytes": 5186202
+}

@@ -1,0 +1,24 @@
+{
+  "at": "2026-10-11T00:13:19.730Z",
+  "baseURL": "http://localhost:5173",
+  "run": "ff318a38",
+  "checks": [],
+  "viewports": [],
+  "error": "Error: locator.scrollIntoViewIfNeeded: Error: strict mode violation: locator('.profile-markers summary') resolved to 2 elements:",
+  "cleanup": {
+    "revoked": [
+      {
+        "id": "5f59f997-208b-4252-84bb-031438c9589e",
+        "confirmed": true
+      }
+    ],
+    "archived": [
+      {
+        "id": "7e0ca45a-f8b3-4882-a8cb-7ff58606f759",
+        "confirmed": true
+      }
+    ]
+  },
+  "passed": false,
+  "scope": "Own undeployed disposable profiles and markers only. No sensor/deployment mutation; no guest execution claim, no private capture accessed."
+}

@@ -1,0 +1,76 @@
+{
+  "schema": "honeyforge-pdf-extension-release-v1",
+  "at": "2026-10-11T00:20:16.584450+00:00",
+  "migration": "013",
+  "runtime_has_neural_networks": false,
+  "backend_tests": 82,
+  "frontend_tests": 139,
+  "features": {
+    "multiple_services": "Live HTTP/SSH/Low group, atomic reservations, shared stop/redeploy; v1/v2 unchanged",
+    "geo_asn": "Original DB-IP City/ASN Lite October2026 connected, publisher checksums verified",
+    "masking": "Beacon timing/length, bounded protocol timing, pre-HTTP SPKI pin and overlapping pins verified",
+    "high": "Ubuntu24.04.5 real guest per SSH transport, reset, egress denial, decoy files/file token, SFTP bytes/SHA and actual stdout in player"
+  },
+  "verification_boundaries": [
+    "Real local ARM64/Linux sensor, QEMU TCG; KVM not executed",
+    "Windows scripts exercised via PowerShell7/macOS with actual Linux containers; native Windows11/ACL/WSL not executed",
+    "Earlier load and main demo proofs retained as historical results; not attributed to new High or current frontend build",
+    "External hosting SLA and universal undetectability not claimed"
+  ],
+  "historical_release": "release.json",
+  "evidence": {
+    "backend/multiservice.json": {
+      "sha256": "ce7f0066e04f4e073b0bc7bd6a02244ecd637217dfc2cb307c2c24aca5c2bc6e"
+    },
+    "backend/geo-connected.json": {
+      "sha256": "a8b0840efa30097419de65ce6f46680a63c9a4e272725e5744278b277f0f1960"
+    },
+    "backend/masking-extension.json": {
+      "sha256": "4ff7ab93aea0ff24f832aaef1012975bbaf383510bdf0ac8143e0c00f8f26bb6"
+    },
+    "backend/pinning-live.json": {
+      "sha256": "ac8b14653e484262bea91f05f8c5b3cadb11e85560acb557042bbb1578c66379"
+    },
+    "backend/high-real-os.json": {
+      "sha256": "0a42e0215b5171dd5688ebc3494f2cbf5b473cce803934b0c12d4de8f9c89c91"
+    },
+    "backend/high-files.json": {
+      "sha256": "e3d922eabb20d747fc250e1c3a3f8a009f39b9995fa23a1ab057901e4b7f963c"
+    },
+    "backend/high-cleanup.json": {
+      "sha256": "3fe6315ce71c7e07e4bcde42b37015c052ef9292a4b60f7f55895eb59db75fd7"
+    },
+    "windows-geo-extension.json": {
+      "sha256": "6ed56859507c896ad8de32d37bdd6153eba7b92d200d3210c6912dc7e4a0fb96"
+    },
+    "frontend/MULTISERVICE_STATUS.md": {
+      "sha256": "c03206d890b5d564d09cc52f806d3929f2b8e47a1b5452287573db12c1a8ffc8"
+    },
+    "frontend/GEO_CONNECTED_STATUS.md": {
+      "sha256": "8adb7f4c736f4c1dc4cc5c563c300b8a780a236e34bb2697d78f0ec7bb1c64f7"
+    },
+    "frontend/HIGH_MARKERS_STATUS.md": {
+      "sha256": "b6d589a09fea1e76a14c17791c26c1351dd9f7b32597b2e3bfb773d97eb531c1"
+    },
+    "frontend/high-markers-dist-manifest.json": {
+      "sha256": "761b695ca15f40c5ef907eeee41570637647e077a64bad0f639fbbc59ff98b2b"
+    },
+    "backend/extension-tests.txt": {
+      "sha256": "b01c6cec0310b4ba2f3273fa5671ee62c8a95c07ff0b1fe99e121bd6b5c107ac"
+    },
+    "backend/extension-ruff.txt": {
+      "sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18"
+    },
+    "frontend/extension-tests.txt": {
+      "sha256": "0c18436eec4866fd554e22d6cb5da5327a98325927e90abca30a1852b5a55002"
+    }
+  },
+  "deliverables": {
+    "deliverables/HoneyForge-defense-preparation.docx": {
+      "sha256": "1a6ef60eca74b6e711ae00c45749e19f1a80fafb954468db2f201e808125f604"
+    },
+    "deliverables/HoneyForge-defense-2026.10.11.pptx": {
+      "sha256": "db02fa435aba54bfaa7736c62858e68df653bc24fac06cbc6c4b92320ac923c6"
+    }
+  }
+}

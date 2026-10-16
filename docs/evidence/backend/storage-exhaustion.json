@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-10T18:47:40.412997+00:00",
+  "measurement": "Actual 64 KiB tmpfs ENOSPC in isolated non-root container",
+  "checks": {
+    "errno": 28,
+    "actual_enospc": true,
+    "accepted_sha256_unchanged": true,
+    "accepted_bytes": 17
+  },
+  "boundary": "OS failure verified independently; API503/no-offset-advance/retry is covered by test_storage_failure.py. No production disk was filled."
+}

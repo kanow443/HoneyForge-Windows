@@ -1,0 +1,8 @@
+
+> honeyforge-web@0.1.0 build
+> tsc -b && vite build
+
+src/features/analysis/ObservableExport.tsx(24,51): error TS2739: Type '{ host_id?: string | undefined; deployment_id?: string | undefined; event_type?: string | undefined; source_ip?: string | undefined; q?: string | undefined; since?: string | undefined; until?: string | undefined; }' is missing the following properties from type '{ host_id?: string | null | undefined; deployment_id?: string | null | undefined; event_type?: string | null | undefined; source_ip?: string | null | undefined; q?: string | null | undefined; since?: string | ... 1 more ... | undefined; until?: string | ... 1 more ... | undefined; limit: number; offset: number; }': limit, offset
+src/features/profiles/Honeytokens.tsx(84,130): error TS2322: Type 'string | undefined' is not assignable to type 'string'.
+  Type 'undefined' is not assignable to type 'string'.
+src/features/sessions/SessionPlayer.tsx(461,16): error TS2304: Cannot find name 'FindingTime'.

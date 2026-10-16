@@ -1,0 +1,20 @@
+{
+  "at": "2026-10-10T19:22:52.073448+00:00",
+  "checks": {
+    "firewall_state": "applied",
+    "termination_state": "completed",
+    "terminated_transport_ids": [
+      "3970d3c9e46d",
+      "5eb0e1093c12"
+    ],
+    "two_authenticated_ssh_clients_closed": true,
+    "different_source_unauthenticated_ssh_transport_preserved": true,
+    "same_source_http_preserved": true,
+    "new_source_connections_denied": true,
+    "management_available": true,
+    "request_to_ack_seconds": 1.335,
+    "deployment_id": "a3ed2048-eb76-43c6-ba61-b70f73644a4a",
+    "generation": "4d8b2feb-209d-46ca-ac9a-be9a3248f3f9",
+    "policy_id": "550f3056-a0cc-48a9-80c9-5ca0e2d337e3"
+  }
+}

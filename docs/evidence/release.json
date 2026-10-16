@@ -1,0 +1,139 @@
+{
+  "schema": "honeyforge-release-v1",
+  "at": "2026-10-10T20:09:24.321825+00:00",
+  "branch": "codex/honeyforge-release",
+  "migration": "012",
+  "completed_tasks": [
+    "T01",
+    "T02",
+    "T03",
+    "T04",
+    "T05",
+    "T06",
+    "T07",
+    "T08",
+    "T09",
+    "T10",
+    "T11",
+    "T12",
+    "T13",
+    "T14",
+    "T15",
+    "T16",
+    "T17",
+    "T18",
+    "T19",
+    "T20",
+    "T22",
+    "T23",
+    "T24"
+  ],
+  "conditional_tasks": {
+    "T21": "High unavailable on current ARM sensors without /dev/kvm; requires dedicated Linux/KVM backend pool"
+  },
+  "runtime_has_neural_networks": false,
+  "backend_tests": 63,
+  "frontend_tests": 124,
+  "frontend_test_files": 27,
+  "frontend_dist_sha256": "7ff8311a91c2e40f1acf984e51701a2692d2af3bdfe6370516d92d7d56fde9ee",
+  "browser_route_checks": 52,
+  "viewport_widths": [
+    390,
+    1280
+  ],
+  "live_demo_repetitions": 2,
+  "canonical_demo_origin": "http://localhost:5173",
+  "load": {
+    "run_id": "60f741e923a8",
+    "seconds": 900,
+    "http_requests": 9000,
+    "unique_events": 9000,
+    "duplicates": 0,
+    "ssh_sessions": 8,
+    "dom_visible_samples": 8078,
+    "dom_visible_p95_ms": 1401,
+    "api_paths_not_visible": 922,
+    "measurement_build_sha256": "816bb3d28a7624e8de2bb1c5fc2959169321bdc7fced1c4d5e7848e16804b812",
+    "post_measurement_change": "Private atomic enrollment write and SessionPlayer finding-before-event pending guard; load was not attributed to the later build",
+    "boundary": "Visible DOM/layout sampling, not all-event visibility, physical paint or external SLA"
+  },
+  "deployment_boundaries": [
+    "Production City/ASN MMDB supplied separately under vendor licence; unavailable/private states honest",
+    "External cloud SLA and public ACME issuance require actual target DNS/hosting",
+    "One sensor retains historical artifact_errors=1; no counter reset or fictional all-green claim"
+  ],
+  "evidence": {
+    "backend/foundation.json": {
+      "sha256": "0c3ee5d5fc0bee46ffe1b158459e547be3af82905b17c009e5af2acb6b04aa76"
+    },
+    "backend/masking.json": {
+      "sha256": "6af717ff547105177f9f74ab2ac43b84eb9d0715161a61b5de62241685aaeeaa"
+    },
+    "backend/live-lab.json": {
+      "sha256": "b2eee664b0f8bcd11857e60872ee41a93e21f97522f41cf5da66536d48a3de27"
+    },
+    "backend/session-termination.json": {
+      "sha256": "cf91e9ab916ae5ac9a8b402072c7d2090f3ac43feaf26f39ec965e823e93f2e2"
+    },
+    "backend/binary-evidence.json": {
+      "sha256": "031c65c9f18730d16ee5b2f5060ad1fc7be7484f727966b30ade50c58fd214ca"
+    },
+    "backend/integrations.json": {
+      "sha256": "740a033ba266af058a6e1ab06eaefb7624cee88f23b0f733ec8ec503712eb3a1"
+    },
+    "backend/backup-restore.json": {
+      "sha256": "16c53ad26ab9c0621ed5e7443046c3d4895d69999a02370cec2ea76cbae8375c"
+    },
+    "backend/production-local.json": {
+      "sha256": "cb504a3bf189b008bea6c31af69b40cfe00b9dde5f234748875c23327b411ec2"
+    },
+    "backend/scale-60f741e923a8.json": {
+      "sha256": "c5ab2f0a93e14b91849572facfa75e31129005669224081ee8d0ba7550d51d2b"
+    },
+    "backend/bonuses.json": {
+      "sha256": "db2de3b6822d438759deceb27600625e3052a3e2acda9fef18c4d09f593e459e"
+    },
+    "backend/certificates.json": {
+      "sha256": "07db02538057d3af31f208e354bfe3c8b48a7138f46159d07d8cd6efff933294"
+    },
+    "backend/client-tls.json": {
+      "sha256": "74b52baf7753b7c4c69d015b859f72700d15c49e6a3380dcaa158052d22d9651"
+    },
+    "backend/storage-exhaustion.json": {
+      "sha256": "eeda0a58427896c4678d9e169dc9000d21ff2a01bae9df1431ba616e44e0ec35"
+    },
+    "backend/final-sensors.json": {
+      "sha256": "d0c89a94233d2ae89a102e888aa1f45c588eef0fb271650ebd7ce518b0f3654a"
+    },
+    "backend/final-build.json": {
+      "sha256": "1770dd95afea8d495e0dff565658e2d4e0892b9b3d43a0ba70a1b7d7f82a2a27"
+    },
+    "backend/final-build-b.json": {
+      "sha256": "662925f159cb66796ecf04c7649238abedc418e32235ac584dbb19f0c06cfb04"
+    },
+    "frontend/browser-acceptance.json": {
+      "sha256": "43a5865fd7c7362560cae0a5ee040b036ee59724a6eec939d2f08dcfc04861d2"
+    },
+    "frontend/bonus-browser-acceptance.json": {
+      "sha256": "3af5d6f732dc489d615aa1559b087484bee9214f1e9ce914804332cfb0de053b"
+    },
+    "frontend/all-routes-browser.json": {
+      "sha256": "b2aa4c6d0d82a536fe452b01fe141fc21c64ff7c06497821400b4d316721ac9c"
+    },
+    "frontend/demo-video-results.json": {
+      "sha256": "a6e03ef5fab96c5ca5bda6cfc871f7c566095d82332326ce4ecc3ae0e271d1ab"
+    },
+    "frontend/video-verification.json": {
+      "sha256": "ae60dad5b07d3f0982476e689972f83108e4c522f50c331c6f0f9ee63a69e1cc"
+    },
+    "frontend/latency-dom-results-60f741e923a8.json": {
+      "sha256": "e3d71fc1f339334d9277939d0d348633ed7f4b85b2f5fbd415bf347682641dd9"
+    },
+    "presentation/validation.json": {
+      "sha256": "07c71c714db12a52d4b1e4147f21926a665055aeb1010d405118429b5a8a160a"
+    },
+    "frontend/final-demo-cleanup.json": {
+      "sha256": "34365674d6cbebbf1cab58a74df61ae8484a4a3634205f55ab3d40cadc8913ab"
+    }
+  }
+}

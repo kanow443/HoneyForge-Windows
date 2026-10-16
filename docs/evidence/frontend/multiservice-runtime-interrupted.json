@@ -1,0 +1,66 @@
+{
+  "at": "2026-10-10T23:49:03.525Z",
+  "baseURL": "http://localhost:5173",
+  "run": "a62353ac",
+  "api_ready": true,
+  "checks": [
+    {
+      "name": "built bundle editor local add/remove/undo/reorder and per-service file content",
+      "passed": true,
+      "at": "2026-10-10T23:45:50.823Z"
+    },
+    {
+      "name": "real schema-v3 publication and immutable selected version",
+      "passed": true,
+      "at": "2026-10-10T23:45:52.023Z"
+    }
+  ],
+  "viewports": [
+    {
+      "label": "editor 1280",
+      "width": 1280,
+      "height": 900,
+      "documentWidth": 1280
+    },
+    {
+      "label": "editor 390",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390
+    },
+    {
+      "label": "profile 1280",
+      "width": 1280,
+      "height": 900,
+      "documentWidth": 1280
+    },
+    {
+      "label": "profile 390",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390
+    },
+    {
+      "label": "deploy 1280",
+      "width": 1280,
+      "height": 900,
+      "documentWidth": 1280
+    },
+    {
+      "label": "deploy 390",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390
+    }
+  ],
+  "profile_id": "3542a5af-f3b5-43b9-bd5e-b851c425f68b",
+  "group_id": "50ea61ec-875f-4b24-b6bc-94828f782613",
+  "cleanup": {
+    "group_stopped": true,
+    "profile_archived": true
+  },
+  "error": "Error: Actual group did not confirm required state",
+  "passed": false,
+  "runtime_verified": false,
+  "scope": "own UI bundle/group only; three own unused ports; no Ops/Scale/Acceptance modifications; no private capture opened"
+}

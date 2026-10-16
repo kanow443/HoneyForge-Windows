@@ -1,0 +1,15 @@
+{
+  "run_id": "reporter-smoke-20261010",
+  "at": "2026-10-10T19:20:45.980Z",
+  "measurement": "viewport-intersecting rendered row DOM/layout, not paint",
+  "dom_paths": 0,
+  "api_paths": 0,
+  "samples_after_start": 0,
+  "p95_ms": null,
+  "min_ms": null,
+  "max_ms": null,
+  "negative_delays": 0,
+  "excluded_preexisting_api_paths": 0,
+  "apiErrors": 0,
+  "parseErrors": 0
+}

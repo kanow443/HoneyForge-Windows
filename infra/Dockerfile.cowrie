@@ -1,0 +1,3 @@
+FROM cowrie/cowrie@sha256:710f1e4601a663ac8591f58a42b44e4cd3b7ea170c7e6cdb9e54c430a30cd459
+COPY --chown=999:999 src/honeyforge/sensors/cowrie_launcher.py src/honeyforge/sensors/cowrie_runtime.py src/honeyforge/sensors/terminal_capture.py src/honeyforge/sensors/cowrie_control.py src/honeyforge/sensors/session_control.py src/honeyforge/sensors/cowrie_file.py src/honeyforge/sensors/sealed_capture.py /app/
+ENTRYPOINT ["/cowrie/cowrie-env/bin/python3", "/app/cowrie_launcher.py"]

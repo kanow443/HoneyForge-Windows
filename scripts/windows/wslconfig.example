@@ -1,0 +1,7 @@
+# Optional. Review/merge with your own %USERPROFILE%\.wslconfig, never overwrite it blindly.
+# Limits affect ALL WSL2 distributions, including Docker Desktop.
+[wsl2]
+memory=8GB
+processors=4
+swap=4GB
+localhostForwarding=true

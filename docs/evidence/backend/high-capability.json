@@ -1,0 +1,21 @@
+{
+  "at": "2026-10-10T18:50:42.686809+00:00",
+  "checks": [
+    {
+      "vm": "honeyforge-sensor",
+      "architecture": "aarch64",
+      "kvm_device_present": false,
+      "kvm_read_write": false,
+      "libvirt_client_present": false
+    },
+    {
+      "vm": "honeyforge-sensor-2",
+      "architecture": "aarch64",
+      "kvm_device_present": false,
+      "kvm_read_write": false,
+      "libvirt_client_present": false
+    }
+  ],
+  "high_interaction_available": false,
+  "reason": "No usable /dev/kvm in either dedicated lab VM. No backend VM execution/reset has been verified. High remains unavailable and is excluded from the core release."
+}

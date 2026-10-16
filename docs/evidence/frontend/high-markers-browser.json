@@ -1,0 +1,94 @@
+{
+  "at": "2026-10-11T00:14:02.785Z",
+  "baseURL": "http://localhost:5173",
+  "run": "8fee4ef7",
+  "checks": [
+    {
+      "name": "actual single v2 High file marker, no service key, proxy/guest resource distinction",
+      "passed": true
+    },
+    {
+      "name": "actual v3 selected High file marker/service_key; HTTP URL retained separately; Low excluded; lists scoped",
+      "passed": true
+    }
+  ],
+  "viewports": [
+    {
+      "label": "single 1280",
+      "width": 1280,
+      "height": 900,
+      "documentWidth": 1280
+    },
+    {
+      "label": "single 390",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390
+    },
+    {
+      "label": "single-resources 1280",
+      "width": 1280,
+      "height": 900,
+      "documentWidth": 1280
+    },
+    {
+      "label": "single-resources 390",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390
+    },
+    {
+      "label": "bundle 1280",
+      "width": 1280,
+      "height": 900,
+      "documentWidth": 1280
+    },
+    {
+      "label": "bundle 390",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390
+    },
+    {
+      "label": "bundle-resources 1280",
+      "width": 1280,
+      "height": 900,
+      "documentWidth": 1280
+    },
+    {
+      "label": "bundle-resources 390",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390
+    }
+  ],
+  "error": null,
+  "cleanup": {
+    "revoked": [
+      {
+        "id": "4cac6c08-eb34-4d5d-8433-a734514a2f51",
+        "confirmed": true
+      },
+      {
+        "id": "b28ee526-355e-4c5a-b72a-87028df5601e",
+        "confirmed": true
+      },
+      {
+        "id": "24783458-ec99-4c35-93c4-8fb3fc89bb10",
+        "confirmed": true
+      }
+    ],
+    "archived": [
+      {
+        "id": "5a3e71b5-5b7e-4431-bfe1-6f695d51f9d2",
+        "confirmed": true
+      },
+      {
+        "id": "5ccb10a8-0fb2-4c0b-924c-b6c7e94b250e",
+        "confirmed": true
+      }
+    ]
+  },
+  "passed": true,
+  "scope": "Own undeployed disposable profiles and markers only. No sensor/deployment mutation; no guest execution claim, no private capture accessed."
+}

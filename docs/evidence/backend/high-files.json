@@ -1,0 +1,31 @@
+{
+  "deployment_id": "bb7cff87-c766-4075-a5d4-3633eb2a7a7d",
+  "version_id": "6f1766aa-38ca-4f34-a48b-2b4a371cca66",
+  "session_id": "6bee7295-4dfa-45c9-beca-a3a0b7926616",
+  "guest_output": "files-high-03\nHONEYFORGE_REAL_GUEST_PROFILE_FILE\nBACKUP_ACCESS_KEY=d2432b223b619bec5d5998fd18b19184fb3f823fd85bbe26\nPRETTY_NAME=\"Ubuntu 24.04.5 LTS\"\nNAME=\"Ubuntu\"\nVERSION_ID=\"24.04\"\nVERSION=\"24.04.5 LTS (Noble Numbat)\"\nVERSION_CODENAME=noble\nID=ubuntu\nID_LIKE=debian\nHOME_URL=\"https://www.ubuntu.com/\"\nSUPPORT_URL=\"https://help.ubuntu.com/\"\nBUG_REPORT_URL=\"https://bugs.launchpad.net/ubuntu/\"\nPRIVACY_POLICY_URL=\"https://www.ubuntu.com/legal/terms-and-policies/privacy-policy\"\nUBUNTU_CODENAME=noble\nLOGO=ubuntu-logo\n",
+  "artifact": {
+    "id": "f52d20b3-c38a-5b54-b7b2-b22b7caa9c53",
+    "deployment_id": "bb7cff87-c766-4075-a5d4-3633eb2a7a7d",
+    "generation": "7f109126-1c5e-459c-a91a-e83006542225",
+    "source_session_id": "fec346768b15",
+    "kind": "file",
+    "sha256": "3b851c470da0c853b608fb4e08debc5dcffd9741c27718889407a470b8d1774a",
+    "size_bytes": 53,
+    "started_at": "2026-10-11T00:12:29.683041Z",
+    "ended_at": "2026-10-11T00:12:29.683041Z",
+    "details": {
+      "capture": "cowrie-file-bytes",
+      "expected_sha256": "3b851c470da0c853b608fb4e08debc5dcffd9741c27718889407a470b8d1774a",
+      "malware_verdict": "not_scanned",
+      "sensor_event_id": "3127cf2a-88f1-5cce-9b97-7c8bf58e55ee"
+    },
+    "host_id": "6392f0eb-2a86-4731-9dec-be8315cb5ada",
+    "created_at": "2026-10-11T00:12:30.241707Z",
+    "received_bytes": 53,
+    "state": "available",
+    "expires_at": "2026-10-18T00:12:30.241515Z"
+  },
+  "download_sha256": "3b851c470da0c853b608fb4e08debc5dcffd9741c27718889407a470b8d1774a",
+  "honeytoken_use_count": 1,
+  "actual_output_in_playback": true
+}

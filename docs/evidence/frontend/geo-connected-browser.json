@@ -1,0 +1,101 @@
+{
+  "at": "2026-10-11T00:05:12.374Z",
+  "baseURL": "http://localhost:5173",
+  "checks": [
+    {
+      "name": "actual connected Geo/ASN metadata, attribution and private-source unavailable 1280",
+      "passed": true,
+      "displayed": [
+        {
+          "label": "География",
+          "text": "География: база доступна · DB-IP · возраст 9 дн. · сборка 1 окт. 2026 г., 04:41:21"
+        },
+        {
+          "label": "ASN",
+          "text": "ASN: база доступна · DB-IP · возраст 9 дн. · сборка 1 окт. 2026 г., 04:41:36"
+        }
+      ]
+    },
+    {
+      "name": "actual connected Geo/ASN metadata, attribution and private-source unavailable 390",
+      "passed": true,
+      "displayed": [
+        {
+          "label": "География",
+          "text": "География: база доступна · DB-IP · возраст 9 дн. · сборка 1 окт. 2026 г., 04:41:21"
+        },
+        {
+          "label": "ASN",
+          "text": "ASN: база доступна · DB-IP · возраст 9 дн. · сборка 1 окт. 2026 г., 04:41:36"
+        }
+      ]
+    }
+  ],
+  "viewports": [
+    {
+      "label": "connected Geo metadata 1280",
+      "width": 1280,
+      "height": 900,
+      "documentWidth": 1280
+    },
+    {
+      "label": "connected Geo private source 1280",
+      "width": 1280,
+      "height": 900,
+      "documentWidth": 1280
+    },
+    {
+      "label": "connected Geo metadata 390",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390
+    },
+    {
+      "label": "connected Geo private source 390",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390
+    }
+  ],
+  "screens": [
+    "geo-connected-metadata-1280.png",
+    "geo-connected-private-1280.png",
+    "geo-connected-metadata-390.png",
+    "geo-connected-private-390.png"
+  ],
+  "metadata": {
+    "city_database": {
+      "age_days": 9,
+      "stale": false,
+      "provider": "DB-IP",
+      "attribution_url": "https://db-ip.com",
+      "status": "available",
+      "reason": null,
+      "built_at": "2026-10-01T01:41:21+00:00",
+      "database_type": "DBIP-City-Lite",
+      "size_bytes": 126998165
+    },
+    "asn_database": {
+      "age_days": 9,
+      "stale": false,
+      "provider": "DB-IP",
+      "attribution_url": "https://db-ip.com",
+      "status": "available",
+      "reason": null,
+      "built_at": "2026-10-01T01:41:36+00:00",
+      "database_type": "DBIP-ASN-Lite (compat=GeoLite2-ASN)",
+      "size_bytes": 9566363
+    }
+  },
+  "private_source": {
+    "source_ip": "192.168.139.3",
+    "status": "unavailable",
+    "reason": "private_or_reserved_address",
+    "country": null,
+    "city": null,
+    "asn": null
+  },
+  "error": null,
+  "passed": true,
+  "scope": "Read-only actual dashboard/API. No fabricated public events/IPs, no sensor restart, no deployment mutation, no private captures opened. Only own auth session created and logged out."
+}

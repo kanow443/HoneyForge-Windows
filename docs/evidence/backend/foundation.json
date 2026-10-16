@@ -1,0 +1,44 @@
+{
+  "at": "2026-10-10T19:17:37.831209+00:00",
+  "run_id": "20184685",
+  "checks": {
+    "low_real_banner_bounded_input": true,
+    "http_password_and_original_payload_decrypted": true,
+    "ssh_exact_account_and_password_envelope": true,
+    "sftp_client_upload_independent_sha256": true,
+    "no_submitted_password_in_docker_sqlite_general_api": true,
+    "real_https_hidden_prefix_and_untrusted_ca_rejection": true
+  },
+  "deployments": [
+    {
+      "id": "a5a29c82-36bb-46cd-b60d-7a8614f6a72a",
+      "adapter": "tcp-banner",
+      "runtime_generation": "ce0575b5-c29d-445b-ac43-cc4b6b2eb9d0",
+      "interaction_level": "low",
+      "endpoint": "192.168.139.142:18223"
+    },
+    {
+      "id": "34577827-4b08-4b23-a685-b2c0d9b157d0",
+      "adapter": "http",
+      "runtime_generation": "44e074c2-f4d8-425e-b455-1daba59e60e7",
+      "interaction_level": "medium",
+      "endpoint": "192.168.139.142:18280"
+    },
+    {
+      "id": "9baa82d0-87fc-4e3b-bc5b-b5be5ca62d94",
+      "adapter": "cowrie",
+      "runtime_generation": "65e20c01-7eca-4eab-a8a1-bc5f047104ff",
+      "interaction_level": "medium",
+      "endpoint": "192.168.139.142:18222"
+    }
+  ],
+  "sftp_artifact": {
+    "id": "73436360-ea9a-598b-8546-651cdb1e600f",
+    "sha256": "b11045f034cbef34764968649461d63252ba555825c5ed1cf8e286e9b6e1c6fc",
+    "size_bytes": 32
+  },
+  "capture_events": {
+    "http": "fa279641-87d6-4ce8-9cf9-92e14001c081",
+    "ssh": "bed4f91c-4ef3-4260-937f-e230c6497675"
+  }
+}

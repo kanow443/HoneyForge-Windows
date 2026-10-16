@@ -1,0 +1,30 @@
+{
+  "at": "2026-10-10T19:21:31.265077+00:00",
+  "checks": {
+    "file_receipt": {
+      "wget_and_curl_received": true,
+      "artifact_ids": [
+        "cd716e2a-7b2b-5e40-a8a5-55693491936b",
+        "fe2734ec-5f49-5822-baa8-9eb04daab261"
+      ],
+      "sha256": "2a8227a3f0075704f2a18cfb5851185d44fb4901054644877025e55894decfb2",
+      "bytes_per_file": 56,
+      "independent_server_and_download_hash": true,
+      "fixture_only_not_malware": true,
+      "private_destination_denied": true,
+      "failed_download_not_claimed_as_available": true,
+      "generation": "ba09881c-4197-43f6-99ce-78ac25d4d684",
+      "session_id": "4341bfd8-86bc-41ae-8710-e25c040233ad"
+    },
+    "pcap": {
+      "artifact_id": "1269c621-d745-42bd-8a17-92f04def3b09",
+      "sha256": "56842527ef749cf1b23bc33ab3f9fb564d85e7ace83a3786ae9dfdd62dc5fac9",
+      "size_bytes": 1816,
+      "packet_count": 16,
+      "kernel_drops": 0,
+      "http_payload_marker_present": true,
+      "complete_records_and_hash_verified": true,
+      "capture_scope": "AF_PACKET-owned-trap-bridge"
+    }
+  }
+}

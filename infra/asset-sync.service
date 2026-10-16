@@ -1,0 +1,19 @@
+[Unit]
+Description=Asset synchronization service
+After=network-online.target docker.service honeyforge-firewall.service asset-network.service
+Requires=docker.service honeyforge-firewall.service asset-network.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/asset-sync
+EnvironmentFile=/etc/asset-sync/agent.env
+ExecStart=/opt/asset-sync/.venv/bin/asset-sync run
+Restart=on-failure
+RestartSec=3
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,100 @@
+services:
+  postgres:
+    image: postgres:17.7-alpine
+    environment:
+      POSTGRES_DB: honeyforge
+      POSTGRES_USER: honeyforge
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Generate a private production env file}
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    networks: [control]
+    restart: unless-stopped
+    healthcheck:
+      test: [CMD-SHELL, "pg_isready -U honeyforge -d honeyforge"]
+      interval: 3s
+      timeout: 3s
+      retries: 30
+  api:
+    build:
+      context: .
+      dockerfile: infra/Dockerfile.api
+    environment:
+      HF_DATABASE_URL: postgresql+psycopg://honeyforge:${POSTGRES_PASSWORD}@postgres:5432/honeyforge
+      HF_ADMIN_USERNAME: ${HF_ADMIN_USERNAME:-operator}
+      HF_ADMIN_PASSWORD: ${HF_ADMIN_PASSWORD:?Generate a private production env file}
+      HF_PUBLIC_ORIGIN: ${HF_PUBLIC_ORIGIN:?Set the actual HTTPS origin}
+      HF_COOKIE_SECURE: "true"
+      HF_ALLOW_INSECURE_AGENT: "false"
+      HF_ARTIFACT_QUOTA_BYTES: ${HF_ARTIFACT_QUOTA_BYTES:-1073741824}
+      HF_CAPTURE_KEY_DIR: /var/lib/honeyforge/keys
+      HF_AGENT_CA_PUBLIC_DIR: /var/lib/asset-ca
+      HF_REQUIRE_AGENT_MTLS: "true"
+      HF_SYNC_PROXY_SECRET: ${HF_SYNC_PROXY_SECRET:?Generate a private proxy credential}
+      HF_GEO_CITY_DB: ${HF_GEO_CITY_DB:-}
+      HF_GEO_ASN_DB: ${HF_GEO_ASN_DB:-}
+    volumes:
+      - evidence:/var/lib/honeyforge
+      - agent-public-ca:/var/lib/asset-ca
+    networks: [control]
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: unless-stopped
+    read_only: true
+    tmpfs: ["/tmp:rw,nosuid,nodev,noexec,size=16m,mode=1777"]
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    healthcheck:
+      test: [CMD, /app/.venv/bin/python, -c, "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8100/health/ready', timeout=2)"]
+      interval: 5s
+      timeout: 3s
+      retries: 30
+  gateway:
+    build:
+      context: .
+      dockerfile: infra/Dockerfile.gateway
+    environment:
+      HF_SITE_DOMAIN: ${HF_SITE_DOMAIN:?Set a domain pointing to this server}
+      HF_MANAGEMENT_DOMAIN: ${HF_MANAGEMENT_DOMAIN:-host.orb.internal}
+    ports:
+      - "${HF_HTTP_BIND:-0.0.0.0}:${HF_HTTP_PORT:-80}:80"
+      - "${HF_HTTP_BIND:-0.0.0.0}:${HF_HTTPS_PORT:-443}:443"
+    volumes:
+      - caddy-data:/data
+      - caddy-config:/config
+    networks: [control, public]
+    depends_on:
+      api:
+        condition: service_healthy
+    restart: unless-stopped
+  management:
+    image: caddy:2.10.2-alpine
+    environment:
+      HF_MANAGEMENT_DOMAIN: ${HF_MANAGEMENT_DOMAIN:-host.orb.internal}
+      HF_MANAGEMENT_TLS: ${HF_MANAGEMENT_TLS:-internal}
+      HF_SYNC_PROXY_SECRET: ${HF_SYNC_PROXY_SECRET:?Generate a private proxy credential}
+    ports:
+      - "${HF_MANAGEMENT_BIND:-127.0.0.1}:${HF_MANAGEMENT_PORT:-18443}:443"
+    volumes:
+      - ./infra/Caddyfile.management:/etc/caddy/Caddyfile:ro
+      - agent-public-ca:/etc/asset-ca:ro
+      - management-data:/data
+      - management-config:/config
+    networks: [control, management]
+    depends_on:
+      api:
+        condition: service_healthy
+    restart: unless-stopped
+networks:
+  control:
+    internal: true
+  public: {}
+  management: {}
+volumes:
+  postgres-data: {}
+  evidence: {}
+  caddy-data: {}
+  caddy-config: {}
+  management-data: {}
+  management-config: {}
+  agent-public-ca: {}

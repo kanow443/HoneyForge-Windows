@@ -1,0 +1,15 @@
+.venv/
+.work/
+.env
+.runtime/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+node_modules/
+dist/
+.DS_Store
+*.egg-info/
+test-results/
+playwright-report/
+deliverables/*.zip

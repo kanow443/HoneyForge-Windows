@@ -1,0 +1,48 @@
+{
+  "at": "2026-10-10T18:13:39.057801+00:00",
+  "browser_acceptance": false,
+  "mutations": "temporary authentication and explicit private-capture audit only; no profiles/users/keys/traps/cases changed",
+  "login_status": 200,
+  "profiles": {
+    "status": 200,
+    "count": 15,
+    "v1_present": true,
+    "v2_adapters": [
+      "cowrie",
+      "http",
+      "tcp-banner"
+    ]
+  },
+  "storage": {
+    "status": 200,
+    "event_retention_days": 7,
+    "audit_retention_days": 30,
+    "reserved_bytes": 178334,
+    "quota_bytes": 1073741824,
+    "collection_available": true,
+    "pinned_cases": 0
+  },
+  "private_captures": {
+    "http": {
+      "event_id": "acc07cc0-571d-42c0-a934-9573117e0dc7",
+      "status": 200,
+      "matching_event": true,
+      "no_store": true,
+      "username_present": true,
+      "password_present": true,
+      "http_payload_present": true,
+      "values_omitted": true
+    },
+    "ssh": {
+      "event_id": "2a683405-8f89-449b-8980-c06383b9abcc",
+      "status": 200,
+      "matching_event": true,
+      "no_store": true,
+      "username_present": true,
+      "password_present": true,
+      "http_payload_present": false,
+      "values_omitted": true
+    }
+  },
+  "logout_status": 200
+}

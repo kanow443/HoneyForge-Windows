@@ -1,0 +1,23 @@
+{
+  "at": "2026-10-10T23:51:14.974618+00:00",
+  "frontend_sources_ready": true,
+  "tests": 135,
+  "test_files": 29,
+  "typescript": true,
+  "build": true,
+  "group_runtime_checks": 7,
+  "high_profile_capability_checks": 3,
+  "viewports": 16,
+  "widths": [
+    390,
+    1280
+  ],
+  "all_viewports_fit": true,
+  "manifest_sha256": "9b5bc202a0116c82f4f54351436af7de3145860103fbdb1ea7e1ff40e6f92492",
+  "group_id": "1a80126f-5ba1-4400-9f86-a805271950d9",
+  "group_stopped": true,
+  "own_profiles_archived": true,
+  "high_vm_execution_verified_by_this_frontend_run": false,
+  "release_gateway_or_windows_package_verified_by_this_run": false,
+  "scope": "apps/web and docs/evidence/frontend only; no commit; no backend/infra/packaging changes"
+}

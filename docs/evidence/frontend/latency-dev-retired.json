@@ -1,0 +1,12 @@
+{
+  "run_id": "d3b528422479",
+  "at": "2026-10-10T18:36:12.717Z",
+  "measurement": "viewport-intersecting rendered row DOM/layout, not paint",
+  "dom_paths": 1385,
+  "api_paths": 3099,
+  "samples_after_start": 1385,
+  "p95_ms": 1348,
+  "apiErrors": 0,
+  "parseErrors": 0,
+  "retired_reason": "Dev HMR navigation reset browser observer during independent UI polish; not accepted as final complete latency proof. Restarting static production preview, aggregating first DOM sightings across navigation."
+}

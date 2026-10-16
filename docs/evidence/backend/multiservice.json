@@ -1,0 +1,187 @@
+{
+  "group_id": "484da1d4-259e-4a66-9284-05cdb5208fa7",
+  "profile_id": "de5a10fa-ae92-4738-bb4c-13baf1449913",
+  "group": {
+    "id": "484da1d4-259e-4a66-9284-05cdb5208fa7",
+    "created_at": "2026-10-10T23:41:32.909291Z",
+    "name": "Finance services acceptance",
+    "host_id": "6392f0eb-2a86-4731-9dec-be8315cb5ada",
+    "profile_version_id": "ca1e7724-6cb8-4809-a0e6-670a262aaa47",
+    "state": "running",
+    "services": [
+      {
+        "id": "eb643148-26fb-407c-9c4d-10606df75d4f",
+        "created_at": "2026-10-10T23:41:32.915754Z",
+        "name": "Finance services acceptance / probe",
+        "host_id": "6392f0eb-2a86-4731-9dec-be8315cb5ada",
+        "host_name": "asset-sync-honeyforge-sensor-2",
+        "endpoint": "192.168.139.223:18523",
+        "profile_version_id": "ca1e7724-6cb8-4809-a0e6-670a262aaa47",
+        "group_id": "484da1d4-259e-4a66-9284-05cdb5208fa7",
+        "service_key": "probe",
+        "profile_name": "PDF multi-service acceptance 3dffa0c9",
+        "version_number": 1,
+        "adapter": "tcp-banner",
+        "interaction_level": "low",
+        "port": 18523,
+        "desired_state": "running",
+        "desired_revision": 1,
+        "observed_state": "running",
+        "observed_at": "2026-10-10T23:41:44.670485Z",
+        "state": "running",
+        "runtime_generation": "4117d7e5-5d82-45ba-a0a9-5954e9a9dd3a",
+        "image_digest": "sha256:b2d9820298209951409b32464f47706bb9cf1c754ab79adffc9d0acc28aaaa44",
+        "error": null,
+        "event_count": 2,
+        "jobs": [
+          {
+            "deployment_id": "eb643148-26fb-407c-9c4d-10606df75d4f",
+            "host_id": "6392f0eb-2a86-4731-9dec-be8315cb5ada",
+            "kind": "deploy",
+            "revision": 1,
+            "status": "succeeded",
+            "attempt": 1,
+            "lease_until": "2026-10-10T23:42:29.347267Z",
+            "stages": [
+              {
+                "at": "2026-10-10T23:41:44.132841+00:00",
+                "name": "\u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u043a\u043e\u043d\u0444\u0438\u0433\u0443\u0440\u0430\u0446\u0438\u0438"
+              },
+              {
+                "at": "2026-10-10T23:41:44.149506+00:00",
+                "name": "\u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u043e\u0431\u0440\u0430\u0437\u0430"
+              },
+              {
+                "at": "2026-10-10T23:41:44.184205+00:00",
+                "name": "\u0417\u0430\u043f\u0443\u0441\u043a \u0432 \u0438\u0437\u043e\u043b\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u043e\u0439 \u0441\u0435\u0442\u0438"
+              },
+              {
+                "at": "2026-10-10T23:41:44.347277+00:00",
+                "name": "\u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u0433\u043e\u0442\u043e\u0432\u043d\u043e\u0441\u0442\u0438 \u0441\u0435\u0440\u0432\u0438\u0441\u0430"
+              }
+            ],
+            "error": null,
+            "id": "978a79ba-9bf2-4d41-b3f5-a203efdfa235",
+            "created_at": "2026-10-10T23:41:32.918184Z"
+          }
+        ]
+      },
+      {
+        "id": "343c6a5b-d892-4181-9e2c-9993a4a05ed8",
+        "created_at": "2026-10-10T23:41:32.912817Z",
+        "name": "Finance services acceptance / ssh",
+        "host_id": "6392f0eb-2a86-4731-9dec-be8315cb5ada",
+        "host_name": "asset-sync-honeyforge-sensor-2",
+        "endpoint": "192.168.139.223:18522",
+        "profile_version_id": "ca1e7724-6cb8-4809-a0e6-670a262aaa47",
+        "group_id": "484da1d4-259e-4a66-9284-05cdb5208fa7",
+        "service_key": "ssh",
+        "profile_name": "PDF multi-service acceptance 3dffa0c9",
+        "version_number": 1,
+        "adapter": "cowrie",
+        "interaction_level": "medium",
+        "port": 18522,
+        "desired_state": "running",
+        "desired_revision": 1,
+        "observed_state": "running",
+        "observed_at": "2026-10-10T23:41:44.057992Z",
+        "state": "running",
+        "runtime_generation": "3977a4af-3bbd-4766-bfef-46fdff8c2960",
+        "image_digest": "sha256:a8edbbc9b09f4409e905a7cd3c2f720cd3179b968e267b04aa06bac18318d2e2",
+        "error": null,
+        "event_count": 2,
+        "jobs": [
+          {
+            "deployment_id": "343c6a5b-d892-4181-9e2c-9993a4a05ed8",
+            "host_id": "6392f0eb-2a86-4731-9dec-be8315cb5ada",
+            "kind": "deploy",
+            "revision": 1,
+            "status": "succeeded",
+            "attempt": 1,
+            "lease_until": "2026-10-10T23:42:28.406312Z",
+            "stages": [
+              {
+                "at": "2026-10-10T23:41:43.143737+00:00",
+                "name": "\u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u043a\u043e\u043d\u0444\u0438\u0433\u0443\u0440\u0430\u0446\u0438\u0438"
+              },
+              {
+                "at": "2026-10-10T23:41:43.163657+00:00",
+                "name": "\u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u043e\u0431\u0440\u0430\u0437\u0430"
+              },
+              {
+                "at": "2026-10-10T23:41:43.223275+00:00",
+                "name": "\u0417\u0430\u043f\u0443\u0441\u043a \u0432 \u0438\u0437\u043e\u043b\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u043e\u0439 \u0441\u0435\u0442\u0438"
+              },
+              {
+                "at": "2026-10-10T23:41:43.406321+00:00",
+                "name": "\u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u0433\u043e\u0442\u043e\u0432\u043d\u043e\u0441\u0442\u0438 \u0441\u0435\u0440\u0432\u0438\u0441\u0430"
+              }
+            ],
+            "error": null,
+            "id": "3d5b905d-dfd7-4c0f-bc63-2a9c20b31347",
+            "created_at": "2026-10-10T23:41:32.915298Z"
+          }
+        ]
+      },
+      {
+        "id": "fc84e35b-17d5-46df-8f11-cdbacfcd7b9b",
+        "created_at": "2026-10-10T23:41:32.909896Z",
+        "name": "Finance services acceptance / web",
+        "host_id": "6392f0eb-2a86-4731-9dec-be8315cb5ada",
+        "host_name": "asset-sync-honeyforge-sensor-2",
+        "endpoint": "192.168.139.223:18580",
+        "profile_version_id": "ca1e7724-6cb8-4809-a0e6-670a262aaa47",
+        "group_id": "484da1d4-259e-4a66-9284-05cdb5208fa7",
+        "service_key": "web",
+        "profile_name": "PDF multi-service acceptance 3dffa0c9",
+        "version_number": 1,
+        "adapter": "http",
+        "interaction_level": "medium",
+        "port": 18580,
+        "desired_state": "running",
+        "desired_revision": 1,
+        "observed_state": "running",
+        "observed_at": "2026-10-10T23:41:42.866195Z",
+        "state": "running",
+        "runtime_generation": "ee78d47a-9147-44d8-8c6c-99afa31e239b",
+        "image_digest": "sha256:f5be96b25a6edc5b531aab97223cf4d97bfd51187248996160ed12fce4c3b381",
+        "error": null,
+        "event_count": 1,
+        "jobs": [
+          {
+            "deployment_id": "fc84e35b-17d5-46df-8f11-cdbacfcd7b9b",
+            "host_id": "6392f0eb-2a86-4731-9dec-be8315cb5ada",
+            "kind": "deploy",
+            "revision": 1,
+            "status": "succeeded",
+            "attempt": 1,
+            "lease_until": "2026-10-10T23:42:27.536502Z",
+            "stages": [
+              {
+                "at": "2026-10-10T23:41:42.332816+00:00",
+                "name": "\u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u043a\u043e\u043d\u0444\u0438\u0433\u0443\u0440\u0430\u0446\u0438\u0438"
+              },
+              {
+                "at": "2026-10-10T23:41:42.349912+00:00",
+                "name": "\u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u043e\u0431\u0440\u0430\u0437\u0430"
+              },
+              {
+                "at": "2026-10-10T23:41:42.386651+00:00",
+                "name": "\u0417\u0430\u043f\u0443\u0441\u043a \u0432 \u0438\u0437\u043e\u043b\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u043e\u0439 \u0441\u0435\u0442\u0438"
+              },
+              {
+                "at": "2026-10-10T23:41:42.536511+00:00",
+                "name": "\u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u0433\u043e\u0442\u043e\u0432\u043d\u043e\u0441\u0442\u0438 \u0441\u0435\u0440\u0432\u0438\u0441\u0430"
+              }
+            ],
+            "error": null,
+            "id": "ab87c136-1281-4eaa-9eea-75fc32697660",
+            "created_at": "2026-10-10T23:41:32.912321Z"
+          }
+        ]
+      }
+    ]
+  },
+  "time": 1791675692.8867111,
+  "scope": "Actual three-adapter v3 group, run readiness; UI lifecycle additional evidence in frontend/multiservice-browser.json"
+}
